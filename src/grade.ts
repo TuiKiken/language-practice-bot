@@ -13,9 +13,9 @@ export function stripDiacritics(s: string): string {
 
 export function normalizeAnswer(s: string): string {
   return s
+    .replace(/[.!?]+$/, '')
     .trim()
     .replace(/\s+/g, ' ')
-    .replace(/[.!?]+$/, '')
     .toLocaleLowerCase('pl');
 }
 

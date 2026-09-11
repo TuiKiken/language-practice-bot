@@ -8,6 +8,9 @@ describe('normalizeAnswer', () => {
   it('strips a trailing full stop', () => {
     expect(normalizeAnswer('poszła.')).toBe('poszła');
   });
+  it('treats punctuation separated by a space the same', () => {
+    expect(normalizeAnswer('poszła .')).toBe('poszła');
+  });
 });
 
 describe('stripDiacritics', () => {
@@ -19,6 +22,7 @@ describe('stripDiacritics', () => {
 describe('grade', () => {
   it('matches exactly after normalisation', () => {
     expect(grade('Poszła ', 'poszła')).toBe('match');
+    expect(grade('poszła .', 'poszła')).toBe('match');
   });
   it('matches only without diacritics', () => {
     expect(grade('poszla', 'poszła')).toBe('match-ignoring-diacritics');

@@ -93,11 +93,22 @@ describe('withRetry', () => {
     await expect(withRetry(async () => 'never', base(c))).rejects.toThrow(BudgetExhaustedError);
   });
 
-  it('passes a signal whose timeout is capped by the remaining budget', async () => {
+  it('caps per-attempt timeout to remaining budget minus reserve', async () => {
     const c = clock();
     c.advance(20_000); // remaining 6 000 − reserve 4 000 = 2 000 for the call
-    let seen: AbortSignal | null = null;
-    await withRetry(async (signal) => { seen = signal; return 1; }, base(c));
-    expect(seen).toBeInstanceOf(AbortSignal);
+    const seenMs: number[] = [];
+    await withRetry(async () => 1, base(c, {
+      timeoutSignal: (ms) => { seenMs.push(ms); return AbortSignal.timeout(ms); },
+    }));
+    expect(seenMs).toEqual([2000]);
+  });
+
+  it('caps per-attempt timeout to callTimeoutMs when budget is abundant', async () => {
+    const c = clock();
+    const seenMs: number[] = [];
+    await withRetry(async () => 1, base(c, {
+      timeoutSignal: (ms) => { seenMs.push(ms); return AbortSignal.timeout(ms); },
+    }));
+    expect(seenMs).toEqual([10000]);
   });
 });

@@ -55,6 +55,8 @@ export interface RetryOptions {
   shouldRetry: (error: unknown, attempt: number) => boolean;
   delayMs: (attempt: number) => number;
   sleep: (ms: number) => Promise<void>;
+  /** defaults to AbortSignal.timeout; injectable for tests */
+  timeoutSignal?: (ms: number) => AbortSignal;
 }
 
 /**
@@ -62,12 +64,13 @@ export interface RetryOptions {
  * AND the remaining budget still fits delay + one full call + the send reserve.
  */
 export async function withRetry<T>(fn: (signal: AbortSignal) => Promise<T>, opts: RetryOptions): Promise<T> {
+  const makeSignal = opts.timeoutSignal ?? ((ms) => AbortSignal.timeout(ms));
   for (let attempt = 1; ; attempt++) {
     const usable = opts.budget.remainingMs() - opts.reserveMs;
     if (usable <= 0) throw new BudgetExhaustedError();
     const timeout = Math.min(opts.callTimeoutMs, usable);
     try {
-      return await fn(AbortSignal.timeout(timeout));
+      return await fn(makeSignal(timeout));
     } catch (error) {
       if (attempt >= opts.maxAttempts || !opts.shouldRetry(error, attempt)) throw error;
       const delay = opts.delayMs(attempt);

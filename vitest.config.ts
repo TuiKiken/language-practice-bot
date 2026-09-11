@@ -11,6 +11,7 @@ export default defineConfig({
           OPENAI_API_KEY: 'test-key',
           TELEGRAM_WEBHOOK_SECRET: 'test-secret',
           OPENAI_MODEL: 'test-model',
+          OPENAI_REASONING_EFFORT: 'minimal',
           DAILY_LIMIT_PER_CHAT: '5',
         },
       },

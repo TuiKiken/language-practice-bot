@@ -5,6 +5,7 @@ export interface Env {
   OPENAI_API_KEY: string;
   TELEGRAM_WEBHOOK_SECRET: string;
   OPENAI_MODEL: string;
+  OPENAI_REASONING_EFFORT?: string;
   DAILY_LIMIT_PER_CHAT: string;
   SESSIONS: DurableObjectNamespace<SessionObject>;
 }

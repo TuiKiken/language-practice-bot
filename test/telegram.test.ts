@@ -66,6 +66,14 @@ describe('createTelegramClient', () => {
     expect(requests.length).toBe(2);
   });
 
+  it('never leaks the token from a network error message', async () => {
+    const leaking = new Error('fetch failed: https://api.telegram.org/botT0K/sendMessage');
+    const { fetchImpl } = fakeFetch([leaking, leaking]);
+    const err = await client(fetchImpl).c.sendMessage(1, 'hi').catch((e) => e);
+    expect(err).toBeInstanceOf(TelegramTransientError);
+    expect(err.message).not.toContain('T0K');
+  });
+
   it('403 is permanent and clears the session', async () => {
     const { fetchImpl } = fakeFetch([{ status: 403, body: { ok: false, description: 'Forbidden: bot was blocked by the user' } }]);
     const err = await client(fetchImpl).c.sendMessage(1, 'hi').catch((e) => e);

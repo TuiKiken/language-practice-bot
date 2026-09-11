@@ -26,6 +26,11 @@ describe('grade', () => {
     expect(grade('Poszła ', 'poszła')).toBe('match');
     expect(grade('poszła .', 'poszła')).toBe('match');
   });
+  it('matches a decomposed (NFD) Polish letter against its precomposed (NFC) form', () => {
+    const decomposed = 'cześć'.normalize('NFD');
+    expect(decomposed).not.toBe('cześć');
+    expect(grade(decomposed, 'cześć')).toBe('match');
+  });
   it('matches only without diacritics', () => {
     expect(grade('poszla', 'poszła')).toBe('match-ignoring-diacritics');
     expect(grade('czesc', 'cześć')).toBe('match-ignoring-diacritics');
@@ -36,8 +41,9 @@ describe('grade', () => {
 });
 
 describe('looksLikeAttempt', () => {
-  it('rejects fewer than three characters', () => {
-    expect(looksLikeAttempt('po')).toBe(false);
+  it('rejects fewer than two characters', () => {
+    expect(looksLikeAttempt('p')).toBe(false);
+    expect(looksLikeAttempt('są')).toBe(true);
   });
   it('rejects text without a single Polish letter', () => {
     expect(looksLikeAttempt('не знаю')).toBe(false);

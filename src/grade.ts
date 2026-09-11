@@ -13,6 +13,7 @@ export function stripDiacritics(s: string): string {
 
 export function normalizeAnswer(s: string): string {
   return s
+    .normalize('NFC')
     .trim()
     .replace(/[.!?]+$/, '')
     .trim()
@@ -28,9 +29,9 @@ export function grade(userAnswer: string, reference: string): GradeOutcome {
   return 'mismatch';
 }
 
-/** Spec §7: shorter than three characters or without a single Polish (Latin) letter is not an attempt. */
+/** Spec §7: shorter than two characters or without a single Polish (Latin) letter is not an attempt. */
 export function looksLikeAttempt(text: string): boolean {
   const t = text.trim();
-  if (t.length < 3) return false;
+  if (t.length < 2) return false;
   return /[a-ząćęłńóśźż]/i.test(t);
 }

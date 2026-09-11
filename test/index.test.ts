@@ -60,6 +60,20 @@ describe('webhook entry', () => {
     expect(res.status).toBe(400);
   });
 
+  it('rejects a malformed update body without throwing', async () => {
+    const ctx = createExecutionContext();
+    const res = await worker.fetch(post({ update_id: 1, message: 5 }), env, ctx);
+    await waitOnExecutionContext(ctx);
+    expect(res.status).toBe(400);
+  });
+
+  it('rejects a null body without throwing', async () => {
+    const ctx = createExecutionContext();
+    const res = await worker.fetch(post(null), env, ctx);
+    await waitOnExecutionContext(ctx);
+    expect(res.status).toBe(400);
+  });
+
   it('ignores group chats silently', async () => {
     const ctx = createExecutionContext();
     const res = await worker.fetch(post(groupHelp), env, ctx);

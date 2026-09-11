@@ -55,12 +55,17 @@ export default {
     if (!secret || request.headers.get(SECRET_HEADER) !== secret) return new Response('forbidden', { status: 403 });
 
     let update: TelegramUpdate;
+    let chatType: string | null;
     try {
       update = (await request.json()) as TelegramUpdate;
+      if (typeof update !== 'object' || update === null) throw new Error('not an object');
+      // Malformed field shapes (e.g. `message` not an object) can throw inside chatTypeOf;
+      // keep the call inside this try so such a body yields 400 instead of an unhandled throw.
+      chatType = chatTypeOf(update);
     } catch {
       return new Response('bad request', { status: 400 });
     }
-    if (chatTypeOf(update) !== 'private') return new Response('ok');
+    if (chatType !== 'private') return new Response('ok');
 
     ctx.waitUntil(
       handleUpdate(update, buildDeps(env)).catch((error: unknown) => {

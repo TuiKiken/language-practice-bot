@@ -382,7 +382,10 @@ async function runCycle(ctx: Ctx, acquired: Acquired, topic: Topic, action: Cycl
     } catch (error) {
       if (error instanceof TelegramPermanentError) throw error; // handled in handleUpdate
       deps.log('send_failed_pending', { error: String(error) });
-      return; // pendingDelivery stays set; the next update resends (spec §7)
+      // pendingDelivery stays set; free the lease so the next update can resend immediately
+      // instead of hitting `busy` for the rest of the lease TTL (spec §7).
+      await stub.release(leaseId, null, deps.now());
+      return;
     }
     await stub.markDelivered(leaseId, deps.now());
   } finally {

@@ -140,8 +140,8 @@ describe('SessionObject', () => {
     const c = await s.acquire(3, T0 + 60, opts);
     expect(c.kind).toBe('daily-limit');
     if (c.kind === 'daily-limit') expect(c.resetAt).toBe(nextUtcMidnight(T0));
-    // /why does not consume an exercise
-    expect((await s.acquire(4, T0 + 70, { ...opts, consumesExercise: false })).kind).toBe('acquired');
+    // the cap gates every model-calling acquisition, /why included
+    expect((await s.acquire(4, T0 + 70, { ...opts, consumesExercise: false })).kind).toBe('daily-limit');
     // after midnight the cap is gone (session also expired → topic null, so use selectTopic)
     const d = await s.selectTopic(5, 'czas-przeszly', nextUtcMidnight(T0) + 1, opts);
     expect(d.kind).toBe('acquired');

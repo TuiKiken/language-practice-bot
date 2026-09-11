@@ -5,6 +5,7 @@ import type { BotDeps } from '../src/bot.ts';
 import { LIMITS } from '../src/budget.ts';
 import { LlmError } from '../src/llm.ts';
 import type { CheckInput, ExplainInput, GenerationInput, LlmClient } from '../src/llm.ts';
+import { S } from '../src/strings.ts';
 import { TelegramPermanentError, TelegramTransientError } from '../src/telegram.ts';
 import type { InlineKeyboardMarkup, TelegramClient } from '../src/telegram.ts';
 import type { CheckResult, GeneratedTask, Topic } from '../src/types.ts';
@@ -229,6 +230,16 @@ describe('dialogue', () => {
     expect(h.llm.calls.generate.length).toBe(1);
   });
 
+  it('daily cap also refuses /why', async () => {
+    const h = harness({ dailyLimit: 1 });
+    await h.button('czas-przeszly');
+    await h.text('poszła');
+    expect(h.last()).toContain('Лимит упражнений');
+    await h.text('/why');
+    expect(h.last()).toContain('Лимит упражнений');
+    expect(h.llm.calls.explain.length).toBe(0);
+  });
+
   it('a button for a removed topic answers the callback and lists topics', async () => {
     const h = harness();
     await h.button('nie-ma');
@@ -332,7 +343,7 @@ describe('dialogue', () => {
     expect(h.tg.sent.length).toBe(1);
   });
 
-  it('transient send failure after commit keeps pendingDelivery and the lease', async () => {
+  it('transient send failure after commit keeps pendingDelivery and frees the lease', async () => {
     const h = harness();
     await h.button('czas-przeszly');
     const sentBefore = h.tg.sent.length;
@@ -342,7 +353,12 @@ describe('dialogue', () => {
     const st = await h.stub().inspect(h.clock.t);
     expect(st.pendingDelivery).toBe(true);
     expect(st.current?.task).toBe('task-2');
-    expect(st.lease).not.toBeNull();
+    expect(st.lease).toBeNull();
+    // The next update takes over and resends immediately instead of hitting `busy`.
+    await h.text('anything');
+    expect(h.last()).toContain('task-2');
+    expect(h.last()).toContain(S.resend);
+    expect(h.llm.calls.check.length).toBe(0);
   });
 
   it('permanent send failure clears the session', async () => {

@@ -58,7 +58,9 @@ export function createTelegramClient(opts: TelegramClientOptions): TelegramClien
         });
       } catch (e) {
         if (attempt === 1) continue;
-        throw new TelegramTransientError(`network: ${e instanceof Error ? e.message : String(e)}`);
+        // Only the error name: on Workers, Error.message for a fetch failure can embed the
+        // request URL, which contains the bot token (spec §9).
+        throw new TelegramTransientError(`network: ${e instanceof Error ? e.name : String(e)}`);
       }
       if (res.ok) return;
       const body = (await res.json().catch(() => null)) as ApiError | null;

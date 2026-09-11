@@ -7,6 +7,10 @@ import type { CurrentTask, PreviousItem, SessionState, SessionSummary } from './
 
 const KEY = 'state';
 
+/**
+ * `consumesExercise` is kept for callers to document intent, but the daily cap gates every
+ * model-calling acquisition (including `/why`), not just exercise turns.
+ */
 export interface AcquireOptions { leaseTtlMs: number; dailyLimit: number; consumesExercise: boolean }
 export type Acquired = { kind: 'acquired'; leaseId: number; epoch: number; state: SessionState };
 export type AcquireResult = Acquired | { kind: 'busy' } | { kind: 'duplicate' } | { kind: 'daily-limit'; resetAt: number };
@@ -128,7 +132,7 @@ export class SessionObject extends DurableObject<Env> {
       await this.save(state, now);
       return { kind: 'busy' };
     }
-    if (opts.consumesExercise && state.topicId !== null && state.dailyCount >= opts.dailyLimit) {
+    if (state.topicId !== null && state.dailyCount >= opts.dailyLimit && !state.pendingDelivery) {
       await this.save(state, now);
       return { kind: 'daily-limit', resetAt: state.dailyResetAt };
     }

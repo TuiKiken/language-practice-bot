@@ -16,3 +16,7 @@ new_sqlite_classes = ["SessionObject"]
 
 [observability]
 enabled = true
+
+[build]
+command = "npm run topics"
+watch_dir = "topics"

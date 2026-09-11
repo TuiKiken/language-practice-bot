@@ -8,6 +8,7 @@
   },
   "scripts": {
     "topics": "node scripts/bundle-topics.mts",
+    "pretest": "npm run topics",
     "types": "wrangler types --include-env=false",
     "typecheck": "tsc --noEmit -p . && tsc --noEmit -p scripts",
     "lint": "eslint .",

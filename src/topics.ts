@@ -34,6 +34,23 @@ export function windowSize(cellCount: number): number {
   return Math.max(0, Math.min(MAX_WINDOW, cellCount - 1));
 }
 
+// Defensive fallback: find the cell whose most recent use is furthest back.
+// For each cell, take lastIndexOf in history; never-used cells (−1) win; ties resolve to first in cells order.
+// Unreachable while windowSize < cells.length.
+export function leastRecentlyUsed(cells: Cell[], axesUsed: string[]): Cell {
+  let minIndex = Infinity;
+  let result = cells[0] as Cell;
+  for (const cell of cells) {
+    const key = cellKey(cell);
+    const index = axesUsed.lastIndexOf(key);
+    if (index < minIndex) {
+      minIndex = index;
+      result = cell;
+    }
+  }
+  return result;
+}
+
 export function pickCell(
   topic: Topic,
   axesUsed: string[],
@@ -43,13 +60,12 @@ export function pickCell(
   const cells = cellsOf(topic);
   if (cells.length === 0) return {};
 
-  const window = new Set(axesUsed.slice(-windowSize(cells.length)));
+  const size = windowSize(cells.length);
+  const window = new Set(size > 0 ? axesUsed.slice(-size) : []);
   let candidates = cells.filter((c) => !window.has(cellKey(c)));
   if (candidates.length === 0) {
     // Every cell is inside the window: take the least recently used one.
-    const oldestKey = axesUsed.find((k) => cells.some((c) => cellKey(c) === k));
-    const oldest = cells.find((c) => cellKey(c) === oldestKey);
-    candidates = oldest ? [oldest] : cells;
+    candidates = [leastRecentlyUsed(cells, axesUsed)];
   }
 
   const weights = candidates.map((c) => 1 + MISS_WEIGHT * (missCounts[cellKey(c)] ?? 0));

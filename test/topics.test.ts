@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { axesMatch, cellKey, cellsOf, describeCell, findTopic, pickCell, windowSize } from '../src/topics.ts';
+import { axesMatch, cellKey, cellsOf, describeCell, findTopic, leastRecentlyUsed, pickCell, windowSize } from '../src/topics.ts';
 import type { Topic } from '../src/types.ts';
 
 function topicWith(axes: Record<string, string[]>): Topic {
@@ -43,7 +43,7 @@ describe('pickCell', () => {
       expect(picked).toBe('лексика=работа|форма=ona');
     }
   });
-  it('does not jam on a four-cell topic: falls back to the least recent', () => {
+  it('does not jam on a four-cell topic: the one cell outside the window is chosen', () => {
     const used = ['лексика=дом|форма=on', 'лексика=дом|форма=ona', 'лексика=работа|форма=on', 'лексика=работа|форма=ona'];
     // window is 3, so the oldest one is eligible again
     expect(cellKey(pickCell(FOUR, used, {}, () => 0))).toBe('лексика=дом|форма=on');
@@ -63,6 +63,34 @@ describe('pickCell', () => {
   });
   it('returns the empty cell for a topic without axes', () => {
     expect(pickCell(topicWith({}), [], {}, Math.random)).toEqual({});
+  });
+  it('single-cell topic keeps returning its only cell', () => {
+    const single = topicWith({ форма: ['on'] });
+    const axesUsed = ['форма=on'];
+    expect(cellKey(pickCell(single, axesUsed, {}, Math.random))).toBe('форма=on');
+  });
+});
+
+describe('leastRecentlyUsed', () => {
+  it('returns the least recent cell from history', () => {
+    const twoCell = topicWith({ форма: ['on', 'ona'], лексика: ['дом'] });
+    const cells = cellsOf(twoCell);
+    const history = ['лексика=дом|форма=on', 'лексика=дом|форма=ona', 'лексика=дом|форма=on'];
+    const lru = leastRecentlyUsed(cells, history);
+    expect(cellKey(lru)).toBe('лексика=дом|форма=ona');
+  });
+  it('never-used cell wins over used ones', () => {
+    const twoCell = topicWith({ форма: ['on', 'ona'], лексика: ['дом'] });
+    const cells = cellsOf(twoCell);
+    const history = ['лексика=дом|форма=on'];
+    const lru = leastRecentlyUsed(cells, history);
+    expect(cellKey(lru)).toBe('лексика=дом|форма=ona');
+  });
+  it('empty history returns the first cell', () => {
+    const twoCell = topicWith({ форма: ['on', 'ona'], лексика: ['дом'] });
+    const cells = cellsOf(twoCell);
+    const lru = leastRecentlyUsed(cells, []);
+    expect(cellKey(lru)).toBe('лексика=дом|форма=on');
   });
 });
 

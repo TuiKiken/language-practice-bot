@@ -15,5 +15,9 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["./**/*.mts", "../src/topic-parser.ts", "../src/types.ts"]
+  "include": [
+    "./**/*.mts",
+    "../src/types.ts", "../src/topic-parser.ts",
+    "../src/budget.ts", "../src/schemas.ts", "../src/llm.ts"
+  ]
 }

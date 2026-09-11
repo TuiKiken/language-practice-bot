@@ -217,15 +217,22 @@ async function onWhy(ctx: Ctx): Promise<void> {
   const budget = new Budget(ctx.deps.now, now + LIMITS.cycleBudgetMs);
   const stopTyping = startTyping(ctx);
   try {
-    const text = await callModel(ctx, budget, (signal) => ctx.deps.llm.explain({
-      topic, task: previous.task, reference: previous.answer, userAnswer: previous.userAnswer, previousExplanation: previous.explanation,
-    }, signal));
-    await send(ctx, text);
-  } catch (error) {
-    ctx.deps.log('explain_failed', { error: String(error) });
-    await send(ctx, describeLlmError(error));
-  } finally {
+    // Only the model call is treated as an LLM failure; a Telegram error from `send` below
+    // must propagate to handleUpdate's TelegramPermanentError handling untouched.
+    let text: string;
+    try {
+      text = await callModel(ctx, budget, (signal) => ctx.deps.llm.explain({
+        topic, task: previous.task, reference: previous.answer, userAnswer: previous.userAnswer, previousExplanation: previous.explanation,
+      }, signal));
+    } catch (error) {
+      stopTyping();
+      ctx.deps.log('explain_failed', { error: String(error) });
+      await send(ctx, describeLlmError(error));
+      return;
+    }
     stopTyping();
+    await send(ctx, text);
+  } finally {
     await ctx.stub.release(leaseId, null, ctx.deps.now());
   }
 }

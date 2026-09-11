@@ -5,6 +5,7 @@ import type { BotDeps } from '../src/bot.ts';
 import { LIMITS } from '../src/budget.ts';
 import { LlmError } from '../src/llm.ts';
 import type { CheckInput, ExplainInput, GenerationInput, LlmClient } from '../src/llm.ts';
+import { TelegramPermanentError, TelegramTransientError } from '../src/telegram.ts';
 import type { InlineKeyboardMarkup, TelegramClient } from '../src/telegram.ts';
 import type { CheckResult, GeneratedTask, Topic } from '../src/types.ts';
 
@@ -40,12 +41,24 @@ function fakeTelegram() {
   const sent: Array<{ chatId: number; text: string; markup?: InlineKeyboardMarkup }> = [];
   const callbacks: Array<{ id: string; text?: string }> = [];
   let typing = 0;
-  const client: TelegramClient = {
-    async sendMessage(chatId, text, markup) { sent.push({ chatId, text, markup }); },
+  const result = {
+    failNextSend: null as Error | null,
+    sent, callbacks, typing: () => typing,
+    client: undefined as unknown as TelegramClient,
+  };
+  result.client = {
+    async sendMessage(chatId, text, markup) {
+      if (result.failNextSend) {
+        const err = result.failNextSend;
+        result.failNextSend = null;
+        throw err;
+      }
+      sent.push({ chatId, text, markup });
+    },
     async answerCallbackQuery(id, text) { callbacks.push({ id, text }); },
     async sendChatAction() { typing++; },
   };
-  return { client, sent, callbacks, typing: () => typing };
+  return result;
 }
 
 let chatSeq = 1000;
@@ -317,5 +330,39 @@ describe('dialogue', () => {
     await handleUpdate(update, h.deps);
     await handleUpdate(update, h.deps);
     expect(h.tg.sent.length).toBe(1);
+  });
+
+  it('transient send failure after commit keeps pendingDelivery and the lease', async () => {
+    const h = harness();
+    await h.button('czas-przeszly');
+    const sentBefore = h.tg.sent.length;
+    h.tg.failNextSend = new TelegramTransientError('boom');
+    await h.text('poszedł');
+    expect(h.tg.sent.length).toBe(sentBefore);
+    const st = await h.stub().inspect(h.clock.t);
+    expect(st.pendingDelivery).toBe(true);
+    expect(st.current?.task).toBe('task-2');
+    expect(st.lease).not.toBeNull();
+  });
+
+  it('permanent send failure clears the session', async () => {
+    const h = harness();
+    await h.button('czas-przeszly');
+    h.tg.failNextSend = new TelegramPermanentError(403, 'Forbidden: bot was blocked by the user');
+    await h.text('poszedł');
+    const st = await h.stub().inspect(h.clock.t);
+    expect(st.topicId).toBeNull();
+  });
+
+  it('a cycle interrupted by /topics does not commit (stale)', async () => {
+    const h = harness();
+    await h.button('czas-przeszly');
+    const a = await h.stub().acquire(h.nextUpdateId(), h.clock.t, { leaseTtlMs: LIMITS.leaseTtlMs, dailyLimit: 100, consumesExercise: true });
+    if (a.kind !== 'acquired') throw new Error(a.kind);
+    await h.stub().interrupt(h.nextUpdateId(), h.clock.t);
+    const committed = await h.stub().commitTask(a.leaseId, a.epoch, {
+      next: { task: 'late', answer: 'x', exact: true, cellKey: null, axes: {} }, fingerprint: '', markCellUsed: false, previous: null, outcome: null,
+    }, h.clock.t);
+    expect(committed).toBe('stale');
   });
 });

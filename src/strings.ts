@@ -84,16 +84,17 @@ export function splitMessage(text: string, max: number = LIMITS.maxMessageLength
   if (text.length <= max) return [text];
   const out: string[] = [];
   let current = '';
+  let started = false;
   for (const line of text.split('\n')) {
     const pieces: string[] = [];
     for (let i = 0; i < line.length; i += max) pieces.push(line.slice(i, i + max));
     if (pieces.length === 0) pieces.push('');
     for (const piece of pieces) {
-      if (current === '') current = piece;
+      if (!started) { current = piece; started = true; }
       else if (current.length + 1 + piece.length <= max) current = `${current}\n${piece}`;
       else { out.push(current); current = piece; }
     }
   }
-  if (current !== '') out.push(current);
+  if (started) out.push(current);
   return out;
 }

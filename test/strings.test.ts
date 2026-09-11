@@ -68,4 +68,19 @@ describe('splitMessage', () => {
     const parts = splitMessage('y'.repeat(9000), 4096);
     expect(parts.map((p) => p.length)).toEqual([4096, 4096, 808]);
   });
+  it('preserves blank lines in the middle', () => {
+    const text = 'aaaaaaaaaa\n\nbbbbbbbbbb';
+    const parts = splitMessage(text, 10);
+    expect(parts.join('\n')).toBe(text);
+    for (const p of parts) expect(p.length).toBeLessThanOrEqual(10);
+  });
+  it('preserves leading newline before long body', () => {
+    const text = '\n' + 'x'.repeat(100);
+    const parts = splitMessage(text, 200);
+    expect(parts.join('\n')).toBe(text);
+    for (const p of parts) expect(p.length).toBeLessThanOrEqual(200);
+  });
+  it('keeps short text with blank lines untouched', () => {
+    expect(splitMessage('a\n\nb')).toEqual(['a\n\nb']);
+  });
 });

@@ -1,0 +1,3 @@
+TELEGRAM_BOT_TOKEN=123456:replace-me
+OPENAI_API_KEY=sk-replace-me
+TELEGRAM_WEBHOOK_SECRET=replace-me-with-32-random-chars

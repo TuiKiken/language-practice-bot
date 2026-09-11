@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+dist/
+src/topics.generated.json
+worker-configuration.d.ts
+.dev.vars
+.sc/

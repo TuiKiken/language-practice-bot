@@ -1,0 +1,29 @@
+{
+  "name": "polski-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "topics": "node scripts/bundle-topics.mts",
+    "types": "wrangler types --include-env=false",
+    "typecheck": "tsc --noEmit -p . && tsc --noEmit -p scripts",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "check": "npm run topics && npm run types && npm run lint && npm run typecheck && npm test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.13.4",
+    "eslint": "^10.10.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.131.1"
+  }
+}

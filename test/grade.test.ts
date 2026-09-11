@@ -10,6 +10,8 @@ describe('normalizeAnswer', () => {
   });
   it('treats punctuation separated by a space the same', () => {
     expect(normalizeAnswer('poszła .')).toBe('poszła');
+    expect(normalizeAnswer('poszła. ')).toBe('poszła');
+    expect(normalizeAnswer(' poszła . ')).toBe('poszła');
   });
 });
 

@@ -13,6 +13,7 @@ export function stripDiacritics(s: string): string {
 
 export function normalizeAnswer(s: string): string {
   return s
+    .trim()
     .replace(/[.!?]+$/, '')
     .trim()
     .replace(/\s+/g, ' ')

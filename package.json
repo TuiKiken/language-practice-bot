@@ -11,7 +11,7 @@
     "types": "wrangler types --include-env=false",
     "typecheck": "tsc --noEmit -p . && tsc --noEmit -p scripts",
     "lint": "eslint .",
-    "test": "vitest run",
+    "test": "NODE_OPTIONS=--disable-warning=DEP0040 vitest run",
     "check": "npm run topics && npm run types && npm run lint && npm run typecheck && npm test",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

@@ -1,5 +1,5 @@
 // One-off operator script. Usage:
-//   TELEGRAM_BOT_TOKEN=… TELEGRAM_WEBHOOK_SECRET=… node scripts/register-webhook.mts https://polski-bot.<account>.workers.dev
+//   TELEGRAM_BOT_TOKEN=… TELEGRAM_WEBHOOK_SECRET=… node scripts/register-webhook.mts https://<worker-name>.<account>.workers.dev
 // Sets the webhook with the secret header and allowed_updates (spec §7) and registers the command menu.
 const url = process.argv[2];
 const token = process.env['TELEGRAM_BOT_TOKEN'];

@@ -29,7 +29,7 @@ export function grade(userAnswer: string, reference: string): GradeOutcome {
   return 'mismatch';
 }
 
-/** Spec §7: shorter than two characters or without a single Polish (Latin) letter is not an attempt. */
+/** Spec §7: shorter than two characters or without a single letter of the target language (currently Latin plus Polish letters) is not an attempt. */
 export function looksLikeAttempt(text: string): boolean {
   const t = text.trim();
   if (t.length < 2) return false;

@@ -6,6 +6,21 @@ when you slip. Runs on Cloudflare Workers (free plan) with one Durable Object pe
 
 Design document (Russian): `docs/superpowers/specs/2026-09-11-polish-practice-bot-design.md`.
 
+## Other languages
+
+Nothing in the architecture is Polish-specific: topics are plain markdown, the cell picker, schemas,
+session and dialogue know nothing about the language. The bot is *configured* for Polish in three places,
+all of them small:
+
+- `src/grade.ts` — the diacritics table (`ą ć ę ł ń ó ś ź ż`), the `pl` locale for lowercasing, and the
+  "looks like an attempt" letter class (Latin plus Polish letters).
+- `src/llm.ts` — the three prompt framings name Polish explicitly and use a Polish diacritics example.
+- `src/strings.ts` — the `/help` text mentions Polish and the Polish keyboard layout.
+
+To drill another language, change those three files (and write topics for it). The explanation language is
+Russian for the same reason: it lives in the prompts and in `src/strings.ts`, not in the code paths.
+One deployment serves one target language; topics cannot mix languages within a bot.
+
 ## How it works in one paragraph
 
 Topics are markdown files in `topics/`. A build step validates them and bundles them into

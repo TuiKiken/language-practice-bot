@@ -77,8 +77,8 @@ as repository secrets.
 
 Adding a topic is adding a file and pushing. No code changes.
 
-1. Copy the structure of the existing topic in `topics/` (currently `01-czas-przeszly.md`, Polish past
-   tense). Frontmatter has exactly two fields: `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
+1. Copy the structure of the existing topic in `topics/` (currently `01-koniugacja-m-sz.md`, Polish -m/-sz
+   conjugation). Frontmatter has exactly two fields: `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
    caption, up to 64 characters).
 2. Required sections: `## Описание`, `## Генерация`, `## Проверка`. Optional: `## Вариативность`,
    `## Типичные ошибки`, `## Примеры`. The section headings are fixed (the parser looks for them); their

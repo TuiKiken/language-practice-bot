@@ -20,7 +20,7 @@ if (!apiKey || !model) {
 const only = process.argv[2];
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(readFileSync(join(root, 'src', 'topics.generated.json'), 'utf8')) as Manifest;
-const llm = createLlmClient({ apiKey, model, reasoningEffort: 'minimal', fetchImpl: (i, init) => fetch(i, init) });
+const llm = createLlmClient({ apiKey, model, reasoningEffort: 'none', fetchImpl: (i, init) => fetch(i, init) });
 
 const strip = (s: string) => s.replace(/[ąćęłńóśźż]/gi, (ch) => ({ ą: 'a', ć: 'c', ę: 'e', ł: 'l', ń: 'n', ó: 'o', ś: 's', ź: 'z', ż: 'z' })[ch.toLowerCase()] ?? ch);
 const mutate = (s: string) => (s.length < 2 ? s + 'a' : s.slice(0, -1) + (s.endsWith('a') ? 'i' : 'a'));

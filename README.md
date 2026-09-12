@@ -45,9 +45,11 @@ languages within a bot.
 ## Setup
 
 1. Install dependencies: `npm install`.
-2. Pick a model that supports strict Structured Outputs and (ideally) a reasoning effort setting. Put its id
-   in `wrangler.toml` under `[vars] OPENAI_MODEL`. If the model has no reasoning control, set
-   `OPENAI_REASONING_EFFORT = "none"`; otherwise keep `"minimal"` — reasoning tokens are billed as output.
+2. Pick a model that supports strict Structured Outputs. Put its id in `wrangler.toml` under
+   `[vars] OPENAI_MODEL`. Keep `OPENAI_REASONING_EFFORT = "none"`: the tasks are short gap-fills, and
+   reasoning tokens are billed as output and count against the per-call output limit. Accepted values are
+   `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, `max` (whatever the chosen model supports) and `omit`
+   to leave the parameter out for models without reasoning control.
 3. Choose the per-chat daily cap in `DAILY_LIMIT_PER_CHAT` (default 150). It protects your OpenAI budget
    from a runaway chat; pick a value a real session never hits.
 4. Create secrets:

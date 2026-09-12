@@ -20,14 +20,13 @@ export function chatTypeOf(update: TelegramUpdate): string | null {
   return update.message?.chat.type ?? update.callback_query?.message?.chat.type ?? null;
 }
 
-function reasoningEffort(raw: string | undefined): LlmConfig['reasoningEffort'] {
-  switch ((raw ?? 'minimal').toLowerCase()) {
-    case 'none': return null;
-    case 'low': return 'low';
-    case 'medium': return 'medium';
-    case 'high': return 'high';
-    default: return 'minimal';
-  }
+const REASONING_EFFORTS = ['none', 'minimal', 'low', 'medium', 'high', 'xhigh', 'max'] as const;
+
+/** `omit` leaves the parameter out entirely; unknown values fall back to `none` (cheapest, and every reasoning model accepts it). */
+export function reasoningEffort(raw: string | undefined): LlmConfig['reasoningEffort'] {
+  const value = (raw ?? 'none').toLowerCase();
+  if (value === 'omit') return null;
+  return (REASONING_EFFORTS as readonly string[]).includes(value) ? (value as LlmConfig['reasoningEffort']) : 'none';
 }
 
 export function buildDeps(env: Env): BotDeps {

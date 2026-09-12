@@ -38,7 +38,8 @@ export interface LlmClient {
 export interface LlmConfig {
   apiKey: string;
   model: string;
-  reasoningEffort: 'minimal' | 'low' | 'medium' | 'high' | null;
+  /** Sent as `reasoning.effort`; null omits the parameter and lets the model use its default. */
+  reasoningEffort: 'none' | 'minimal' | 'low' | 'medium' | 'high' | 'xhigh' | 'max' | null;
   fetchImpl: typeof fetch;
   endpoint?: string;
 }

@@ -1,6 +1,6 @@
 import { createExecutionContext, env, waitOnExecutionContext } from 'cloudflare:test';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import worker, { chatTypeOf, SECRET_HEADER } from '../src/index.ts';
+import worker, { chatTypeOf, reasoningEffort, SECRET_HEADER } from '../src/index.ts';
 
 // The brief calls for `fetchMock` from 'cloudflare:test' (undici MockAgent) to intercept the
 // outbound `sendMessage` call. The installed @cloudflare/vitest-pool-workers (0.22.0) does not
@@ -98,5 +98,16 @@ describe('chatTypeOf', () => {
     expect(chatTypeOf({ update_id: 1, message: { message_id: 1, chat: { id: 1, type: 'private' } } })).toBe('private');
     expect(chatTypeOf({ update_id: 1, callback_query: { id: 'c', message: { message_id: 1, chat: { id: 1, type: 'group' } } } })).toBe('group');
     expect(chatTypeOf({ update_id: 1 })).toBeNull();
+  });
+});
+
+describe('reasoningEffort', () => {
+  it('passes known levels through, sends none by default, omits only on "omit"', () => {
+    expect(reasoningEffort(undefined)).toBe('none');
+    expect(reasoningEffort('none')).toBe('none');
+    expect(reasoningEffort('Low')).toBe('low');
+    expect(reasoningEffort('xhigh')).toBe('xhigh');
+    expect(reasoningEffort('omit')).toBeNull();
+    expect(reasoningEffort('banana')).toBe('none');
   });
 });

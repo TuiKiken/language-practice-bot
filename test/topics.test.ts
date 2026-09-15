@@ -5,7 +5,7 @@ import type { Topic } from '../src/types.ts';
 function topicWith(axes: Record<string, string[]>): Topic {
   return {
     id: 't', title: 'T', description: 'd', generation: 'g', checking: 'c',
-    axes, commonMistakes: null, examples: null, lesson: null,
+    axes, commonMistakes: null, examples: null, lesson: null, rule: null,
   };
 }
 

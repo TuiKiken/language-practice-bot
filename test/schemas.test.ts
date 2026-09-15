@@ -7,7 +7,7 @@ import type { Topic } from '../src/types.ts';
 
 const TOPIC: Topic = {
   id: 't', title: 'T', description: 'd', generation: 'g', checking: 'c',
-  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null, lesson: null,
+  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null, lesson: null, rule: null,
 };
 
 function walk(schema: unknown, visit: (node: Record<string, unknown>) => void): void {

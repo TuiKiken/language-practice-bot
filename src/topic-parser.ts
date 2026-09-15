@@ -11,9 +11,11 @@ export class TopicParseError extends Error {
 
 export const ID_PATTERN = /^[a-z0-9-]{1,32}$/;
 export const TITLE_MAX = 64;
+/** Keeps the rule message well inside Telegram's 4096-character limit together with its header. */
+export const RULE_MAX = 1500;
 
 export const REQUIRED_SECTIONS = ['Описание', 'Генерация', 'Проверка'] as const;
-export const KNOWN_SECTIONS = [...REQUIRED_SECTIONS, 'Вариативность', 'Типичные ошибки', 'Примеры'] as const;
+export const KNOWN_SECTIONS = [...REQUIRED_SECTIONS, 'Вариативность', 'Типичные ошибки', 'Примеры', 'Правило'] as const;
 const KNOWN_FRONTMATTER = ['id', 'title', 'lesson'] as const;
 const LESSON_PATTERN = /^[1-9][0-9]{0,3}$/;
 
@@ -108,6 +110,11 @@ export function parseTopic(source: string, fileName: string): Topic {
     if (body === undefined || body === '') throw new TopicParseError(fileName, `missing required section: ${s}`);
   }
 
+  const rule = sections.get('Правило') || null;
+  if (rule !== null && rule.length > RULE_MAX) {
+    throw new TopicParseError(fileName, `Правило must be at most ${RULE_MAX} characters, got ${rule.length}`);
+  }
+
   const axesText = sections.get('Вариативность');
   return {
     id,
@@ -119,5 +126,6 @@ export function parseTopic(source: string, fileName: string): Topic {
     commonMistakes: sections.get('Типичные ошибки') || null,
     examples: sections.get('Примеры') || null,
     lesson: lessonText === undefined ? null : Number(lessonText),
+    rule,
   };
 }

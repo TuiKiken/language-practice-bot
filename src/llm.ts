@@ -87,6 +87,8 @@ function topicBlock(topic: Topic, section: 'generation' | 'checking'): string {
   const parts = [`# Тема: ${topic.title}`, `## Описание\n${topic.description}`];
   parts.push(section === 'generation' ? `## Как составлять задание\n${topic.generation}` : `## Как проверять\n${topic.checking}`);
   if (topic.commonMistakes) parts.push(`## Типичные ошибки учеников\n${topic.commonMistakes}`);
+  // The rule reaches the model only where an answer is being judged or explained, never in generation.
+  if (section === 'checking' && topic.rule) parts.push(`## Правило, которое видел ученик\n${topic.rule}`);
   if (topic.examples) parts.push(`## Примеры заданий и ответов\n${topic.examples}`);
   return parts.join('\n\n');
 }

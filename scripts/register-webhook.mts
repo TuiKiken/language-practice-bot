@@ -30,6 +30,7 @@ await api('setMyCommands', {
   commands: [
     { command: 'topics', description: 'Выбрать тему' },
     { command: 'repeat', description: 'Показать текущее задание' },
+    { command: 'rule', description: 'Показать правило темы' },
     { command: 'why', description: 'Разобрать предыдущий ответ подробнее' },
     { command: 'skip', description: 'Показать ответ и получить следующее' },
     { command: 'stop', description: 'Закончить и увидеть итог' },

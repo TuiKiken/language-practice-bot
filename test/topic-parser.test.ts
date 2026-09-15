@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseTopic, TopicParseError } from '../src/topic-parser.ts';
+import { parseTopic, RULE_MAX, TopicParseError } from '../src/topic-parser.ts';
 
 const FULL = `---
 id: czas-przeszly
@@ -72,6 +72,19 @@ describe('parseTopic', () => {
       const src = FULL.replace('title: Прошедшее время', `title: Прошедшее время\nlesson: ${bad}`);
       expect(() => parseTopic(src, 'x.md'), bad).toThrow(/lesson/);
     }
+  });
+
+  it('parses an optional rule section and defaults it to null', () => {
+    expect(parseTopic(FULL, 'x.md').rule).toBeNull();
+    const src = FULL + '\n## Правило\nОкончание -li только для групп с мужчинами.\n';
+    expect(parseTopic(src, 'x.md').rule).toBe('Окончание -li только для групп с мужчинами.');
+  });
+
+  it('rejects a rule longer than the limit', () => {
+    const src = FULL + '\n## Правило\n' + 'а'.repeat(RULE_MAX + 1) + '\n';
+    expect(() => parseTopic(src, 'x.md')).toThrow(/Правило/);
+    const ok = FULL + '\n## Правило\n' + 'а'.repeat(RULE_MAX) + '\n';
+    expect(parseTopic(ok, 'x.md').rule?.length).toBe(RULE_MAX);
   });
 
   it('rejects an unknown frontmatter field', () => {

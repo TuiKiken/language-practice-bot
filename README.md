@@ -84,8 +84,11 @@ Adding a topic is adding a file and pushing. No code changes.
    (`12. Title`). Topics without a number follow in reverse file-name order, so the highest `NN-` prefix
    comes first.
 2. Required sections: `## Описание`, `## Генерация`, `## Проверка`. Optional: `## Вариативность`,
-   `## Типичные ошибки`, `## Примеры`. The section headings are fixed (the parser looks for them); their
-   content is prose for the model, written in the explanation language.
+   `## Типичные ошибки`, `## Примеры`, `## Правило`. The section headings are fixed (the parser looks for
+   them); their content is prose for the model, written in the explanation language. `## Правило` is the
+   exception: it is the learner-facing rule, shown verbatim when the topic is chosen and on `/rule`, and it
+   reaches the model only in the checking and explaining calls, never in generation. Up to 1500 characters,
+   plain text.
 3. The usual workflow is to hand your lesson notes to an assistant and ask for a topic file in this format,
    then read it through, drop it into `topics/` and push. Two rules for `## Вариативность` axes:
    - One axis is the trained contrast, listed by the **target language's own** grammatical categories,
@@ -116,7 +119,7 @@ the tasks: the checking prompt is the only part of a new topic that reaches lear
 
 ## Commands
 
-`/topics` (also `/start`), `/repeat`, `/why`, `/skip`, `/stop`, `/help`. The learner-facing texts are in
+`/topics` (also `/start`), `/repeat`, `/rule`, `/why`, `/skip`, `/stop`, `/help`. The learner-facing texts are in
 `src/strings.ts`.
 
 ## Operations

@@ -47,3 +47,19 @@ Czy ty ___ (rozumieć) ten tekst? → rozumiesz
 Dzieci ___ (jeść) obiad w kuchni. → jedzą
 My ___ (mieć) dużo pracy w tym tygodniu. → mamy
 Oni nie ___ (wiedzieć), gdzie jest dworzec. → wiedzą
+
+## Правило
+Глаголы группы -m/-sz в настоящем времени: ja на -m, ty на -sz.
+
+Подгруппа -am (czytać, mieszkać, kochać, pytać, mieć):
+ja czytam, ty czytasz, on/ona/ono czyta,
+my czytamy, wy czytacie, oni/one czytają.
+
+Подгруппа -em (umieć, rozumieć):
+ja umiem, ty umiesz, on/ona/ono umie,
+my umiemy, wy umiecie, oni/one umieją.
+
+Особые: mieć — mam, masz, ma, mamy, macie, mają.
+jeść — jem, jesz, je, jemy, jecie, jedzą.
+wiedzieć — wiem, wiesz, wie, wiemy, wiecie, wiedzą.
+Запомни: у jeść и wiedzieć форма oni на -edzą, а не на -eją.

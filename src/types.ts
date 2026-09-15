@@ -18,6 +18,8 @@ export interface Topic {
   examples: string | null;
   /** Frontmatter `lesson` — lesson number, drives menu order and the button prefix; null when absent. */
   lesson: number | null;
+  /** `## Правило` — learner-facing rule, shown on topic selection and by /rule; sent to the checking and explaining calls, not to generation. */
+  rule: string | null;
 }
 
 export interface Manifest {

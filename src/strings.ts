@@ -14,6 +14,7 @@ export const S = {
   topicRemoved: 'Эта тема была удалена. Выбери другую:',
   topicRemovedCallback: 'Тема удалена',
   noSession: 'Тренировка не начата.',
+  noRule: 'У этой темы нет отдельного правила.',
   dailyLimit: 'Лимит упражнений на сегодня исчерпан. Он сбросится в полночь по UTC.',
   storageUnavailable: 'Не получилось сохранить состояние. Попробуй ещё раз.',
   resend: 'Повторяю задание:',
@@ -28,6 +29,7 @@ export const S = {
     '',
     '/topics — выбрать тему',
     '/repeat — показать текущее задание',
+    '/rule — показать правило темы',
     '/why — подробнее разобрать предыдущий ответ',
     '/skip — показать ответ и получить следующее задание',
     '/stop — закончить и увидеть итог',
@@ -61,6 +63,10 @@ export function formatCycleMessage(parts: { verdictBlock: string | null; skipped
   if (parts.skippedAnswer !== null) blocks.push(`Ответ: ${parts.skippedAnswer}`);
   if (parts.nextTask !== null) blocks.push(`${S.nextTaskHeader}\n${parts.nextTask}`);
   return blocks.join('\n\n');
+}
+
+export function formatRule(rule: string): string {
+  return `Правило:\n${rule}`;
 }
 
 export function formatFirstTask(topicTitle: string, task: string): string {

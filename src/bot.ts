@@ -6,7 +6,7 @@ import { isRetryableLlmError, LlmError } from './llm.ts';
 import type { LlmClient } from './llm.ts';
 import { deriveVerdict } from './schemas.ts';
 import type { Acquired, CommitPatch, Outcome, SessionObject } from './session.ts';
-import { formatCycleMessage, formatFirstTask, formatSummary, formatVerdictBlock, S } from './strings.ts';
+import { formatCycleMessage, formatFirstTask, formatRule, formatSummary, formatVerdictBlock, S } from './strings.ts';
 import { TelegramPermanentError } from './telegram.ts';
 import type { InlineKeyboardMarkup, TelegramClient, TelegramUpdate } from './telegram.ts';
 import { axesMatch, cellKey, findTopic, pickCell } from './topics.ts';
@@ -26,7 +26,7 @@ export interface BotDeps {
   log: (event: string, fields?: Record<string, unknown>) => void;
 }
 
-type CommandName = 'topics' | 'help' | 'stop' | 'repeat' | 'why' | 'skip' | 'unknown';
+type CommandName = 'topics' | 'help' | 'stop' | 'repeat' | 'rule' | 'why' | 'skip' | 'unknown';
 
 export type BotEvent =
   | { kind: 'command'; name: CommandName; chatId: number; updateId: number }
@@ -35,7 +35,7 @@ export type BotEvent =
   | { kind: 'topic-button'; topicId: string; callbackId: string; chatId: number; updateId: number };
 
 const COMMANDS: Record<string, CommandName> = {
-  start: 'topics', topics: 'topics', help: 'help', stop: 'stop', repeat: 'repeat', why: 'why', skip: 'skip',
+  start: 'topics', topics: 'topics', help: 'help', stop: 'stop', repeat: 'repeat', rule: 'rule', why: 'why', skip: 'skip',
 };
 
 export function classify(update: TelegramUpdate): BotEvent | null {
@@ -179,6 +179,14 @@ async function onCommand(ctx: Ctx, name: CommandName): Promise<void> {
       if (st.current === null) return send(ctx, S.noTaskYet);
       return send(ctx, st.current.task);
     }
+    case 'rule': {
+      const st = await ctx.stub.inspect(now);
+      if (st.topicId === null) return sendTopicList(ctx, `${S.noSession}\n${S.chooseTopic}`);
+      const topic = findTopic(ctx.deps.topics, st.topicId);
+      // No lease here, so no reset: the next exercise update resets the stale session itself.
+      if (!topic) return sendTopicList(ctx, S.topicRemoved);
+      return send(ctx, topic.rule === null ? S.noRule : formatRule(topic.rule));
+    }
     case 'why':
       return onWhy(ctx);
     case 'skip':
@@ -194,10 +202,27 @@ async function onTopicButton(ctx: Ctx, topicId: string, callbackId: string): Pro
   }
   // Acknowledge immediately, before any model call (spec §7).
   await ctx.deps.telegram.answerCallbackQuery(callbackId).catch(() => {});
-  const r = await ctx.stub.selectTopic(ctx.updateId, topic.id, ctx.deps.now(), acquireOptions(ctx, true));
+  const start = ctx.deps.now();
+  const r = await ctx.stub.selectTopic(ctx.updateId, topic.id, start, acquireOptions(ctx, true));
   if (r.kind === 'duplicate' || r.kind === 'busy') return;
   if (r.kind === 'daily-limit') return send(ctx, S.dailyLimit);
-  return runCycle(ctx, r, topic, { kind: 'first' });
+  // The rule goes out on its own, before the model call, so the learner reads it while the first task is being made.
+  // It is informational: a transient Telegram failure is logged and the cycle goes on (/rule shows it again).
+  // A permanent one propagates to handleUpdate like every other send, but the lease taken by selectTopic
+  // is freed first: nothing else on this path releases it, and a held lease means `busy` until its TTL.
+  if (topic.rule !== null) {
+    try {
+      await send(ctx, formatRule(topic.rule));
+    } catch (error) {
+      if (error instanceof TelegramPermanentError) {
+        await ctx.stub.release(r.leaseId, null, ctx.deps.now());
+        throw error;
+      }
+      ctx.deps.log('send_failed_rule', { error: String(error) });
+    }
+  }
+  // The cycle budget counts from the lease, so the time spent on the rule message is not added on top.
+  return runCycle(ctx, r, topic, { kind: 'first' }, start);
 }
 
 async function onWhy(ctx: Ctx): Promise<void> {
@@ -305,9 +330,8 @@ function verdictSkip(current: CurrentTask): VerdictPart {
 
 const EMPTY_PART: VerdictPart = { block: null, skippedAnswer: null, outcome: null, previous: null };
 
-async function runCycle(ctx: Ctx, acquired: Acquired, topic: Topic, action: CycleAction): Promise<void> {
+async function runCycle(ctx: Ctx, acquired: Acquired, topic: Topic, action: CycleAction, start = ctx.deps.now()): Promise<void> {
   const { deps, stub } = ctx;
-  const start = deps.now();
   const budget = new Budget(deps.now, start + LIMITS.cycleBudgetMs);
   const { state, leaseId, epoch } = acquired;
   const current = state.current;

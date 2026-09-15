@@ -12,7 +12,7 @@ import type { CheckResult, GeneratedTask, Topic } from '../src/types.ts';
 
 const TOPIC: Topic = {
   id: 'czas-przeszly', title: 'Прошедшее время', description: 'd', generation: 'g', checking: 'c',
-  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null, lesson: null,
+  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null, lesson: null, rule: null,
 };
 
 function gen(task: string, axes = { форма: 'on', лексика: 'дом' }, exact = true): GeneratedTask {
@@ -89,6 +89,7 @@ describe('classify', () => {
     expect(classify({ update_id: 1, message: { message_id: 1, chat, text: '/start' } })).toMatchObject({ kind: 'command', name: 'topics' });
     expect(classify({ update_id: 1, message: { message_id: 1, chat, text: '/why@polski_bot' } })).toMatchObject({ kind: 'command', name: 'why' });
     expect(classify({ update_id: 1, message: { message_id: 1, chat, text: '/foo' } })).toMatchObject({ kind: 'command', name: 'unknown' });
+    expect(classify({ update_id: 1, message: { message_id: 1, chat, text: '/rule' } })).toMatchObject({ kind: 'command', name: 'rule' });
     expect(classify({ update_id: 1, message: { message_id: 1, chat, text: 'poszła' } })).toMatchObject({ kind: 'text', text: 'poszła' });
     expect(classify({ update_id: 1, message: { message_id: 1, chat } })).toMatchObject({ kind: 'non-text' });
     expect(classify({ update_id: 1, callback_query: { id: 'c', data: 'topic:x', message: { message_id: 1, chat } } })).toMatchObject({ kind: 'topic-button', topicId: 'x' });
@@ -101,6 +102,66 @@ describe('topicKeyboard', () => {
     const rows = topicKeyboard([{ ...TOPIC, lesson: 12 }, TOPIC]).inline_keyboard;
     expect(rows[0]?.[0]?.text).toBe('12. Прошедшее время');
     expect(rows[1]?.[0]?.text).toBe('Прошедшее время');
+  });
+});
+
+describe('rule', () => {
+  const RULED: Topic = { ...TOPIC, rule: 'Окончание -li только для групп с мужчинами.' };
+
+  it('is sent as its own message right after choosing a topic, before the first task', async () => {
+    const h = harness({ topics: [RULED] });
+    await h.button('czas-przeszly');
+    expect(h.tg.sent.map((m) => m.text)).toEqual(['Правило:\nОкончание -li только для групп с мужчинами.', 'Тема: Прошедшее время\n\ntask-1']);
+  });
+
+  it('a transient failure sending the rule does not block the first task', async () => {
+    const h = harness({ topics: [RULED] });
+    h.tg.failNextSend = new TelegramTransientError('boom');
+    await h.button('czas-przeszly');
+    expect(h.tg.sent.map((m) => m.text)).toEqual(['Тема: Прошедшее время\n\ntask-1']);
+    expect((await h.stub().inspect(h.clock.t)).lease).toBeNull();
+  });
+
+  it('a permanent failure sending the rule frees the lease before propagating', async () => {
+    const h = harness({ topics: [RULED] });
+    h.tg.failNextSend = new TelegramPermanentError(400, 'Bad Request: something odd');
+    await h.button('czas-przeszly');
+    expect(h.tg.sent.length).toBe(0);
+    expect(h.llm.calls.generate.length).toBe(0);
+    const st = await h.stub().inspect(h.clock.t);
+    expect(st.topicId).toBe('czas-przeszly'); // a non-clearing error keeps the session
+    expect(st.lease).toBeNull(); // but the next update must not hit `busy`
+    await h.text('anything');
+    expect(h.last()).toContain('task-1');
+  });
+
+  it('/rule on a removed topic reports the removal instead of a missing session', async () => {
+    const h = harness({ topics: [RULED] });
+    await h.button('czas-przeszly');
+    h.deps.topics = [];
+    await h.text('/rule');
+    expect(h.last()).toContain(S.topicRemoved);
+    expect(h.last()).not.toContain(S.noSession);
+  });
+
+  it('is not sent for a topic without a rule', async () => {
+    const h = harness();
+    await h.button('czas-przeszly');
+    expect(h.tg.sent.map((m) => m.text)).toEqual(['Тема: Прошедшее время\n\ntask-1']);
+  });
+
+  it('/rule repeats the rule, reports its absence, or asks to start', async () => {
+    const h = harness({ topics: [RULED] });
+    await h.text('/rule');
+    expect(h.last()).toContain(S.noSession);
+    await h.button('czas-przeszly');
+    await h.text('/rule');
+    expect(h.last()).toBe('Правило:\nОкончание -li только для групп с мужчинами.');
+
+    const g = harness();
+    await g.button('czas-przeszly');
+    await g.text('/rule');
+    expect(g.last()).toBe(S.noRule);
   });
 });
 

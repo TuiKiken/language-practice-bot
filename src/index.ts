@@ -14,7 +14,9 @@ export { SessionObject } from './session.ts';
 
 export const SECRET_HEADER = 'x-telegram-bot-api-secret-token';
 
-const TOPICS = (manifest as Manifest).topics;
+// The bundler validates the file; with several topics of differing axes TypeScript infers a union the direct
+// cast rejects, so widen through unknown.
+const TOPICS = (manifest as unknown as Manifest).topics;
 
 export function chatTypeOf(update: TelegramUpdate): string | null {
   return update.message?.chat.type ?? update.callback_query?.message?.chat.type ?? null;

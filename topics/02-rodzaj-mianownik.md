@@ -39,8 +39,12 @@ ten и прилагательное на -y/-i: ten dobry dentysta.
   nowy, stary, drogi, mały, zielony, polski, atrakcyjny. Среди заданий с
   прилагательным примерно треть — на -ki или -gi.
 - zaimek — пропущено указательное местоимение прямо перед существительным,
-  без скобок и без притяжательных: «To jest ___ książka.», «Kto to? To ___
-  kolega.», «Co to? To ___ okno.». Ответ — одно слово: ten, ta, to или te.
+  в скобках после пропуска подсказка (ten/ta/to/te), чтобы ученик видел, что
+  вписать: «To jest ___ (ten/ta/to/te) książka.», «___ (ten/ta/to/te) kolega
+  jest miły.». Только эти два шаблона: «To jest …» и «… jest …», для
+  tylko mnoga — «To są …» и «… są …» («To są ___ (ten/ta/to/te) drzwi.»);
+  без «Kto to? / Co to? To ___» (получается «To to okno», так не говорят) и
+  без притяжательных. Ответ — одно слово: ten, ta, to или te.
 
 Ось «род» решает, какое существительное взять:
 - męski — на согласный: dom, komputer, samochód, nauczyciel, stół, telefon.
@@ -51,7 +55,8 @@ ten и прилагательное на -y/-i: ten dobry dentysta.
 - nijaki — на -o, -e, -ę, -um: okno, radio, krzesło, słońce, imię, dziecko,
   centrum, muzeum.
 - tylko mnoga — spodnie, okulary, drzwi, nożyczki. Глагол только во
-  множественном числе: «To są ___ okulary.», «Te spodnie są ___ (drogi).»
+  множественном числе: «To są ___ (ten/ta/to/te) okulary.», «Te spodnie są
+  ___ (drogi).»
   Ответ te или прилагательное на -e/-ie (dobre, zielone, małe, drogie).
 
 Меняй лексику и шаблоны, не повторяй существительные подряд.
@@ -86,5 +91,22 @@ To jest ___ (inteligentny) kobieta. → inteligentna
 To jest ___ (wysoki) mężczyzna. → wysoki
 Kto to? To ___ (utalentowany) artysta. → utalentowany
 Co to? To ___ (drogi) radio. → drogie
-To jest ___ samochód. → ten
-To są ___ okulary. → te
+To jest ___ (ten/ta/to/te) samochód. → ten
+To są ___ (ten/ta/to/te) okulary. → te
+___ (ten/ta/to/te) dziecko jest małe. → to
+
+## Правило
+Род существительного, как правило, видно по окончанию в именительном падеже:
+męski (ten, jaki?) — как правило, согласный на конце: dom, komputer, nauczyciel;
+żeński (ta, jaka?) — -a и -i: kobieta, książka, pani;
+nijaki (to, jakie?) — -o, -e, -ę, -um: okno, słońce, imię, centrum.
+
+Прилагательное повторяет род:
+ten dobry dom, ta dobra książka, to dobre okno.
+После k и g: wysoki, drogi (męski) и wysokie, drogie (nijaki), не -y и -e.
+
+Ловушка: слова на -a, называющие мужчин, мужского рода —
+ten mężczyzna, ten kolega, ten dobry dentysta, poeta, kierowca, artysta.
+
+Только множественное число: te spodnie, te okulary, te drzwi, te nożyczki;
+прилагательное на -e: te dobre okulary, te drogie spodnie.

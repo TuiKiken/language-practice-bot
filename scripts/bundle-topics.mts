@@ -4,6 +4,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseTopic, TopicParseError } from '../src/topic-parser.ts';
+import { menuOrder } from '../src/topics.ts';
 import type { Manifest, Topic } from '../src/types.ts';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -14,7 +15,7 @@ const files = readdirSync(topicsDir)
   .filter((f) => f.endsWith('.md'))
   .sort();
 
-const topics: Topic[] = [];
+const entries: { file: string; topic: Topic }[] = [];
 const errors: string[] = [];
 const seenIds = new Map<string, string>();
 
@@ -27,7 +28,7 @@ for (const file of files) {
       continue;
     }
     seenIds.set(topic.id, file);
-    topics.push(topic);
+    entries.push({ file, topic });
   } catch (e) {
     errors.push(e instanceof TopicParseError ? e.message : `${file}: ${String(e)}`);
   }
@@ -37,11 +38,13 @@ if (errors.length > 0) {
   for (const line of errors) console.error(`topic error: ${line}`);
   process.exit(1);
 }
-if (topics.length === 0) {
+if (entries.length === 0) {
   console.error('topic error: no topics found in topics/');
   process.exit(1);
 }
 
+// Menu order is decided here, once; the worker shows topics in manifest order.
+const topics = menuOrder(entries);
 const manifest: Manifest = { topics };
 mkdirSync(dirname(outFile), { recursive: true });
 writeFileSync(outFile, JSON.stringify(manifest, null, 2) + '\n');

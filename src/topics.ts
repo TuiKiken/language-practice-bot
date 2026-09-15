@@ -82,6 +82,20 @@ export function axesMatch(requested: Cell, produced: Cell): boolean {
   return Object.keys(requested).every((axis) => produced[axis] === requested[axis]);
 }
 
+/** Menu order: numbered lessons first, highest number on top; then unnumbered topics in reverse file-name order. */
+export function menuOrder(entries: readonly { file: string; topic: Topic }[]): Topic[] {
+  return entries
+    .slice()
+    .sort((a, b) => {
+      const la = a.topic.lesson ?? -Infinity;
+      const lb = b.topic.lesson ?? -Infinity;
+      if (la !== lb) return lb - la;
+      // Plain code-point comparison: file names follow NN-<slug>.md, and locale collation would vary by machine.
+      return a.file < b.file ? 1 : a.file > b.file ? -1 : 0;
+    })
+    .map((e) => e.topic);
+}
+
 export function findTopic(topics: readonly Topic[], id: string): Topic | undefined {
   return topics.find((t) => t.id === id);
 }

@@ -7,7 +7,7 @@ import type { Topic } from '../src/types.ts';
 const TOPIC: Topic = {
   id: 'czas-przeszly', title: 'Прошедшее время',
   description: 'ОПИСАНИЕ-МАРКЕР', generation: 'ГЕНЕРАЦИЯ-МАРКЕР', checking: 'ПРОВЕРКА-МАРКЕР',
-  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: 'ОШИБКИ-МАРКЕР', examples: 'ПРИМЕРЫ-МАРКЕР',
+  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: 'ОШИБКИ-МАРКЕР', examples: 'ПРИМЕРЫ-МАРКЕР', lesson: null,
 };
 const CELL = { форма: 'ona', лексика: 'дом' };
 

@@ -78,8 +78,11 @@ as repository secrets.
 Adding a topic is adding a file and pushing. No code changes.
 
 1. Copy the structure of the existing topic in `topics/` (currently `01-koniugacja-m-sz.md`, Polish -m/-sz
-   conjugation). Frontmatter has exactly two fields: `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
-   caption, up to 64 characters).
+   conjugation). Frontmatter has two required fields, `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
+   name, up to 64 characters), and one optional field, `lesson` (integer from 1 to 9999). The menu lists topics
+   with a lesson number first, highest number on top; the button caption is the number plus the title
+   (`12. Title`). Topics without a number follow in reverse file-name order, so the highest `NN-` prefix
+   comes first.
 2. Required sections: `## Описание`, `## Генерация`, `## Проверка`. Optional: `## Вариативность`,
    `## Типичные ошибки`, `## Примеры`. The section headings are fixed (the parser looks for them); their
    content is prose for the model, written in the explanation language.

@@ -1,6 +1,7 @@
 ---
 id: koniugacja-m-sz
 title: Спряжение -m/-sz
+lesson: 3
 ---
 
 ## Описание

@@ -14,7 +14,8 @@ export const TITLE_MAX = 64;
 
 export const REQUIRED_SECTIONS = ['Описание', 'Генерация', 'Проверка'] as const;
 export const KNOWN_SECTIONS = [...REQUIRED_SECTIONS, 'Вариативность', 'Типичные ошибки', 'Примеры'] as const;
-const KNOWN_FRONTMATTER = ['id', 'title'] as const;
+const KNOWN_FRONTMATTER = ['id', 'title', 'lesson'] as const;
+const LESSON_PATTERN = /^[1-9][0-9]{0,3}$/;
 
 interface Split {
   frontmatter: Record<string, string>;
@@ -97,6 +98,11 @@ export function parseTopic(source: string, fileName: string): Topic {
     throw new TopicParseError(fileName, `title must be 1–${TITLE_MAX} characters`);
   }
 
+  const lessonText = frontmatter['lesson'];
+  if (lessonText !== undefined && !LESSON_PATTERN.test(lessonText)) {
+    throw new TopicParseError(fileName, `lesson must be an integer from 1 to 9999, got: ${lessonText || '(empty)'}`);
+  }
+
   for (const s of REQUIRED_SECTIONS) {
     const body = sections.get(s);
     if (body === undefined || body === '') throw new TopicParseError(fileName, `missing required section: ${s}`);
@@ -112,5 +118,6 @@ export function parseTopic(source: string, fileName: string): Topic {
     axes: axesText === undefined || axesText === '' ? {} : parseAxes(axesText, fileName),
     commonMistakes: sections.get('Типичные ошибки') || null,
     examples: sections.get('Примеры') || null,
+    lesson: lessonText === undefined ? null : Number(lessonText),
   };
 }

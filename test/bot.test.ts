@@ -1,6 +1,6 @@
 import { env } from 'cloudflare:test';
 import { describe, expect, it } from 'vitest';
-import { classify, handleUpdate, TOPIC_CALLBACK_PREFIX } from '../src/bot.ts';
+import { classify, handleUpdate, TOPIC_CALLBACK_PREFIX, topicKeyboard } from '../src/bot.ts';
 import type { BotDeps } from '../src/bot.ts';
 import { LIMITS } from '../src/budget.ts';
 import { LlmError } from '../src/llm.ts';
@@ -12,7 +12,7 @@ import type { CheckResult, GeneratedTask, Topic } from '../src/types.ts';
 
 const TOPIC: Topic = {
   id: 'czas-przeszly', title: 'Прошедшее время', description: 'd', generation: 'g', checking: 'c',
-  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null,
+  axes: { форма: ['on', 'ona'], лексика: ['дом'] }, commonMistakes: null, examples: null, lesson: null,
 };
 
 function gen(task: string, axes = { форма: 'on', лексика: 'дом' }, exact = true): GeneratedTask {
@@ -93,6 +93,14 @@ describe('classify', () => {
     expect(classify({ update_id: 1, message: { message_id: 1, chat } })).toMatchObject({ kind: 'non-text' });
     expect(classify({ update_id: 1, callback_query: { id: 'c', data: 'topic:x', message: { message_id: 1, chat } } })).toMatchObject({ kind: 'topic-button', topicId: 'x' });
     expect(classify({ update_id: 1, callback_query: { id: 'c', data: 'other' } })).toBeNull();
+  });
+});
+
+describe('topicKeyboard', () => {
+  it('prefixes the caption with the lesson number when there is one', () => {
+    const rows = topicKeyboard([{ ...TOPIC, lesson: 12 }, TOPIC]).inline_keyboard;
+    expect(rows[0]?.[0]?.text).toBe('12. Прошедшее время');
+    expect(rows[1]?.[0]?.text).toBe('Прошедшее время');
   });
 });
 

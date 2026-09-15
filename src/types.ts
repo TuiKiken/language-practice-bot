@@ -2,7 +2,7 @@
 export interface Topic {
   /** Matches /^[a-z0-9-]{1,32}$/; used in callback_data. */
   id: string;
-  /** Button caption, 1–64 characters. */
+  /** Topic name, 1–64 characters; the button caption is this, prefixed with the lesson number when set. */
   title: string;
   /** `## Описание` — sent to both model calls. */
   description: string;
@@ -16,6 +16,8 @@ export interface Topic {
   commonMistakes: string | null;
   /** `## Примеры` — sets difficulty; null when absent. */
   examples: string | null;
+  /** Frontmatter `lesson` — lesson number, drives menu order and the button prefix; null when absent. */
+  lesson: number | null;
 }
 
 export interface Manifest {

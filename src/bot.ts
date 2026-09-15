@@ -54,8 +54,12 @@ export function classify(update: TelegramUpdate): BotEvent | null {
   return { kind: 'text', text: msg.text, ...base };
 }
 
+export function topicCaption(topic: Topic): string {
+  return topic.lesson === null ? topic.title : `${topic.lesson}. ${topic.title}`;
+}
+
 export function topicKeyboard(topics: readonly Topic[]): InlineKeyboardMarkup {
-  return { inline_keyboard: topics.map((t) => [{ text: t.title, callback_data: `${TOPIC_CALLBACK_PREFIX}${t.id}` }]) };
+  return { inline_keyboard: topics.map((t) => [{ text: topicCaption(t), callback_data: `${TOPIC_CALLBACK_PREFIX}${t.id}` }]) };
 }
 
 interface Ctx {

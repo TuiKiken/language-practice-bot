@@ -61,6 +61,19 @@ describe('parseTopic', () => {
     expect(() => parseTopic(src, 'x.md')).toThrow(/id/);
   });
 
+  it('parses an optional lesson number and defaults it to null', () => {
+    expect(parseTopic(FULL, 'x.md').lesson).toBeNull();
+    const src = FULL.replace('title: Прошедшее время', 'title: Прошедшее время\nlesson: 12');
+    expect(parseTopic(src, 'x.md').lesson).toBe(12);
+  });
+
+  it('rejects a lesson outside 1–9999 or not an integer', () => {
+    for (const bad of ['0', 'abc', '1.5', '-3', '', '10000', '99999999999999999999']) {
+      const src = FULL.replace('title: Прошедшее время', `title: Прошедшее время\nlesson: ${bad}`);
+      expect(() => parseTopic(src, 'x.md'), bad).toThrow(/lesson/);
+    }
+  });
+
   it('rejects an unknown frontmatter field', () => {
     const src = FULL.replace('title: Прошедшее время', 'title: Прошедшее время\nlevel: A2');
     expect(() => parseTopic(src, 'x.md')).toThrow(/level/);

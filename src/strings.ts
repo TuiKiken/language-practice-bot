@@ -65,8 +65,8 @@ export function formatCycleMessage(parts: { verdictBlock: string | null; skipped
   return blocks.join('\n\n');
 }
 
-export function formatRule(rule: string): string {
-  return `Правило:\n${rule}`;
+export function formatRule(topicTitle: string, rule: string): string {
+  return `Тема: ${topicTitle}\n\nПравило:\n${rule}`;
 }
 
 export function formatFirstTask(topicTitle: string, task: string): string {

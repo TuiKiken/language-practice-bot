@@ -111,10 +111,11 @@ describe('rule', () => {
   it('is sent as its own message right after choosing a topic, before the first task', async () => {
     const h = harness({ topics: [RULED] });
     await h.button('czas-przeszly');
-    expect(h.tg.sent.map((m) => m.text)).toEqual(['Правило:\nОкончание -li только для групп с мужчинами.', 'Тема: Прошедшее время\n\ntask-1']);
+    // The rule message names the topic; the first task then comes bare instead of repeating the header.
+    expect(h.tg.sent.map((m) => m.text)).toEqual(['Тема: Прошедшее время\n\nПравило:\nОкончание -li только для групп с мужчинами.', 'task-1']);
   });
 
-  it('a transient failure sending the rule does not block the first task', async () => {
+  it('a transient failure sending the rule does not block the first task, which then keeps its header', async () => {
     const h = harness({ topics: [RULED] });
     h.tg.failNextSend = new TelegramTransientError('boom');
     await h.button('czas-przeszly');
@@ -156,7 +157,7 @@ describe('rule', () => {
     expect(h.last()).toContain(S.noSession);
     await h.button('czas-przeszly');
     await h.text('/rule');
-    expect(h.last()).toBe('Правило:\nОкончание -li только для групп с мужчинами.');
+    expect(h.last()).toBe('Тема: Прошедшее время\n\nПравило:\nОкончание -li только для групп с мужчинами.');
 
     const g = harness();
     await g.button('czas-przeszly');

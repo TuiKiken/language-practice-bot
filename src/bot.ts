@@ -69,7 +69,8 @@ interface Ctx {
   updateId: number;
 }
 
-type CycleAction = { kind: 'first' } | { kind: 'skip' } | { kind: 'answer'; text: string };
+/** `afterRule`: the rule message already named the topic, so the first task goes out without the header. */
+type CycleAction = { kind: 'first'; afterRule?: boolean } | { kind: 'skip' } | { kind: 'answer'; text: string };
 
 export async function handleUpdate(update: TelegramUpdate, deps: BotDeps): Promise<void> {
   const event = classify(update);
@@ -185,7 +186,7 @@ async function onCommand(ctx: Ctx, name: CommandName): Promise<void> {
       const topic = findTopic(ctx.deps.topics, st.topicId);
       // No lease here, so no reset: the next exercise update resets the stale session itself.
       if (!topic) return sendTopicList(ctx, S.topicRemoved);
-      return send(ctx, topic.rule === null ? S.noRule : formatRule(topic.rule));
+      return send(ctx, topic.rule === null ? S.noRule : formatRule(topic.title, topic.rule));
     }
     case 'why':
       return onWhy(ctx);
@@ -210,9 +211,11 @@ async function onTopicButton(ctx: Ctx, topicId: string, callbackId: string): Pro
   // It is informational: a transient Telegram failure is logged and the cycle goes on (/rule shows it again).
   // A permanent one propagates to handleUpdate like every other send, but the lease taken by selectTopic
   // is freed first: nothing else on this path releases it, and a held lease means `busy` until its TTL.
+  let afterRule = false;
   if (topic.rule !== null) {
     try {
-      await send(ctx, formatRule(topic.rule));
+      await send(ctx, formatRule(topic.title, topic.rule));
+      afterRule = true;
     } catch (error) {
       if (error instanceof TelegramPermanentError) {
         await ctx.stub.release(r.leaseId, null, ctx.deps.now());
@@ -222,7 +225,7 @@ async function onTopicButton(ctx: Ctx, topicId: string, callbackId: string): Pro
     }
   }
   // The cycle budget counts from the lease, so the time spent on the rule message is not added on top.
-  return runCycle(ctx, r, topic, { kind: 'first' }, start);
+  return runCycle(ctx, r, topic, { kind: 'first', afterRule }, start);
 }
 
 async function onWhy(ctx: Ctx): Promise<void> {
@@ -403,7 +406,7 @@ async function runCycle(ctx: Ctx, acquired: Acquired, topic: Topic, action: Cycl
       return;
     }
     const message = action.kind === 'first'
-      ? formatFirstTask(topic.title, generated.task)
+      ? (action.afterRule ? generated.task : formatFirstTask(topic.title, generated.task))
       : formatCycleMessage({ verdictBlock: part.block, skippedAnswer: part.skippedAnswer, nextTask: generated.task });
     try {
       await send(ctx, message);

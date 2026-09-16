@@ -27,9 +27,9 @@ ten и прилагательное на -y/-i: ten dobry dentysta.
 Ось «пропуск» решает, что пропущено:
 - przymiotnik — пропущено прилагательное, в скобках после пропуска его
   словарная форма мужского рода: «To jest ___ (inteligentny) kobieta.»
-  Шаблоны: «To jest …», «Kto to? To …» (только о людях), «Co to? To …»
-  (только о предметах), «Mój/moja/moje … jest …» («Moja siostra jest ___
-  (ambitny).»), «… jest …» («Ten dom jest ___ (stary).»).
+  Шаблоны: «To jest …», «Mój/moja/moje … jest …» («Moja siostra jest ___
+  (ambitny).»), «… jest …» («Ten dom jest ___ (stary).»). Предложение всегда
+  утвердительное, без вопроса перед ним.
   Прилагательные бери из списка занятия: agresywny, aktywny, ambitny,
   atrakcyjny, energiczny, inteligentny, romantyczny, sfrustrowany,
   spontaniczny, utalentowany, zestresowany, kreatywny, и из базовых: dobry,
@@ -42,9 +42,9 @@ ten и прилагательное на -y/-i: ten dobry dentysta.
   в скобках после пропуска подсказка (ten/ta/to/te), чтобы ученик видел, что
   вписать: «To jest ___ (ten/ta/to/te) książka.», «___ (ten/ta/to/te) kolega
   jest miły.». Только эти два шаблона: «To jest …» и «… jest …», для
-  tylko mnoga — «To są …» и «… są …» («To są ___ (ten/ta/to/te) drzwi.»);
-  без «Kto to? / Co to? To ___» (получается «To to okno», так не говорят) и
-  без притяжательных. Ответ — одно слово: ten, ta, to или te.
+  tylko mnoga — «To są …» и «… są …» («To są ___ (ten/ta/to/te) drzwi.»).
+  Предложение всегда утвердительное, без вопроса перед ним и без
+  притяжательных. Ответ — одно слово: ten, ta, to или te.
 
 Ось «род» решает, какое существительное взять:
 - męski — на согласный: dom, komputer, samochód, nauczyciel, stół, telefon.
@@ -89,8 +89,8 @@ imię, to centrum, ta pani.
 ## Примеры
 To jest ___ (inteligentny) kobieta. → inteligentna
 To jest ___ (wysoki) mężczyzna. → wysoki
-Kto to? To ___ (utalentowany) artysta. → utalentowany
-Co to? To ___ (drogi) radio. → drogie
+To jest ___ (utalentowany) artysta. → utalentowany
+To jest ___ (drogi) radio. → drogie
 To jest ___ (ten/ta/to/te) samochód. → ten
 To są ___ (ten/ta/to/te) okulary. → te
 ___ (ten/ta/to/te) dziecko jest małe. → to

@@ -1,4 +1,5 @@
 // Telegram Bot API client and update types (spec §7, §9). Plain text only, transport injected.
+import { emphasisToHtml } from './markup.ts';
 import { splitMessage } from './strings.ts';
 
 export interface TelegramChat { id: number; type: 'private' | 'group' | 'supergroup' | 'channel' }
@@ -29,6 +30,7 @@ export class TelegramTransientError extends Error {
 }
 
 export interface TelegramClient {
+  /** `text` may carry **bold** and *italic*; it is rendered to Telegram HTML here (spec §7). */
   sendMessage(chatId: number, text: string, replyMarkup?: InlineKeyboardMarkup): Promise<void>;
   answerCallbackQuery(callbackQueryId: string, text?: string): Promise<void>;
   sendChatAction(chatId: number, action: 'typing'): Promise<void>;
@@ -83,9 +85,11 @@ export function createTelegramClient(opts: TelegramClientOptions): TelegramClien
 
   return {
     async sendMessage(chatId, text, replyMarkup) {
+      // Split the raw text first, render each chunk on its own: a pair of markers cut by the split stays
+      // literal instead of becoming an unclosed tag. Telegram counts the 4096 limit after entity parsing.
       const chunks = splitMessage(text);
       for (let i = 0; i < chunks.length; i++) {
-        const payload: Record<string, unknown> = { chat_id: chatId, text: chunks[i] };
+        const payload: Record<string, unknown> = { chat_id: chatId, text: emphasisToHtml(chunks[i] as string), parse_mode: 'HTML' };
         if (replyMarkup && i === chunks.length - 1) payload['reply_markup'] = replyMarkup;
         await call('sendMessage', payload);
       }

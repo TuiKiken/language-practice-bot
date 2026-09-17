@@ -4,6 +4,7 @@ import {
   CHECK_SCHEMA, EXPLAIN_SCHEMA, generationSchema, parseCheck, parseExplain, parseGenerated, SchemaMismatchError,
 } from './schemas.ts';
 import type { JsonSchema } from './schemas.ts';
+import { stripEmphasis } from './markup.ts';
 import type { Cell, CheckResult, GeneratedTask, Topic } from './types.ts';
 
 export type LlmErrorKind = 'transient' | 'permanent' | 'quota' | 'refusal' | 'truncated' | 'invalid-output';
@@ -88,7 +89,7 @@ function topicBlock(topic: Topic, section: 'generation' | 'checking'): string {
   parts.push(section === 'generation' ? `## Как составлять задание\n${topic.generation}` : `## Как проверять\n${topic.checking}`);
   if (topic.commonMistakes) parts.push(`## Типичные ошибки учеников\n${topic.commonMistakes}`);
   // The rule reaches the model only where an answer is being judged or explained, never in generation.
-  if (section === 'checking' && topic.rule) parts.push(`## Правило, которое видел ученик\n${topic.rule}`);
+  if (section === 'checking' && topic.rule) parts.push(`## Правило, которое видел ученик\n${stripEmphasis(topic.rule)}`);
   if (topic.examples) parts.push(`## Примеры заданий и ответов\n${topic.examples}`);
   return parts.join('\n\n');
 }

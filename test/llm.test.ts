@@ -54,6 +54,11 @@ describe('prompts', () => {
 });
 
 describe('prompts: rule', () => {
+  it('the model gets the rule without emphasis markers', () => {
+    const p = buildCheckPrompt({ topic: { ...TOPIC, rule: 'Формы **ja** и *ę*.' }, cell: CELL, task: 't', reference: 'r', userAnswer: 'u' });
+    expect(p.instructions).toContain('Формы ja и ę.');
+    expect(p.instructions).not.toContain('**');
+  });
   it('explain sees the rule; a topic without a rule adds no rule heading', () => {
     const p = buildExplainPrompt({ topic: TOPIC, task: 'Anna ___ (iść).', reference: 'poszła', userAnswer: 'poszli', previousExplanation: null });
     expect(p.instructions).toContain('ПРАВИЛО-МАРКЕР');

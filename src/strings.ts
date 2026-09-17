@@ -1,4 +1,5 @@
-// Every text the learner sees. Russian by policy. Plain text: no parse_mode is ever set (spec §7).
+// Every text the learner sees. Russian by policy. **bold** and *italic* are allowed: the Telegram client
+// renders them and escapes everything else (spec §7).
 import { LIMITS } from './budget.ts';
 import { describeCell } from './topics.ts';
 import type { SessionSummary, Verdict } from './types.ts';

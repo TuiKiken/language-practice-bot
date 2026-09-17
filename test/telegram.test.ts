@@ -22,12 +22,22 @@ function client(fetchImpl: typeof fetch) {
 }
 
 describe('createTelegramClient', () => {
-  it('posts JSON to the method URL without parse_mode', async () => {
+  it('posts JSON to the method URL as HTML, rendering emphasis and escaping the rest', async () => {
     const { fetchImpl, requests } = fakeFetch([OK]);
-    await client(fetchImpl).c.sendMessage(42, 'hi');
+    await client(fetchImpl).c.sendMessage(42, 'Форма **kochacie** — *Wy czytacie* & a < b, 2 * 3');
     expect(requests[0]!.url).toBe('https://api.telegram.org/botT0K/sendMessage');
-    expect(requests[0]!.body).toEqual({ chat_id: 42, text: 'hi' });
-    expect(requests[0]!.body).not.toHaveProperty('parse_mode');
+    expect(requests[0]!.body).toEqual({
+      chat_id: 42, parse_mode: 'HTML',
+      text: 'Форма <b>kochacie</b> — <i>Wy czytacie</i> &amp; a &lt; b, 2 * 3',
+    });
+  });
+
+  it('renders each chunk on its own so a pair cut by the split stays literal', async () => {
+    const { fetchImpl, requests } = fakeFetch([OK, OK]);
+    const text = `**${'x'.repeat(4095)}\n${'y'.repeat(10)}**`;
+    await client(fetchImpl).c.sendMessage(1, text);
+    expect(requests.length).toBe(2);
+    for (const r of requests) expect(String(r.body['text'])).not.toContain('<b>');
   });
 
   it('splits long text and attaches the keyboard to the last chunk only', async () => {

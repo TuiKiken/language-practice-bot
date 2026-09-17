@@ -15,7 +15,9 @@ Topics are markdown files in `topics/`. A build step validates them and bundles 
 `src/topics.generated.json`. The Worker receives Telegram webhooks, answers `200` immediately and runs the
 exercise cycle in the background: it grades exact-match answers locally, otherwise asks the model to check,
 and in parallel asks the model for the next task. Verdict, explanation and the next task arrive as one
-message. Session state lives in a Durable Object keyed by chat id and expires after a day of inactivity.
+message. Every outgoing text is rendered as Telegram HTML by a converter that escapes everything and turns
+only paired `**bold**` and `*italic*` markers into tags, so the model's markdown habits show up as
+formatting rather than stray asterisks, and nothing it writes can break the markup. Session state lives in a Durable Object keyed by chat id and expires after a day of inactivity.
 
 ## Changing the language
 
@@ -87,8 +89,8 @@ Adding a topic is adding a file and pushing. No code changes.
    `## Типичные ошибки`, `## Примеры`, `## Правило`. The section headings are fixed (the parser looks for
    them); their content is prose for the model, written in the explanation language. `## Правило` is the
    exception: it is the learner-facing rule, shown verbatim when the topic is chosen and on `/rule`, and it
-   reaches the model only in the checking and explaining calls, never in generation. Up to 1500 characters,
-   plain text.
+   reaches the model only in the checking and explaining calls, never in generation. Up to 1500 characters;
+   `**bold**` and `*italic*` are rendered, the model gets it with the markers stripped.
 3. The usual workflow is to hand your lesson notes to an assistant and ask for a topic file in this format,
    then read it through, drop it into `topics/` and push. Two rules for `## Вариативность` axes:
    - One axis is the trained contrast, listed by the **target language's own** grammatical categories,

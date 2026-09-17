@@ -97,16 +97,16 @@ ___ (ten/ta/to/te) dziecko jest małe. → to
 
 ## Правило
 Род существительного, как правило, видно по окончанию в именительном падеже:
-męski (ten, jaki?) — как правило, согласный на конце: dom, komputer, nauczyciel;
-żeński (ta, jaka?) — -a и -i: kobieta, książka, pani;
-nijaki (to, jakie?) — -o, -e, -ę, -um: okno, słońce, imię, centrum.
+**męski** (ten, jaki?) — согласный на конце: dom, komputer, nauczyciel;
+**żeński** (ta, jaka?) — *-a* и *-i*: kobieta, książka, pani;
+**nijaki** (to, jakie?) — *-o*, *-e*, *-ę*, *-um*: okno, słońce, imię, centrum.
 
 Прилагательное повторяет род:
-ten dobry dom, ta dobra książka, to dobre okno.
-После k и g: wysoki, drogi (męski) и wysokie, drogie (nijaki), не -y и -e.
+ten dobr*y* dom, ta dobr*a* książka, to dobr*e* okno.
+После *k* и *g*: wysok*i*, drog*i* (męski) и wysok*ie*, drog*ie* (nijaki), не *-y* и *-e*.
 
-Ловушка: слова на -a, называющие мужчин, мужского рода —
+Ловушка: слова на *-a*, называющие мужчин, — **мужского** рода:
 ten mężczyzna, ten kolega, ten dobry dentysta, poeta, kierowca, artysta.
 
-Только множественное число: te spodnie, te okulary, te drzwi, te nożyczki;
-прилагательное на -e: te dobre okulary, te drogie spodnie.
+Только множественное число — **te**: te spodnie, te okulary, te drzwi, te nożyczki;
+прилагательное на *-e*: te dobr*e* okulary, te drog*ie* spodnie.

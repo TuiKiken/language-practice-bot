@@ -49,18 +49,18 @@ My ___ (mieć) dużo pracy w tym tygodniu. → mamy
 Oni nie ___ (wiedzieć), gdzie jest dworzec. → wiedzą
 
 ## Правило
-Группа -m/-sz: в настоящем времени **ja** на *-m*, **ty** на *-sz*.
+Группа -m/-sz: в настоящем времени **ja** на -m, **ty** на -sz.
 
 Подгруппа **-am** (czytać, mieszkać, kochać, pytać, mieć):
-**ja** czyta*m*, **ty** czyta*sz*, **on/ona/ono** czyta,
-**my** czyta*my*, **wy** czyta*cie*, **oni/one** czyta*ją*.
+**ja** czytam, **ty** czytasz, **on/ona/ono** czyta,
+**my** czytamy, **wy** czytacie, **oni/one** czytają.
 
 Подгруппа **-em** (umieć, rozumieć):
-**ja** umie*m*, **ty** umie*sz*, **on/ona/ono** umie,
-**my** umie*my*, **wy** umie*cie*, **oni/one** umie*ją*.
+**ja** umiem, **ty** umiesz, **on/ona/ono** umie,
+**my** umiemy, **wy** umiecie, **oni/one** umieją.
 
 Особые:
 mieć — mam, masz, ma, mamy, macie, mają;
 jeść — jem, jesz, je, jemy, jecie, jedzą;
 wiedzieć — wiem, wiesz, wie, wiemy, wiecie, wiedzą.
-Запомни: у jeść и wiedzieć форма **oni** на *-edzą*, а не на *-eją*.
+Запомни: у jeść и wiedzieć форма **oni** на -edzą, а не на -eją.

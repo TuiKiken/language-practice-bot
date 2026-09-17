@@ -112,19 +112,19 @@ Wy ___ (uczyć się) się polskiego od roku. → uczycie
 (umieć, rozumieć, wiedzieć — не сюда, это группа -m/-sz).
 
 Шаг 1. Формы **ty**, **on**, **my**, **wy**.
-У **-ić** и **-yć** убираем только *ć*: mówi, robi, płaci, tańczy, uczy.
-У **-eć** убираем *eć* и ставим *i*, а после *sz*, *ż*, *rz*, *cz* — *y*: widzi, myśli, słyszy.
-Это и есть форма для on.
+У **-ić** и **-yć** убираем только ć: mówi, robi, płaci, tańczy, uczy.
+У **-eć** убираем eć и ставим i, а после sz, ż, rz, cz — y: widzi, myśli, słyszy.
+Это и есть форма для **on**.
 Дальше для **ty** +sz, **my** +my, **wy** +cie.
 mówić → mówi → mówisz, mówi, mówimy, mówicie
 tańczyć → tańczy → tańczysz, tańczy, tańczymy, tańczycie
 
 Шаг 2. Формы **ja** и **oni**.
-Берём форму **on**, меняем конечную *i*/*y* на *ę* (**ja**) или *ą* (**oni**):
-после *b*, *p*, *w*, *m*, *n* буква *i* остаётся — robię, robią, mówię, lubię;
-после *c*, *dz*, *l*, *sz*, *ż*, *rz*, *cz* буква уходит — płacę, chodzę, widzę, myślę,
+Берём форму **on**, меняем конечную i/y на ę (**ja**) или ą (**oni**):
+после b, p, w, m, n буква i остаётся — robię, robią, mówię, lubię;
+после c, dz, l, sz, ż, rz, cz буква уходит — płacę, chodzę, widzę, myślę,
 tańczę, słyszą;
-если форма on кончается на *-si* или *-zi*, в **ja** и **oni** *s* → *sz*, *z* → *ż* —
+если форма **on** кончается на -si или -zi, в **ja** и **oni** s → sz, z → ż —
 prosi → proszę, proszą; musi → muszę; wozi → wożę; jeździ → jeżdżę.
 
 Неправильные:

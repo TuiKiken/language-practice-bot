@@ -1,6 +1,6 @@
 ---
 id: mianownik-przymiotnik
-title: Mianownik: прилагательное + существительное
+title: Mianownik: kto? co?
 lesson: 4
 ---
 

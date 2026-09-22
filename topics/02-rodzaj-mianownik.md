@@ -1,16 +1,15 @@
 ---
 id: rodzaj-mianownik
-title: Род и прилагательное
+title: Ten, ta, to, te
 lesson: 4
 ---
 
 ## Описание
-Именительный падеж: род существительного и то, как он выражается рядом с
-ним. Указательные местоимения ten (męski), ta (żeński), to (nijaki) и te для
-существительных, у которых есть только множественное число: spodnie, okulary,
-drzwi, nożyczki. Окончания прилагательного: męski -y (после k и g -i: wysoki,
-drogi), żeński -a, nijaki -e (после k и g -ie: wysokie, drogie), при te — -e
-или -ie (dobre, drogie).
+Именительный падеж: указательные местоимения по роду существительного —
+ten (męski), ta (żeński), to (nijaki) и te для существительных, у которых
+есть только множественное число: spodnie, okulary, drzwi, nożyczki.
+Согласование прилагательного в единственном числе ученик прошёл на
+прошлом уроке; здесь тренируется только местоимение.
 
 Признаки рода, как их давали на занятии: męski — как правило, согласный на
 конце (dom, komputer); żeński — -a и -i (kobieta, pani); nijaki — -o, -e, -ę,
@@ -18,33 +17,18 @@ drogi), żeński -a, nijaki -e (после k и g -ie: wysokie, drogie), при 
 (noc, mysz) в этой теме не используются, о них ученик ещё не знает.
 Ловушка: существительные на -a, обозначающие мужчин, чаще всего профессии,
 мужского рода: mężczyzna, kolega, poeta, dentysta, kierowca, artysta. При них
-ten и прилагательное на -y/-i: ten dobry dentysta.
+ten: ten dobry dentysta.
 
 ## Генерация
-Дай простое польское предложение с одним пропуском. Существительное всегда
-стоит в предложении явно, рядом с пропуском, так что род читается из него.
-
-Ось «пропуск» решает, что пропущено:
-- przymiotnik — пропущено прилагательное, в скобках после пропуска его
-  словарная форма мужского рода: «To jest ___ (inteligentny) kobieta.»
-  Шаблоны: «To jest …», «Mój/moja/moje … jest …» («Moja siostra jest ___
-  (ambitny).»), «… jest …» («Ten dom jest ___ (stary).»). Предложение всегда
-  утвердительное, без вопроса перед ним.
-  Прилагательные бери из списка занятия: agresywny, aktywny, ambitny,
-  atrakcyjny, energiczny, inteligentny, romantyczny, sfrustrowany,
-  spontaniczny, utalentowany, zestresowany, kreatywny, и из базовых: dobry,
-  nowy, stary, wysoki, niski, drogi, mały, zielony, polski. Прилагательное
-  должно подходить существительному по смыслу: характер и состояние
-  (inteligentny, zestresowany, romantyczny) — только к людям, к предметам —
-  nowy, stary, drogi, mały, zielony, polski, atrakcyjny. Среди заданий с
-  прилагательным примерно треть — на -ki или -gi.
-- zaimek — пропущено указательное местоимение прямо перед существительным,
-  в скобках после пропуска подсказка (ten/ta/to/te), чтобы ученик видел, что
-  вписать: «To jest ___ (ten/ta/to/te) książka.», «___ (ten/ta/to/te) kolega
-  jest miły.». Только эти два шаблона: «To jest …» и «… jest …», для
-  tylko mnoga — «To są …» и «… są …» («To są ___ (ten/ta/to/te) drzwi.»).
-  Предложение всегда утвердительное, без вопроса перед ним и без
-  притяжательных. Ответ — одно слово: ten, ta, to или te.
+Дай простое утвердительное польское предложение с одним пропуском на месте
+указательного местоимения прямо перед существительным; в скобках после
+пропуска подсказка (ten/ta/to/te), чтобы ученик видел, что вписать:
+«To jest ___ (ten/ta/to/te) książka.», «___ (ten/ta/to/te) kolega jest
+miły.». Только эти два шаблона: «To jest …» и «… jest …», для tylko mnoga —
+«To są …» и «… są …» («To są ___ (ten/ta/to/te) drzwi.»). Во втором шаблоне
+после существительного может стоять прилагательное в нужной форме: «___
+(ten/ta/to/te) okno jest duże.» Без вопроса перед предложением и без
+притяжательных. Ответ — одно слово: ten, ta, to или te.
 
 Ось «род» решает, какое существительное взять:
 - męski — на согласный: dom, komputer, samochód, nauczyciel, stół, telefon.
@@ -55,58 +39,44 @@ ten и прилагательное на -y/-i: ten dobry dentysta.
 - nijaki — на -o, -e, -ę, -um: okno, radio, krzesło, słońce, imię, dziecko,
   centrum, muzeum.
 - tylko mnoga — spodnie, okulary, drzwi, nożyczki. Глагол только во
-  множественном числе: «To są ___ (ten/ta/to/te) okulary.», «Te spodnie są
-  ___ (drogi).»
-  Ответ te или прилагательное на -e/-ie (dobre, zielone, małe, drogie).
+  множественном числе, прилагательное на -e/-ie: «___ (ten/ta/to/te)
+  spodnie są drogie.»
 
 Меняй лексику и шаблоны, не повторяй существительные подряд.
 
 ## Проверка
-Главное — род и вытекающее из него окончание. Ошибку объясняй через род
-существительного: по какому признаку он определяется (окончание; для мужских
-на -a — значение: мужчина, профессия) и какое окончание прилагательного или
-какое местоимение из этого следует. Про согласный на конце говори «как
-правило męski», а не как про закон без исключений. Отдельно называй правило
-k/g: после них -i и -ie, а не -y и -e.
-
-Для пропуска-местоимения засчитывай только точное слово ten, ta, to или te.
-Для прилагательного эталон — одна форма; другое прилагательное в верном роде
-не засчитывай, тренируется окончание заданного слова.
+Засчитывай только точное слово ten, ta, to или te. Ошибку объясняй через
+род существительного: по какому признаку он определяется (окончание; для
+мужских на -a — значение: мужчина, профессия; для spodnie, okulary, drzwi —
+только множественное число) и какое местоимение из этого следует. Про
+согласный на конце говори «как правило męski», а не как про закон без
+исключений.
 
 ## Вариативность
 род: męski, męski на -a, żeński, nijaki, tylko mnoga
-пропуск: przymiotnik, zaimek
 
 ## Типичные ошибки
-Существительные на -a автоматически считают женскими: ta mężczyzna, dobra
-dentysta вместо ten mężczyzna, dobry dentysta.
-После k и g пишут -y и -e: wysoky, drogy, wysoke вместо wysoki, drogi,
-wysokie.
+Существительные на -a автоматически считают женскими: ta mężczyzna, ta
+dentysta вместо ten mężczyzna, ten dentysta.
 Путают род у слов на -ę, -um и -i: ta imię, ten centrum, to pani вместо to
 imię, to centrum, ta pani.
 Забывают te у spodnie, okulary, drzwi: ставят to или ta.
 
 ## Примеры
-To jest ___ (inteligentny) kobieta. → inteligentna
-To jest ___ (wysoki) mężczyzna. → wysoki
-To jest ___ (utalentowany) artysta. → utalentowany
-To jest ___ (drogi) radio. → drogie
 To jest ___ (ten/ta/to/te) samochód. → ten
+___ (ten/ta/to/te) kierowca jest miły. → ten
+To jest ___ (ten/ta/to/te) imię. → to
 To są ___ (ten/ta/to/te) okulary. → te
 ___ (ten/ta/to/te) dziecko jest małe. → to
 
 ## Правило
-Род существительного, как правило, видно по окончанию в именительном падеже:
-**męski** (ten, jaki?) — согласный на конце: dom, komputer, nauczyciel;
-**żeński** (ta, jaka?) — -a и -i: kobieta, książka, pani;
-**nijaki** (to, jakie?) — -o, -e, -ę, -um: okno, słońce, imię, centrum.
-
-Прилагательное повторяет род:
-ten dobry dom, ta dobra książka, to dobre okno.
-После k и g: wysoki, drogi (męski) и wysokie, drogie (nijaki), не -y и -e.
+Указательное местоимение повторяет род существительного:
+**ten** — męski, согласный на конце: ten dom, ten komputer, ten nauczyciel;
+**ta** — żeński, -a и -i: ta kobieta, ta książka, ta pani;
+**to** — nijaki, -o, -e, -ę, -um: to okno, to słońce, to imię, to centrum.
 
 Ловушка: слова на -a, называющие мужчин, — **мужского** рода:
-ten mężczyzna, ten kolega, ten dobry dentysta, poeta, kierowca, artysta.
+ten mężczyzna, ten kolega, ten dentysta, ten kierowca.
 
 Только множественное число — **te**: te spodnie, te okulary, te drzwi, te nożyczki;
-прилагательное на -e: te dobre okulary, te drogie spodnie.
+прилагательное при них на -e: te dobre okulary, te drogie spodnie.

@@ -42,41 +42,42 @@ stół → stołem, samochód → samochodem, nóż → nożem, pokój → pokoj
 
 ## Генерация
 Дай простое польское предложение с одним пропуском на месте сочетания
-«прилагательное + существительное»; в скобках после пропуска — это
-сочетание в именительном падеже: «Idę do kina z ___ (nowy kolega).» Ответ —
-два слова в творительном падеже: nowym kolegą. Предлог, глагол и się стоят
-в предложении вне пропуска.
+«прилагательное + существительное»; в скобках после пропуска —
+прилагательное в словарной форме (мужской род, единственное число) и через
+« / » существительное в именительном падеже в том числе, что и ответ:
+«Idę do kina z ___ (nowy / kolega).» Ответ — два слова в творительном
+падеже: nowym kolegą. Предлог, глагол и się стоят в предложении вне
+пропуска. Прилагательное должно подходить существительному по смыслу.
 
 Чередуй контексты, в каждом narzędnik должен быть однозначно нужен:
 - być — подлежащее + форма być + пропуск, существительное — человек или
-  профессия: «Anna jest ___ (dobra nauczycielka).», «Jestem ___ (ambitny
-  student).». Для лиц ja, ty, my, wy ставь местоимение или однозначную
+  профессия: «Anna jest ___ (dobry / nauczycielka).», «Jestem ___ (ambitny
+  / student).». Для лиц ja, ty, my, wy ставь местоимение или однозначную
   форму być. Подлежащее никогда не to.
-- z — вместе с кем или с чем: «Rozmawiam z ___ (nowa sąsiadka).», «Piję
-  kawę z ___ (zimne mleko).». Прилагательное после z не должно начинаться
+- z — вместе с кем или с чем: «Rozmawiam z ___ (nowy / sąsiadka).», «Piję
+  kawę z ___ (zimny / mleko).». Прилагательное после z не должно начинаться
   с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, smaczny,
   świeży): перед ними предлог меняется на ze.
 - przed, za, nad, pod — только место, с глаголами без движения: stoi,
-  leży, jest, śpi, wisi, czeka. «Samochód stoi przed ___ (nowy dom).»,
-  «Kot śpi pod ___ (duże łóżko).», «Obraz wisi nad ___ (nowa szafa).».
+  leży, jest, śpi, wisi, czeka. «Samochód stoi przed ___ (nowy / dom).»,
+  «Kot śpi pod ___ (duży / łóżko).», «Obraz wisi nad ___ (nowy / szafa).».
   С глаголами движения (idzie, kładzie) эти предлоги требуют другого
   падежа — не используй их.
-- орудие или транспорт, без предлога: «Piszę ___ (czerwony długopis).»,
-  «Jeżdżę do pracy ___ (miejski autobus).», «Jem zupę ___ (duża łyżka).»
+- орудие или транспорт, без предлога: «Piszę ___ (czerwony / długopis).»,
+  «Jeżdżę do pracy ___ (miejski / autobus).», «Jem zupę ___ (duży /
+  łyżka).»
 - глаголы: interesować się, zajmować się (предмет, область),
   opiekować się (человек), zostać (кем стать): «Marek interesuje się ___
-  (nowoczesna architektura).», «Chcę zostać ___ (dobry lekarz).»
+  (nowoczesny / architektura).», «Chcę zostać ___ (dobry / lekarz).»
 
 Ось «форма» решает род и число ответа. Для lp (liczba pojedyncza) род
-берётся из значения оси, в скобках форма единственного числа. Для liczba
-mnoga род любой, окончания у всех родов одни:
-- при być подлежащее во множественном числе (oni, one, my, wy,
-  Anna i Kasia, moi koledzy), в скобках форма единственного числа: «Oni są
-  ___ (ambitny student).» → ambitnymi studentami.
-- в остальных контекстах число из предложения не видно, поэтому в скобках
-  форма именительного множественного: «Rozmawiam z ___ (nowe koleżanki).»
-  → nowymi koleżankami, «Interesuję się ___ (polskie filmy).» → polskimi
-  filmami. Для людей мужского рода во множественном — только być.
+берётся из значения оси, существительное в скобках в единственном числе.
+Для liczba mnoga род любой, окончания у всех родов одни; существительное
+в скобках во множественном числе: «Oni są ___ (ambitny / studenci).» →
+ambitnymi studentami, «Rozmawiam z ___ (nowy / koleżanki).» → nowymi
+koleżankami, «Interesuję się ___ (polski / filmy).» → polskimi filmami.
+При być подлежащее тоже во множественном (oni, one, my, wy, Anna i
+Kasia, moi koledzy).
 
 Существительные по родам (примеры, можно брать и другие без особых форм):
 - męski — люди: nauczyciel, lekarz, student, Polak, aktor, sąsiad;
@@ -128,13 +129,13 @@ nauczycielką вместо dobrym nauczycielem, dobrą nauczycielką.
 После z и przed/pod ставят mianownik: z nowy kolega вместо z nowym kolegą.
 
 ## Примеры
-Mój ojciec jest ___ (dobry lekarz). → dobrym lekarzem
-Idę do kina z ___ (nowy kolega). → nowym kolegą
-Kot śpi pod ___ (duże łóżko). → dużym łóżkiem
-Jeżdżę do pracy ___ (miejski autobus). → miejskim autobusem
-Piję kawę z ___ (zimne mleko). → zimnym mlekiem
-Oni są ___ (ambitny student). → ambitnymi studentami
-Interesuję się ___ (polskie filmy). → polskimi filmami
+Mój ojciec jest ___ (dobry / lekarz). → dobrym lekarzem
+Idę do kina z ___ (nowy / kolega). → nowym kolegą
+Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
+Jeżdżę do pracy ___ (miejski / autobus). → miejskim autobusem
+Piję kawę z ___ (zimny / mleko). → zimnym mlekiem
+Oni są ___ (ambitny / studenci). → ambitnymi studentami
+Interesuję się ___ (polski / filmy). → polskimi filmami
 
 ## Правило
 **Narzędnik** — kim? czym? Нужен, например:

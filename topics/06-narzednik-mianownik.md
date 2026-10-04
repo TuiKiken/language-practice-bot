@@ -49,26 +49,34 @@ przyjaciółmi, braćmi, gośćmi; беглая гласная: sportowiec, pies
 
 ## Генерация
 Дай простое польское предложение с одним пропуском; в скобках после
-пропуска — слово или сочетание в mianowniku. Ученик сам решает, менять ли
-форму. Не подсказывай падеж в задании. Предлог, глагол и się стоят в
-предложении вне пропуска.
+пропуска — подсказка в словарной форме. Ученик сам выбирает падеж и
+согласует слова. Не подсказывай падеж в задании. Предлог, глагол и się
+стоят в предложении вне пропуска.
 
 Что стоит в скобках:
-- сочетание «прилагательное + существительное» (в половине заданий
-  с być + существительное и jako можно одно существительное) в том же
-  числе, что и ответ: «Kot śpi pod ___ (duże łóżko).» → dużym łóżkiem,
-  «To są ___ (nowi koledzy).» → nowi koledzy, «Oni są ___ (ambitni
-  studenci).» → ambitnymi studentami.
+- обычно — прилагательное в словарной форме (мужской род, единственное
+  число) и через « / » существительное в именительном падеже в том числе,
+  что и ответ: «___ (wysoki / lampa) stoi na biurku.» → wysoka lampa,
+  «To są ___ (nowy / domy).» → nowe domy, «Kot śpi pod ___ (duży /
+  łóżko).» → dużym łóżkiem, «Oni są ___ (ambitny / studenci).» →
+  ambitnymi studentami. Ответ — два слова: прилагательное, согласованное
+  по роду и числу, и существительное в нужном падеже.
+- в конструкциях być + существительное и jako иногда — одно
+  существительное: «Jestem ___ (nauczyciel).» → nauczycielem.
 - в конструкции «być + прилагательное» — одно прилагательное в словарной
-  форме (мужской род, единственное число): «Okno jest ___ (duży).» → duże,
-  «Nasze koleżanki są ___ (miły).» → miłe.
+  форме: «Okno jest ___ (duży).» → duże, «Nasze koleżanki są ___
+  (miły).» → miłe.
+
+Прилагательное должно подходить существительному по смыслу: wysoki —
+человек, дом, дерево, но не komputer; zimny — mleko, woda, но не
+człowiek.
 
 Ось «падеж» решает, какой падеж нужен. Конструкцию выбирай сам и чередуй:
-- mianownik — подлежащее (пропуск в начале предложения: «___ (nowe okno)
+- mianownik — подлежащее (пропуск в начале предложения: «___ (nowy / okno)
   jest bardzo duże.»), to jest / to są, być + прилагательное, jako
-  (только с людьми: «Marek pracuje jako ___ (kierowca).»). В mianowniku,
-  кроме być + прилагательное, ответ совпадает со скобкой — это и есть
-  ловушка.
+  (только с людьми: «Marek pracuje jako ___ (kierowca).»). В męski lp
+  ответ в mianowniku совпадает со словами подсказки — это ловушка, форму
+  менять не надо; в остальных формах прилагательное нужно согласовать.
 - narzędnik — być + существительное (подлежащее никогда не to; только
   люди, для nijaki — dziecko), z, przed/za/nad/pod с глаголами без
   движения (stoi, leży, jest, śpi, wisi, czeka), орудие или транспорт,
@@ -104,8 +112,9 @@ być о людях (о национальности говорят Tomek jest Po
 предложении требует narzędnik (być + существительное, z, przed, za, nad,
 pod, орудие, глагол) или почему остаётся mianownik (подлежащее, to jest,
 jako, być без существительного). Если ученик поставил narzędnik там, где
-ответ совпадает со скобкой, объясни, почему здесь не kim? czym?, а kto?
-co?.
+нужен mianownik, объясни, почему здесь не kim? czym?, а kto? co?. Если
+ученик просто переписал подсказку, не согласовав прилагательное (wysoki
+lampa), объясни согласование по роду и числу.
 
 Если падеж выбран верно, но ошибка в окончании, объясняй через род и
 число. Narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a
@@ -131,6 +140,8 @@ moim kolegą вместо pracuję jako nauczyciel, to jest mój kolega.
 jest dużym вместо Anna jest wysoka, okno jest duże.
 Оставляют mianownik после być + существительное и после z: Jestem
 nauczyciel, z nowy kolega вместо Jestem nauczycielem, z nowym kolegą.
+Переписывают подсказку без согласования: wysoki lampa, nowy okno, nowi
+domy вместо wysoka lampa, nowe okno, nowe domy.
 Средний род в narzędniku ставят на -ą: z zimną mlekiem вместо z zimnym
 mlekiem; в mianowniku дают ему мужское окончание: nowy okno вместо nowe
 okno.
@@ -140,12 +151,13 @@ okno.
 ## Примеры
 Jestem ___ (nauczyciel). → nauczycielem
 Pracuję jako ___ (nauczyciel). → nauczyciel
-To jest ___ (polskie imię). → polskie imię
-Kot śpi pod ___ (duże łóżko). → dużym łóżkiem
+To jest ___ (polski / imię). → polskie imię
+___ (wysoki / lampa) stoi na biurku. → wysoka lampa
+Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
 Okno jest ___ (duży). → duże
-Oni są ___ (ambitni studenci). → ambitnymi studentami
-To są ___ (nowe domy). → nowe domy
-Moja mama jest ___ (dobra lekarka). → dobrą lekarką
+Oni są ___ (ambitny / studenci). → ambitnymi studentami
+To są ___ (nowy / domy). → nowe domy
+Moja mama jest ___ (dobry / lekarka). → dobrą lekarką
 
 ## Правило
 **Mianownik** (kto? co?) — подлежащее, после **to jest / to są**, **jako**

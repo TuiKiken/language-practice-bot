@@ -5,112 +5,165 @@ lesson: 6
 ---
 
 ## Описание
-Выбор падежа после być, jako и to jest, в единственном числе.
+Выбор между mianownikiem (kto? co?) и narzędnikiem (kim? czym?) и
+окончания прилагательного и существительного в обоих падежах, во всех
+родах, в единственном и множественном числе.
 
-Narzędnik (kim? czym?) — после być, когда за ним стоит существительное:
-Jestem nauczycielem. Anna jest dobrą lekarką. Mój brat jest kierowcą.
-
-Mianownik (kto? co?) — в трёх случаях:
-- после jako: Pracuję jako nauczyciel. Anna pracuje jako lekarka.
-- после to jest: To jest nauczyciel. To jest mój nowy kolega.
+Mianownik — словарная форма. Нужен:
+- для подлежащего: Nowe okno jest duże. Wysoki mężczyzna czeka.
+- после to jest / to są: To jest polskie imię. To są nowi koledzy.
 - после być, когда за ним только прилагательное, без существительного:
-  Anna jest wysoka. Mój brat jest miły. Прилагательное согласуется по роду
-  с подлежащим: -y/-i (męski), -a (żeński).
+  Anna jest wysoka. Okno jest duże. Moi koledzy są mili.
+- после jako: Pracuję jako nauczyciel. Anna pracuje jako lekarka.
 
-Окончания narzędnika в единственном числе: męski — прилагательное -ym
-(после k и g -im), существительное -em (после k и g -iem): dobrym
-nauczycielem, wysokim Polakiem; мужские на -a — существительное на -ą:
-dobrym kierowcą, wysokim mężczyzną; żeński — -ą + -ą: dobrą lekarką,
-sympatyczną panią.
+Narzędnik нужен:
+- после być, когда за ним стоит существительное: Jestem nauczycielem. Kasia
+  jest dobrą lekarką. Oni są ambitnymi studentami.
+- после z (с кем? с чем?): Idę do kina z nowym kolegą. Piję kawę z zimnym
+  mlekiem.
+- после przed, za, nad, pod — место, где что-то находится: Kot śpi pod
+  dużym łóżkiem.
+- для орудия и транспорта, без предлога: Piszę czarnym długopisem. Jadę
+  metrem.
+- после interesować się, zajmować się, opiekować się, zostać: Interesuję
+  się polskim kinem. Chcę zostać lekarzem.
 
-Слова с беглой гласной (sportowiec → sportowcem) и człowiek не
-используются.
+Окончания mianownika. Единственное число: męski -y/-i + согласный или -a
+(nowy dom, wysoki mężczyzna); żeński -a + -a/-i (nowa fotografia, niska
+pani); nijaki -e/-ie + -o, -e, -ę, -um (nowe okno, polskie imię, stare
+centrum). Множественное число: męskoosobowy -i/-y с чередованием (nowi,
+dobrzy, wysocy, polscy studenci), остальное -e/-ie (nowe domy, dobre
+studentki, wysokie okna).
+
+Окончания narzędnika. Единственное число: męski -ym/-im + -em/-iem (dobrym
+nauczycielem, wysokim Polakiem), мужские на -a -ym/-im + -ą (dobrym
+kierowcą, wysokim mężczyzną); żeński -ą + -ą (dobrą lekarką, sympatyczną
+panią); nijaki -ym/-im + -em/-iem (dobrym kinem, małym dzieckiem).
+Множественное число, все роды: -ymi/-imi + -ami (ambitnymi studentami,
+nowymi koleżankami, polskimi miastami).
+
+Слова с особыми формами не используются: imię, centrum, muzeum — только
+в mianowniku; człowiek; dziecko во множественном (dziećmi), ludźmi,
+przyjaciółmi, braćmi, gośćmi; беглая гласная: sportowiec, pies;
+чередование ó → o в narzędniku: stół, samochód, nóż, pokój.
 
 ## Генерация
-Дай простое польское предложение в единственном числе с одним пропуском;
-в скобках после пропуска — слово или сочетание в именительном падеже
-(словарная форма; прилагательное — в мужском роде, если стоит одно).
-Ученик сам решает, менять ли форму. Не подсказывай падеж в задании.
+Дай простое польское предложение с одним пропуском; в скобках после
+пропуска — слово или сочетание в mianowniku. Ученик сам решает, менять ли
+форму. Не подсказывай падеж в задании. Предлог, глагол и się стоят в
+предложении вне пропуска.
 
-Ось «конструкция» решает, что стоит перед пропуском:
-- być + существительное — подлежащее + форма być + пропуск; в скобках
-  существительное-человек или профессия, в половине заданий с
-  прилагательным: «Mój brat jest ___ (lekarz).» → lekarzem, «Kasia jest
-  ___ (dobra nauczycielka).» → dobrą nauczycielką. Для ja и ty ставь
-  местоимение или однозначную форму być: «Jestem ___ (student).»
-- jako — pracować jako + пропуск: «Marek pracuje jako ___ (kierowca).» →
-  kierowca. Ответ совпадает со скобкой — это и есть ловушка.
-- to jest — «To jest ___ (mój nowy kolega).» → mój nowy kolega, «To jest
-  ___ (pani Nowak).» Ответ совпадает со скобкой.
-- być + прилагательное — после być только прилагательное, существительного
-  после пропуска нет; в скобках прилагательное мужского рода, подлежащее
-  определяет род: «Moja siostra jest ___ (wysoki).» → wysoka, «Ten kierowca
-  jest ___ (miły).» → miły.
+Что стоит в скобках:
+- сочетание «прилагательное + существительное» (в половине заданий
+  с być + существительное и jako можно одно существительное) в том же
+  числе, что и ответ: «Kot śpi pod ___ (duże łóżko).» → dużym łóżkiem,
+  «To są ___ (nowi koledzy).» → nowi koledzy, «Oni są ___ (ambitni
+  studenci).» → ambitnymi studentami.
+- в конструкции «być + прилагательное» — одно прилагательное в словарной
+  форме (мужской род, единственное число): «Okno jest ___ (duży).» → duże,
+  «Nasze koleżanki są ___ (miły).» → miłe.
 
-Ось «род» решает род подлежащего и слова в пропуске:
-- męski — nauczyciel, lekarz, student, Polak, aktor, fryzjer, informatyk;
-  подлежащее: mój brat, Tomek, ojciec, ten pan.
-- męski на -a — kierowca, dentysta, artysta, kolega, poeta, mężczyzna,
-  pianista.
-- żeński — nauczycielka, lekarka, studentka, aktorka, fryzjerka, pani,
-  sąsiadka; подлежащее: Anna, moja siostra, mama, ta pani.
+Ось «падеж» решает, какой падеж нужен. Конструкцию выбирай сам и чередуй:
+- mianownik — подлежащее (пропуск в начале предложения: «___ (nowe okno)
+  jest bardzo duże.»), to jest / to są, być + прилагательное, jako
+  (только с людьми: «Marek pracuje jako ___ (kierowca).»). В mianowniku,
+  кроме być + прилагательное, ответ совпадает со скобкой — это и есть
+  ловушка.
+- narzędnik — być + существительное (подлежащее никогда не to; только
+  люди, для nijaki — dziecko), z, przed/za/nad/pod с глаголами без
+  движения (stoi, leży, jest, śpi, wisi, czeka), орудие или транспорт,
+  interesować się / zajmować się / opiekować się / zostać. Прилагательное
+  после z не должно начинаться с s, z, ś, ź, ż, sz, rz + согласная (stary,
+  zdolny, szybki, świeży): там предлог меняется на ze.
 
-Прилагательные: dobry, miły, sympatyczny, wysoki, niski, młody, ambitny,
-zdolny, nowy, polski. Polski — только в сочетании с существительным
-(polski lekarz), не в конструкции «być + прилагательное»: о
-национальности говорят Tomek jest Polakiem, а не Tomek jest polski.
-Меняй лексику и подлежащее, не повторяй существительные подряд.
+Ось «форма» решает род и число:
+- męski lp — nauczyciel, lekarz, student, Polak, sąsiad, dom, komputer,
+  telefon, długopis, autobus, film, ogród.
+- męski на -a lp — mężczyzna, kolega, dentysta, kierowca, artysta, poeta.
+- żeński lp — nauczycielka, lekarka, studentka, kobieta, pani, sąsiadka,
+  fotografia, książka, łyżka, szafa, muzyka, architektura.
+- nijaki lp — okno, krzesło, radio, mleko, łóżko, kino, miasto, auto,
+  metro, mieszkanie, dziecko; в mianowniku также słońce, imię, centrum,
+  muzeum. С jako средний род не бывает — бери другую конструкцию.
+- mnoga — люди обоих типов и предметы: studenci, koledzy, Polacy,
+  studentki, koleżanki, domy, komputery, książki, okna, miasta. В
+  mianowniku примерно в половине заданий бери предметы или животные
+  мужского рода (domy, koty, komputery): прилагательное к ним на -e,
+  не męskoosobowe.
+
+Прилагательные: dobry, nowy, stary, mały, duży, młody, miły, sympatyczny,
+ambitny, zdolny, polski, wysoki, niski, drogi, zimny, czarny, miejski.
+Среди заданий примерно треть — с прилагательным на -ki/-gi или
+существительным с основой на -k/-g (Polak, mleko, łóżko, dziecko).
+Прилагательное должно подходить по смыслу; polski не ставь одно после
+być о людях (о национальности говорят Tomek jest Polakiem). Меняй
+лексику и конструкции, не повторяй существительные подряд.
 
 ## Проверка
-Главное — падеж. Ошибку объясняй через конструкцию: после być +
-существительное — narzędnik (kim? czym?); после jako и to jest —
-mianownik (kto? co?); после być без существительного прилагательное
-остаётся в mianowniku и согласуется с подлежащим по роду. Если в
-конструкции «być + существительное» падеж выбран верно, но есть ошибка в
-окончании, объясняй через род: męski — -ym/-im + -em/-iem, męski на -a —
--ym/-im + -ą, żeński — -ą + -ą. В конструкциях jako и to jest проверяй
-формы mianownika; у одиночного прилагательного: męski, включая подлежащее
-на -a (ten kierowca), — -y/-i, żeński — -a. Правило k/g называй отдельно.
+Главное — падеж. Ошибку объясняй через конструкцию: что в этом
+предложении требует narzędnik (być + существительное, z, przed, za, nad,
+pod, орудие, глагол) или почему остаётся mianownik (подлежащее, to jest,
+jako, być без существительного). Если ученик поставил narzędnik там, где
+ответ совпадает со скобкой, объясни, почему здесь не kim? czym?, а kto?
+co?.
 
-Если в сочетании верно только одно слово, скажи, какое. Для jako и to
-jest правильный ответ совпадает со скобкой; если ученик поставил
-narzędnik, объясни, почему здесь не kim?, а kto?.
+Если падеж выбран верно, но ошибка в окончании, объясняй через род и
+число. Narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a
+-ym/-im + -ą, żeński -ą + -ą, множественное -ymi/-imi + -ami. Mianownik:
+męski -y/-i, żeński -a, nijaki -e/-ie; во множественном — męskoosobowy
+(есть ли в группе мужчина) -i/-y с чередованием (dobrzy, wysocy, polscy),
+иначе -e/-ie. Правило k/g называй отдельно.
+
+Проверяй оба слова сочетания; если верно только одно, скажи, какое.
+Грамматически допустимую перестановку слов с верными окончаниями не
+считай ошибкой, при неестественном порядке отметь это только в note.
+Если ученик вписал вместе с ответом предлог или się, засчитывай по
+сочетанию и отметь в note, что их вписывать не нужно.
 
 ## Вариативность
-конструкция: być + существительное, jako, to jest, być + прилагательное
-род: męski, męski на -a, żeński
+падеж: mianownik, narzędnik
+форма: męski lp, męski на -a lp, żeński lp, nijaki lp, mnoga
 
 ## Типичные ошибки
-Ставят narzędnik после jako: pracuję jako nauczycielem вместо pracuję jako
-nauczyciel.
-Ставят narzędnik после to jest: to jest moim kolegą вместо to jest mój
-kolega.
-Ставят narzędnik у одиночного прилагательного: Anna jest wysoką вместо
-Anna jest wysoka.
-Оставляют mianownik после być + существительное: Jestem nauczyciel вместо
-Jestem nauczycielem.
+Ставят narzędnik после jako и to jest: pracuję jako nauczycielem, to jest
+moim kolegą вместо pracuję jako nauczyciel, to jest mój kolega.
+Ставят narzędnik у одиночного прилагательного: Anna jest wysoką, okno
+jest dużym вместо Anna jest wysoka, okno jest duże.
+Оставляют mianownik после być + существительное и после z: Jestem
+nauczyciel, z nowy kolega вместо Jestem nauczycielem, z nowym kolegą.
+Средний род в narzędniku ставят на -ą: z zimną mlekiem вместо z zimnym
+mlekiem; в mianowniku дают ему мужское окончание: nowy okno вместо nowe
+okno.
 Мужские на -a ставят на -em: kierowcem вместо kierowcą.
+Путают -ym и -ymi: z nowym koleżankami вместо z nowymi koleżankami.
 
 ## Примеры
 Jestem ___ (nauczyciel). → nauczycielem
 Pracuję jako ___ (nauczyciel). → nauczyciel
+To jest ___ (polskie imię). → polskie imię
+Kot śpi pod ___ (duże łóżko). → dużym łóżkiem
+Okno jest ___ (duży). → duże
+Oni są ___ (ambitni studenci). → ambitnymi studentami
+To są ___ (nowe domy). → nowe domy
 Moja mama jest ___ (dobra lekarka). → dobrą lekarką
-To jest ___ (nasz nowy dentysta). → nasz nowy dentysta
-Tomek jest ___ (wysoki). → wysoki
-Ta pani jest ___ (sympatyczny). → sympatyczna
-Mój brat jest ___ (kierowca). → kierowcą
 
 ## Правило
-После **być** + существительное — **narzędnik** (kim? czym?):
-Jestem nauczycielem. Anna jest dobrą lekarką. On jest kierowcą.
+**Mianownik** (kto? co?) — подлежащее, после **to jest / to są**, **jako**
+и после **być** с одним прилагательным:
+Nowe okno jest duże. To jest polskie imię. Pracuję jako nauczyciel. Anna jest wysoka.
 
-**Mianownik** (kto? co?) остаётся:
-после **jako** — Pracuję jako nauczyciel.
-после **to jest** — To jest mój nowy kolega.
-после **być**, если нет существительного, только прилагательное —
-Anna jest wysoka. Mój brat jest miły.
+**Narzędnik** (kim? czym?) — после **być** + существительное, после
+**z**, **przed, za, nad, pod** (где?), для орудия и транспорта, после
+**interesować się, zostać**:
+Jestem nauczycielem. Idę z nowym kolegą. Kot śpi pod łóżkiem. Jadę metrem.
 
 Сравни:
-Jestem **nauczycielem** (kim?) — narzędnik.
-Pracuję jako **nauczyciel** (kto?) — mianownik.
+Jestem **nauczycielem** (kim?), но Pracuję jako **nauczyciel** (kto?).
 Anna jest **wysoką kobietą**, но Anna jest **wysoka**.
+
+Окончания narzędnika:
+**męski, nijaki** -ym + -em: dobrym nauczycielem, małym dzieckiem;
+мужские на -a -ym + -ą: dobrym kierowcą;
+**żeński** -ą + -ą: dobrą lekarką;
+**mnoga** -ymi + -ami: ambitnymi studentami, nowymi domami.
+После k, g — -im, -iem, -imi: wysokim Polakiem, polskimi miastami.

@@ -56,7 +56,10 @@ przyjaciółmi, braćmi, gośćmi; беглая гласная: sportowiec, pies
 Что стоит в скобках:
 - обычно — прилагательное в словарной форме (мужской род, единственное
   число) и через « / » существительное в именительном падеже в том числе,
-  что и ответ: «___ (wysoki / lampa) stoi na biurku.» → wysoka lampa,
+  что и ответ. Для mnoga существительное в скобках обязательно во
+  множественном числе (filmy, domy, studenci), никогда в единственном:
+  иначе ученик не узнает, что нужна форма множественного числа. Примеры:
+  «___ (wysoki / lampa) stoi na biurku.» → wysoka lampa,
   «To są ___ (nowy / domy).» → nowe domy, «Kot śpi pod ___ (duży /
   łóżko).» → dużym łóżkiem, «Oni są ___ (ambitny / studenci).» →
   ambitnymi studentami. Ответ — два слова: прилагательное, согласованное

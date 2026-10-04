@@ -73,7 +73,9 @@ stół → stołem, samochód → samochodem, nóż → nożem, pokój → pokoj
 Ось «форма» решает род и число ответа. Для lp (liczba pojedyncza) род
 берётся из значения оси, существительное в скобках в единственном числе.
 Для liczba mnoga род любой, окончания у всех родов одни; существительное
-в скобках во множественном числе: «Oni są ___ (ambitny / studenci).» →
+в скобках обязательно во множественном числе (filmy, koleżanki,
+studenci), никогда в единственном — иначе ученик не узнает, что нужно
+множественное число: «Oni są ___ (ambitny / studenci).» →
 ambitnymi studentami, «Rozmawiam z ___ (nowy / koleżanki).» → nowymi
 koleżankami, «Interesuję się ___ (polski / filmy).» → polskimi filmami.
 При być подлежащее тоже во множественном (oni, one, my, wy, Anna i

@@ -9,9 +9,10 @@ export const LIMITS = {
   leaseTtlMs: 40_000,
   typingIntervalMs: 4_000,
   telegramMaxRetryAfterMs: 5_000,
-  maxOutputTokensGenerate: 400,
-  maxOutputTokensCheck: 500,
-  maxOutputTokensExplain: 600,
+  // Reasoning tokens count against these limits, so they leave room for `low` effort on top of the answer.
+  maxOutputTokensGenerate: 2000,
+  maxOutputTokensCheck: 2000,
+  maxOutputTokensExplain: 2500,
   sessionTtlMs: 24 * 60 * 60 * 1000,
   fingerprintWindow: 30,
   seenUpdateWindow: 20,

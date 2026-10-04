@@ -4,7 +4,7 @@ compatibility_date = "2026-08-22"
 
 [vars]
 OPENAI_MODEL = "gpt-6-luna"
-OPENAI_REASONING_EFFORT = "none"
+OPENAI_REASONING_EFFORT = "low"
 DAILY_LIMIT_PER_CHAT = "150"
 
 [[durable_objects.bindings]]

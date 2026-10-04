@@ -48,8 +48,10 @@ languages within a bot.
 
 1. Install dependencies: `npm install`.
 2. Pick a model that supports strict Structured Outputs. Put its id in `wrangler.toml` under
-   `[vars] OPENAI_MODEL`. Keep `OPENAI_REASONING_EFFORT = "none"`: the tasks are short gap-fills, and
-   reasoning tokens are billed as output and count against the per-call output limit. Accepted values are
+   `[vars] OPENAI_MODEL`. The default is `OPENAI_REASONING_EFFORT = "low"`: with `none` the model skipped
+   explicit instructions on case topics (wrong case in the reference, singular hint for a plural task).
+   Reasoning tokens are billed as output and count against the per-call output limits in `src/budget.ts`;
+   raise those before going above `low`. Accepted values are
    `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, `max` (whatever the chosen model supports) and `omit`
    to leave the parameter out for models without reasoning control.
 3. Choose the per-chat daily cap in `DAILY_LIMIT_PER_CHAT` (default 150). It protects your OpenAI budget

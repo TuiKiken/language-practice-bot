@@ -1,12 +1,21 @@
 ---
 id: biernik-narzednik
-title: Biernik или narzędnik
+title: Narzędnik или biernik
 lesson: 9
 ---
 
 ## Описание
-Выбор между biernikiem (kogo? co?) и narzędnikiem (kim? czym?) и окончания
+Выбор между narzędnikiem (kim? czym?) и biernikiem (kogo? co?) и окончания
 прилагательного и существительного в обоих падежах.
+
+Narzędnik нужен:
+- после być, когда за ним стоит существительное: Jestem nauczycielem.
+- после z (с кем? с чем?): Idę do kina z nowym kolegą.
+- после pod, nad, przed, za, когда речь о месте (где?): Książka leży pod
+  łóżkiem.
+- для орудия и транспорта, без предлога: Piszę długopisem. Jadę metrem.
+- после interesować się, zajmować się, opiekować się, zostać: Interesuję
+  się polskim kinem. Opiekuję się małym kotem.
 
 Biernik нужен:
 - после переходных глаголов, для прямого дополнения, в утвердительном
@@ -21,31 +30,23 @@ Biernik нужен:
 - после pod, nad, przed, za, когда речь о направлении (куда?): Kładę
   książkę pod łóżko. Jedziemy nad morze.
 
-Narzędnik нужен:
-- после być, когда за ним стоит существительное: Jestem nauczycielem.
-- после z (с кем? с чем?): Idę do kina z nowym kolegą.
-- после pod, nad, przed, za, когда речь о месте (где?): Książka leży pod łóżkiem.
-- для орудия и транспорта, без предлога: Piszę długopisem. Jadę metrem.
-- после interesować się, zajmować się, opiekować się, zostać: Interesuję
-  się polskim kinem. Opiekuję się małym kotem.
-
 Ключевые пары:
-- Mam dobrego brata (kogo?) — Jestem dobrym bratem (kim?).
-- Kładę książkę pod łóżko (куда?) — Książka leży pod łóżkiem (где?).
-- Znam nową sąsiadkę — Rozmawiam z nową sąsiadką.
-- Lubię polskie kino — Interesuję się polskim kinem.
+- Jestem dobrym bratem (kim?) — Mam dobrego brata (kogo?).
+- Książka leży pod łóżkiem (где?) — Kładę książkę pod łóżko (куда?).
+- Rozmawiam z nową sąsiadką — Znam nową sąsiadkę.
+- Interesuję się polskim kinem — Lubię polskie kino.
 
-Окончания, единственное число (biernik → narzędnik):
-- męski nieżywotny: nowy telefon (= mianownik) → nowym telefonem;
-- męski żywotny: nowego kota, wysokiego lekarza (-ego/-iego + -a) → nowym
-  kotem, wysokim lekarzem (-ym/-im + -em/-iem);
-- мужские на -a: nowego kolegę (-ego + -ę) → nowym kolegą (-ym + -ą);
-- żeński: nową koleżankę (-ą + -ę) → nową koleżanką (-ą + -ą);
-- nijaki: nowe auto (= mianownik) → nowym autem, małym dzieckiem.
+Окончания, единственное число (narzędnik → biernik):
+- męski nieżywotny: nowym telefonem → nowy telefon (= mianownik);
+- męski żywotny: nowym kotem, wysokim lekarzem (-ym/-im + -em/-iem) →
+  nowego kota, wysokiego lekarza (-ego/-iego + -a);
+- мужские на -a: nowym kolegą (-ym + -ą) → nowego kolegę (-ego + -ę);
+- żeński: nową koleżanką (-ą + -ą) → nową koleżankę (-ą + -ę);
+- nijaki: nowym autem, małym dzieckiem → nowe auto (= mianownik).
 
-Множественное число: biernik только niemęskoosobowy, = mianownik (nowe
-domy, polskie książki); narzędnik — все роды -ymi/-imi + -ami (nowymi
-domami, ambitnymi studentami).
+Множественное число: narzędnik — все роды -ymi/-imi + -ami (nowymi
+domami, ambitnymi studentami); biernik только niemęskoosobowy,
+= mianownik (nowe domy, polskie książki).
 
 Исключения biernika: неодушевлённые мужского рода с -a — фрукты и овощи
 (banana, pomidora), спорт и игры (w tenisa), танцы (walca), марки машин
@@ -68,26 +69,27 @@ nowego kota. Ученик сам выбирает падеж; не подска�
 утвердительное: после отрицания нужен другой падеж.
 
 Ось «падеж» решает, какой падеж нужен. Конструкцию выбирай сам и чередуй:
-- biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
-  znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
-  zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
-  pod/nad/przed/za, только когда однозначно куда? — с глаголами
-  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
-  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
-  dom» и «idę za domem» оба верны. Не бери глаголы, требующие других падежей: szukać, potrzebować,
-  słuchać, używać, uczyć się, bać się, pomagać.
 - narzędnik — być + существительное (подлежащее никогда не to; только
   люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
   opiekować się / zostać. Прилагательное после z не должно начинаться
   с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, świeży):
   там предлог меняется на ze.
+- biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
+  znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
+  zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
+  pod/nad/przed/za, только когда однозначно куда? — с глаголами
+  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
+  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
+  dom» и «idę za domem» оба верны. Не бери глаголы, требующие других
+  падежей: szukać, potrzebować, słuchać, używać, uczyć się, bać się,
+  pomagać.
 
-Примерно в трети заданий бери pod, nad, przed, za — kładę/stawiam/wieszam
-(куда?) для biernika и stoi/leży/wisi (где?) для narzędnika: здесь падеж
-решает только глагол.
-Остальные задания делай на противопоставление глаголов и предлогов: mieć,
-znać, lubić, na, o против być, z, interesować się, zostać.
+Примерно в трети заданий бери pod, nad, przed, za — stoi/leży/wisi (где?)
+для narzędnika и kładę/stawiam/wieszam (куда?) для biernika: здесь падеж
+решает только глагол. Остальные задания делай на противопоставление
+глаголов и предлогов: być, z, interesować się, zostać против mieć, znać,
+lubić, na, o.
 
 Ось «форма» решает род и число:
 - męski żywotny lp — kot, brat, syn, chłopak, nauczyciel, lekarz, student,
@@ -116,21 +118,21 @@ mleko, łóżko).
 
 ## Проверка
 Главное — падеж. Ошибку объясняй через конструкцию: какой вопрос задаём
-(kogo? co? или kim? czym?) и что в предложении его требует — глагол или
-конструкция czekać na, pytać o, dziękować za, iść przez, grać w, iść po
-для biernika; być + существительное, z,
-орудие, глагол для narzędnika. У pod, nad, przed, za называй глагол
-и вопрос: направление куда? — biernik, место где? — narzędnik.
+(kim? czym? или kogo? co?) и что в предложении его требует — być +
+существительное, z, орудие, глагол для narzędnika; глагол или конструкция
+czekać na, pytać o, dziękować za, iść przez, grać w, iść po для biernika.
+У pod, nad, przed, za называй глагол и вопрос: место где? — narzędnik,
+направление куда? — biernik.
 
 Если падеж выбран верно, но ошибка в окончании, объясняй через род,
 одушевлённость и число:
+- narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a -ym/-im + -ą,
+  żeński -ą + -ą, множественное -ymi/-imi + -ami;
 - biernik: męski nieżywotny и nijaki = mianownik (кроме исключений на -a),
   męski żywotny -ego/-iego + -a, мужские на -a -ego + -ę, żeński -ą + -ę,
-  множественное = mianownik (-e/-ie);
-- narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a -ym/-im + -ą,
-  żeński -ą + -ą, множественное -ymi/-imi + -ami.
+  множественное = mianownik (-e/-ie).
 Правило k/g называй отдельно. У женского рода прямо показывай разницу:
--ą + -ę в biernik, -ą + -ą в narzędnik — прилагательное одинаковое,
+-ą + -ą в narzędnik, -ą + -ę в biernik — прилагательное одинаковое,
 различается только существительное.
 
 У исключений на -a эталон — форма на -a, но форму без -a (jem banan,
@@ -144,53 +146,53 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 сочетанию и отметь в note, что их вписывать не нужно.
 
 ## Вариативность
-падеж: biernik, narzędnik
+падеж: narzędnik, biernik
 форма: męski żywotny lp, męski на -a lp, żeński lp, nieżywotny lp, mnoga
 
 ## Типичные ошибки
-Путают окончание существительного женского рода: mam nową koleżanką, idę
-z nową koleżankę вместо mam nową koleżankę, idę z nową koleżanką.
-Ставят narzędnik после mieć и biernik после być: mam dobrym bratem,
-jestem dobrego lekarza вместо mam dobrego brata, jestem dobrym lekarzem.
-Не различают куда? и где? после pod/nad/przed/za: kładę książkę pod
-łóżkiem вместо pod łóżko; książka leży pod łóżko вместо pod łóżkiem.
-Мужские на -a: nowego kolegą, nowym kolegę вместо nowego kolegę, nowym
-kolegą.
+Путают окончание существительного женского рода: idę z nową koleżankę,
+mam nową koleżanką вместо idę z nową koleżanką, mam nową koleżankę.
+Ставят biernik после być и narzędnik после mieć: jestem dobrego lekarza,
+mam dobrym bratem вместо jestem dobrym lekarzem, mam dobrego brata.
+Не различают где? и куда? после pod/nad/przed/za: książka leży pod łóżko
+вместо pod łóżkiem; kładę książkę pod łóżkiem вместо pod łóżko.
+Мужские на -a: nowym kolegę, nowego kolegą вместо nowym kolegą, nowego
+kolegę.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
 nowy telefon.
-Во множественном путают -e и -ymi/-ami: lubię polskimi filmami, interesuję
-się polskie filmy вместо lubię polskie filmy, interesuję się polskimi
-filmami.
+Во множественном путают -ymi/-ami и -e: interesuję się polskie filmy,
+lubię polskimi filmami вместо interesuję się polskimi filmami, lubię
+polskie filmy.
 
 ## Примеры
-Mam ___ (młodszy / brat). → młodszego brata
 Mój brat jest ___ (dobry / lekarz). → dobrym lekarzem
-Znam ___ (nowy / sąsiadka). → nową sąsiadkę
+Mam ___ (młodszy / brat). → młodszego brata
 Rozmawiam z ___ (nowy / sąsiadka). → nową sąsiadką
-Stawiam lampę przed ___ (duży / szafa). → dużą szafę
+Znam ___ (nowy / sąsiadka). → nową sąsiadkę
 Lampa stoi przed ___ (duży / szafa). → dużą szafą
+Stawiam lampę przed ___ (duży / szafa). → dużą szafę
 Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
 Wieszam obraz nad ___ (duży / łóżko). → duże łóżko
 Interesuję się ___ (polski / filmy). → polskimi filmami
 Lubię ___ (polski / filmy). → polskie filmy
 
 ## Правило
-**Biernik** (kogo? co?) — после **mieć, lubić, znać, widzieć, kupować…**,
-в **czekać na, pytać o, dziękować za, grać w, iść po**:
-Mam dobrego brata. Znam nową sąsiadkę. Czekam na autobus.
-
 **Narzędnik** (kim? czym?) — после **być** + существительное, после **z**,
 для орудия и транспорта, после **interesować się, zostać**:
 Jestem dobrym bratem. Rozmawiam z nową sąsiadką. Jadę metrem.
 
-**Pod, nad, przed, za**: куда? — biernik, где? — narzędnik.
-Kładę książkę pod łóżko. — Książka leży pod łóżkiem.
+**Biernik** (kogo? co?) — после **mieć, lubić, znać, widzieć, kupować…**,
+в **czekać na, pytać o, dziękować za, grać w, iść po**:
+Mam dobrego brata. Znam nową sąsiadkę. Czekam na autobus.
 
-Окончания (biernik → narzędnik):
-**męski живой**: nowego kota → nowym kotem
-мужские на -a: nowego kolegę → nowym kolegą
-**żeński**: nową kawę → nową kawą
-**męski неживой**: nowy telefon → nowym telefonem
-**nijaki**: nowe auto → nowym autem
-**mnoga**: nowe domy → nowymi domami
-После k, g: wysokiego, wysokim, polskie, polskimi.
+**Pod, nad, przed, za**: где? — narzędnik, куда? — biernik.
+Książka leży pod łóżkiem. — Kładę książkę pod łóżko.
+
+Окончания (narzędnik → biernik):
+**męski живой**: nowym kotem → nowego kota
+мужские на -a: nowym kolegą → nowego kolegę
+**żeński**: nową kawą → nową kawę
+**męski неживой**: nowym telefonem → nowy telefon
+**nijaki**: nowym autem → nowe auto
+**mnoga**: nowymi domami → nowe domy
+После k, g: wysokim, wysokiego, polskimi, polskie.

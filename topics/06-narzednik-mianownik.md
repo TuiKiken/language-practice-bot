@@ -1,6 +1,6 @@
 ---
 id: narzednik-mianownik
-title: Narzędnik или mianownik
+title: Mianownik или narzędnik
 lesson: 6
 ---
 

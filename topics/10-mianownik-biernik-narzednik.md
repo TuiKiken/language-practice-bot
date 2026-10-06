@@ -198,16 +198,24 @@ Znasz ___ (nowy / kolega)? → nowego kolegę
 Lubię ___ (polski / filmy). → polskie filmy
 
 ## Правило
-**Mianownik** (kto? co?) — подлежащее, после **to jest**, **jako**, **być** + прилагательное:
-To jest mój brat. Pracuję jako lekarz.
+**Mianownik** (kto? co?):
+• подлежащее — Mój brat mieszka w Krakowie.
+• после **to jest / to są** — To jest mój brat.
+• после **jako** — Pracuję jako lekarz.
+• **być** + только прилагательное — Brat jest wysoki.
 
-**Narzędnik** (kim? czym?) — после **być** + существительное, **z**,
-pod/nad/przed/za — где?, орудие и транспорт, **interesować się, zostać**:
-Jestem bratem. Idę z kolegą. Kot śpi pod łóżkiem.
+**Narzędnik** (kim? czym?):
+• **być** + существительное — Jestem lekarzem.
+• после **z** (с кем? с чем?) — Idę do kina z kolegą.
+• **pod, nad, przed, za** — где? — Kot śpi pod łóżkiem.
+• инструмент (чем?) — Piszę długopisem.
+• транспорт (на чём?) — Jadę metrem.
+• после **interesować się, zostać** — Interesuję się sportem.
 
-**Biernik** (kogo? co?) — после **mieć, lubić, widzieć, znać, kupować…**,
-в **czekać na, pytać o, dziękować za, grać w, iść po** и pod/nad/przed — куда?:
-Mam brata. Czekam na autobus. Kot wchodzi pod łóżko.
+**Biernik** (kogo? co?):
+• после **mieć, lubić, znać, widzieć, kupować…** — Mam brata.
+• **czekać na, pytać o, dziękować za, grać w, iść po** — Czekam na autobus.
+• **pod, nad, przed, za** — куда? — Kot wchodzi pod łóżko.
 
 Окончания (mianownik → narzędnik → biernik):
 **męski неживой**: nowy telefon → nowym telefonem → nowy telefon

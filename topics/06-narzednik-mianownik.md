@@ -163,14 +163,19 @@ To są ___ (nowy / domy). → nowe domy
 Moja mama jest ___ (dobry / lekarka). → dobrą lekarką
 
 ## Правило
-**Mianownik** (kto? co?) — подлежащее, после **to jest / to są**, **jako**
-и после **być** с одним прилагательным:
-Nowe okno jest duże. To jest polskie imię. Pracuję jako nauczyciel. Anna jest wysoka.
+**Mianownik** (kto? co?):
+• подлежащее — Mój brat mieszka w Krakowie.
+• после **to jest / to są** — To jest mój brat.
+• после **jako** — Pracuję jako lekarz.
+• **być** + только прилагательное — Brat jest wysoki.
 
-**Narzędnik** (kim? czym?) — после **być** + существительное, после
-**z**, **przed, za, nad, pod** (где?), для орудия и транспорта, после
-**interesować się, zostać**:
-Jestem nauczycielem. Idę z nowym kolegą. Kot śpi pod łóżkiem. Jadę metrem.
+**Narzędnik** (kim? czym?):
+• **być** + существительное — Jestem lekarzem.
+• после **z** (с кем? с чем?) — Idę do kina z kolegą.
+• **pod, nad, przed, za** — где? — Kot śpi pod łóżkiem.
+• инструмент (чем?) — Piszę długopisem.
+• транспорт (на чём?) — Jadę metrem.
+• после **interesować się, zostać** — Interesuję się sportem.
 
 Сравни:
 Jestem **nauczycielem** (kim?), но Pracuję jako **nauczyciel** (kto?).

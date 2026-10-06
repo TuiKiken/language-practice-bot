@@ -181,16 +181,20 @@ Interesuję się ___ (polski / filmy). → polskimi filmami
 Lubię ___ (polski / filmy). → polskie filmy
 
 ## Правило
-**Narzędnik** (kim? czym?) — после **być** + существительное, после **z**,
-для орудия и транспорта, после **interesować się, zostać**:
-Jestem dobrym bratem. Rozmawiam z nową sąsiadką. Jadę metrem.
+**Narzędnik** (kim? czym?):
+• **być** + существительное — Jestem lekarzem.
+• после **z** (с кем? с чем?) — Idę do kina z kolegą.
+• **pod, nad, przed, za** — где? — Kot śpi pod łóżkiem.
+• инструмент (чем?) — Piszę długopisem.
+• транспорт (на чём?) — Jadę metrem.
+• после **interesować się, zostać** — Interesuję się sportem.
 
-**Biernik** (kogo? co?) — после **mieć, lubić, znać, widzieć, kupować…**,
-в **czekać na, pytać o, dziękować za, grać w, iść po**:
-Mam dobrego brata. Znam nową sąsiadkę. Czekam na autobus.
+**Biernik** (kogo? co?):
+• после **mieć, lubić, znać, widzieć, kupować…** — Mam brata.
+• **czekać na, pytać o, dziękować za, grać w, iść po** — Czekam na autobus.
+• **pod, nad, przed, za** — куда? — Kot wchodzi pod łóżko.
 
-**Pod, nad, przed, za**: где? — narzędnik, куда? — biernik.
-Kot śpi pod łóżkiem. — Kot wchodzi pod łóżko.
+Сравни: Jestem bratem — Mam brata. Kot śpi pod łóżkiem — Kot wchodzi pod łóżko.
 
 Окончания (narzędnik → biernik):
 **męski живой**: nowym kotem → nowego kota

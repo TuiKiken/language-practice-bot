@@ -181,11 +181,11 @@ Dziękuję za ___ (piękny / kwiaty). → piękne kwiaty
 Odwiedzam ___ (wysoki / dziadek). → wysokiego dziadka
 
 ## Правило
-**Biernik** — kogo? co? Нужен после глаголов lubić, mieć, kochać,
-widzieć, znać, słyszeć, kupować…, в **czekać na, mieć ochotę na,
-iść na** (куда?), **pytać o, dziękować za, iść przez, grać w, iść po**
-и после pod, nad, przed, za — когда куда?:
-Kocham mamę. Widzę samochód. Idę na spotkanie. Kot wchodzi pod łóżko.
+**Biernik** (kogo? co?):
+• после **mieć, lubić, kochać, znać, widzieć, kupować…** — Kocham mamę. Widzę samochód.
+• **czekać na, mieć ochotę na, iść na** (куда?) — Idę na spotkanie.
+• **pytać o, dziękować za, iść przez, grać w, iść po** — Dziękuję za prezent.
+• **pod, nad, przed, za** — куда? — Kot wchodzi pod łóżko.
 
 Единственное число:
 **męski nieżywotny** = mianownik: Chcę szary telefon.

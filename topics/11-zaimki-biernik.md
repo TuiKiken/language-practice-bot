@@ -36,8 +36,9 @@ o, dbać o), za (dziękować za, płacić za), przez, w (wierzyć w).
 утвердительное: после отрицания нужен другой падеж (nie widzę jej).
 
 Ось «позиция» решает, какая форма нужна:
-- после глагола — пропуск сразу после переходного глагола, без
-  противопоставления и без выделения: «Znam ___ (on) od dawna.» → go,
+- после глагола — пропуск рядом с переходным глаголом, сразу после него
+  или перед ним, как обычно ставят краткие формы (Bardzo go lubię.,
+  Często ich odwiedzamy.), без противопоставления и без выделения: «Znam ___ (on) od dawna.» → go,
   «Codziennie odwiedzam ___ (ona).» → ją. Глаголы: kochać, lubić, znać,
   widzieć, słyszeć, odwiedzać, pytać, zapraszać, prosić, rozumieć,
   spotykać, obserwować, przepraszać.
@@ -68,16 +69,18 @@ brat. Lubię ___ (on).»
 
 ## Проверка
 Главное — краткая или полная форма. Ошибку объясняй через позицию: после
-глагола — краткая (cię, go, ją, je, ich); после предлога — полная с n-
-(niego, nią, nie, nich, ciebie); в начале предложения или при выделении —
+глагола — краткая (cię, go, ją, je, ich); после предлога — полная форма,
+у третьего лица с n- (niego, nią, nie, nich; ciebie, mnie, nas, was); в начале предложения или при выделении —
 полная без n- (jego, ciebie, ją, je, ich). Если ученик поставил форму
 mianownika (kocham ty, czekam na on), напомни, что после глагола и этих
 предлогов нужен biernik — kogo? co?
 
 Форма с n- (niego, nią) возможна только после предлога; jego после
-предлога — ошибка (na jego), как и niego без предлога. Ciebie после
-глагола без выделения не ошибка грамматики, но неестественно: не
-засчитывай как основной ответ, объясни, что без выделения говорят cię.
+предлога — ошибка (na jego), как и niego без предлога. Полную форму
+без n- после глагола (kocham ciebie, znam jego) засчитывай как верную:
+она возможна, если говорящий выделяет это слово, а письменное задание
+ударения не показывает. В note отметь, что нейтрально говорят cię, go,
+а полная форма — для выделения.
 Регистр первой буквы в начале предложения не важен.
 
 ## Вариативность
@@ -85,8 +88,8 @@ mianownika (kocham ty, czekam na on), напомни, что после глаг
 лицо: ja, ty, on, ona, ono, my, wy, oni, one
 
 ## Типичные ошибки
-Ставят полную форму после глагола: kocham ciebie, znam jego вместо
-kocham cię, znam go.
+Ставят полную форму после глагола без выделения: kocham ciebie, znam jego
+— так говорят, только когда выделяют слово; нейтрально kocham cię, znam go.
 Ставят форму без n- после предлога: czekam na jego, na ją, na ich вместо
 na niego, na nią, na nich.
 Путают ona в biernik и narzędnik: czekam na nią — верно, но lubię nią
@@ -101,7 +104,7 @@ To jest mój brat. Bardzo ___ (on) lubię. → go
 Czekam na ___ (ona) przed kinem. → nią
 ___ (on) lubię, ale ciebie nie. → jego
 Nasi sąsiedzi są mili, często ___ (oni) odwiedzamy. → ich
-Dziękuję za ___ (wy). → was
+Długo czekamy na ___ (wy). → was
 Moje koleżanki mieszkają obok, często ___ (one) zapraszam. → je
 To jest małe dziecko sąsiadów, bardzo ___ (ono) lubimy. → je
 Wierzę w ___ (ty). → ciebie
@@ -114,7 +117,7 @@ my — **nas**; wy — **was**; oni — **ich, nich**; one — **je, nie**.
 
 Какую форму выбрать:
 • после глагола — краткая: Kocham cię. Znam go. Lubię ją. Widzę je.
-• после предлога — полная с n-: Czekam na niego, na nią, na nich. Wierzę w ciebie.
+• после предлога — полная, у третьего лица с n-: Czekam na niego, na nią, na nich. Wierzę w ciebie.
 • в начале предложения или при выделении — полная без n-:
 Jego lubię, ale ciebie nie. Kocham ciebie, a nie jego.
 

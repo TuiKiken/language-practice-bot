@@ -17,8 +17,8 @@ Biernik нужен:
   ponad, poza, w. Idę na spotkanie. Mam ochotę na pizzę. Pytam o drogę.
   Dziękuję za prezent. Idę przez park. Gram w tenisa. Idę po chleb.
   Jedziemy nad morze. Pod, nad, przed, za, między требуют biernika, когда
-  речь о направлении, куда? (Kładę książkę pod łóżko.), а когда о месте,
-  где? — narzędnika (Książka leży pod łóżkiem). Na, o, w, po в других
+  речь о направлении, куда? (Kot wchodzi pod łóżko.), а когда о месте,
+  где? — narzędnika (Kot śpi pod łóżkiem). Na, o, w, po в других
   значениях требуют других падежей (na stole, w domu, o domu, po
   spacerze) — здесь только перечисленные конструкции.
 
@@ -82,17 +82,20 @@ interesować się, zajmować się (narzędnik), pomagać, dziękować без za
   Czekam na ___ (miejski / autobus).), o (Pytam o ___ (nowy / adres).), za
   (Dziękuję za ___ (piękny / prezent).), przez (Idę przez ___ (duży /
   park).), w — только с играми из исключений, po (Idę po ___ (świeży /
-  chleb).). Pod, nad, przed, za, między — только когда однозначно куда?:
-  с глаголами размещения kładę, stawiam, wieszam, chowam («Kładę klucze
-  pod ___ (czerwony / wycieraczka).»), из глаголов движения — только
-  jechać nad morze / nad jezioro («Jedziemy nad ___ (polski / morze).»).
-  Не бери idę/jadę za, przed, pod: «idę za dom» и «idę za domem» оба
-  верны. На, o, w, po — только в перечисленных конструкциях: na stole,
+  chleb).). Pod, nad, przed, za — только с глаголами, у которых однозначно куда?:
+  wchodzić pod (Kot wchodzi pod łóżko, pod szafę, pod kanapę), jechać
+  или iść nad (morze, jezioro, rzekę), wychodzić przed (dom, budynek,
+  kino), wyjeżdżać za (miasto, granicę). Не бери глаголы размещения
+  kładę, stawiam, wieszam, chowam: «wieszam obraz nad łóżkiem»
+  и «stawiam lampę przed szafą» тоже верны, а «kładę klucze na szafie» —
+  другой падеж. Не бери idę/jadę za, przed, pod: «idę za domem» тоже
+  верно.
+  Пример: «Jedziemy nad ___ (polski / morze).» На, o, w, po — только в перечисленных конструкциях: na stole,
   w domu, o domu — другой падеж.
 
 Ось «форма» решает род и число:
 - męski nieżywotny — предметы: telefon, komputer, samochód, podręcznik,
-  laptop, dom, paszport, prezent, film, obraz, sok, park, autobus.
+  dom, paszport, prezent, film, obraz, sok, park, autobus.
   Ответ совпадает со словами подсказки — это ловушка, форму менять не
   надо.
 - męski nieżywotny на -a — исключения из описания: banan, pomidor, ogórek,
@@ -182,7 +185,7 @@ Odwiedzam ___ (wysoki / dziadek). → wysokiego dziadka
 widzieć, znać, słyszeć, kupować…, в **czekać na, mieć ochotę na,
 iść na** (куда?), **pytać o, dziękować za, iść przez, grać w, iść po**
 и после pod, nad, przed, za — когда куда?:
-Kocham mamę. Widzę samochód. Idę na spotkanie. Mam ochotę na pizzę.
+Kocham mamę. Widzę samochód. Idę na spotkanie. Kot wchodzi pod łóżko.
 
 Единственное число:
 **męski nieżywotny** = mianownik: Chcę szary telefon.

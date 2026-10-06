@@ -34,13 +34,13 @@ Biernik нужен:
   o drogę. Dziękuję za prezent. Idę przez park. В других значениях na,
   o, w, po требуют других падежей (na stole, w domu) — их не бери.
 - после pod, nad, przed, za, między, когда речь о направлении (куда?):
-  Kładę książkę pod łóżko.
+  Kot wchodzi pod łóżko.
 
 Ключевые пары:
 - To jest mój brat (mianownik) — Jestem bratem (narzędnik) — Mam brata
   (biernik).
-- Książka leży pod łóżkiem (где? narzędnik) — Kładę książkę pod łóżko
-  (куда? biernik).
+- Kot śpi pod łóżkiem (где? narzędnik) — Kot wchodzi pod łóżko (куда?
+  biernik).
 - Idę na spacer z psem: z + narzędnik, na + biernik.
 
 Окончания, единственное число:
@@ -91,15 +91,19 @@ nowego kota. Ученик сам выбирает падеж; не подска�
   люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
   opiekować się / zostać. Прилагательное после z не должно начинаться
-  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, świeży):
+  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, świeży; но z szybkim):
   там предлог меняется на ze.
 - biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
   znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
   zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
-  pod/nad/przed/za, только когда однозначно куда? — с глаголами
-  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
-  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
-  dom» и «idę za domem» оба верны. Не бери глаголы, требующие других
+  pod/nad/przed/za — только с глаголами, у которых однозначно куда?:
+  wchodzić pod (Kot wchodzi pod łóżko, pod szafę, pod kanapę), jechać
+  или iść nad (morze, jezioro, rzekę), wychodzić przed (dom, budynek,
+  kino), wyjeżdżać za (miasto, granicę). Не бери глаголы размещения
+  kładę, stawiam, wieszam, chowam: «wieszam obraz nad łóżkiem»
+  и «stawiam lampę przed szafą» тоже верны, а «kładę klucze na szafie» —
+  другой падеж. Не бери idę/jadę za, przed, pod: «idę za domem» тоже
+  верно. Не бери глаголы, требующие других
   падежей: szukać, potrzebować, słuchać, używać, uczyć się, pomagać.
 
 Чаще давай пары, где падеж решает конструкция, а не слово: одно и то же
@@ -107,7 +111,7 @@ nowego kota. Ученик сам выбирает падеж; не подска�
 z + narzędnik рядом с na + biernik.
 
 Ось «форма» решает род и число:
-- męski nieżywotny — telefon, komputer, podręcznik, laptop, dom,
+- męski nieżywotny — telefon, komputer, podręcznik, dom,
   paszport, prezent, film, obraz, park, autobus, długopis; изредка (одно
   из пяти заданий в biernik) — исключение на -a: banan, pomidor, tenis,
   walc, fiat, dolar, hamburger.
@@ -175,8 +179,8 @@ pracuję jako lekarzem вместо to jest mój brat, pracuję jako lekarz.
 koleżanką вместо idę z nową koleżanką, mam nową koleżankę.
 Ставят biernik после być и narzędnik после mieć: jestem dobrego lekarza,
 mam dobrym bratem вместо jestem dobrym lekarzem, mam dobrego brata.
-Не различают где? и куда? после pod/nad/przed: książka leży pod łóżko
-вместо pod łóżkiem; kładę książkę pod łóżkiem вместо pod łóżko.
+Не различают где? и куда? после pod/nad/przed: kot śpi pod łóżko
+вместо pod łóżkiem; kot wchodzi pod łóżkiem вместо pod łóżko.
 Живым мужского рода в biernik оставляют mianownik: mam nowy kot вместо
 nowego kota.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
@@ -189,7 +193,7 @@ Mam ___ (młodszy / brat). → młodszego brata
 Rozmawiam z ___ (miły / sąsiadka). → miłą sąsiadką
 Codziennie piję ___ (zielony / herbata). → zieloną herbatę
 Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
-Kładę klucze na ___ (duży / szafa). → dużą szafę
+Pies wchodzi pod ___ (duży / szafa). → dużą szafę
 Znasz ___ (nowy / kolega)? → nowego kolegę
 Lubię ___ (polski / filmy). → polskie filmy
 
@@ -199,11 +203,11 @@ To jest mój brat. Pracuję jako lekarz.
 
 **Narzędnik** (kim? czym?) — после **być** + существительное, **z**,
 pod/nad/przed/za — где?, орудие и транспорт, **interesować się, zostać**:
-Jestem bratem. Idę z kolegą. Książka leży pod łóżkiem.
+Jestem bratem. Idę z kolegą. Kot śpi pod łóżkiem.
 
 **Biernik** (kogo? co?) — после **mieć, lubić, widzieć, znać, kupować…**,
 в **czekać na, pytać o, dziękować za, grać w, iść po** и pod/nad/przed — куда?:
-Mam brata. Czekam na autobus. Kładę książkę pod łóżko.
+Mam brata. Czekam na autobus. Kot wchodzi pod łóżko.
 
 Окончания (mianownik → narzędnik → biernik):
 **męski неживой**: nowy telefon → nowym telefonem → nowy telefon

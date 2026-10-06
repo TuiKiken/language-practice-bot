@@ -56,8 +56,8 @@ stół → stołem, samochód → samochodem, nóż → nożem, pokój → pokoj
   форму być. Подлежащее никогда не to.
 - z — вместе с кем или с чем: «Rozmawiam z ___ (nowy / sąsiadka).», «Piję
   kawę z ___ (zimny / mleko).». Прилагательное после z не должно начинаться
-  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, smaczny,
-  świeży): перед ними предлог меняется на ze.
+  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, smaczny, świeży;
+  но z szybkim — после sz гласная): перед ними предлог меняется на ze.
 - przed, za, nad, pod — только место, с глаголами без движения: stoi,
   leży, jest, śpi, wisi, czeka. «Samochód stoi przed ___ (nowy / dom).»,
   «Kot śpi pod ___ (duży / łóżko).», «Obraz wisi nad ___ (nowy / szafa).».

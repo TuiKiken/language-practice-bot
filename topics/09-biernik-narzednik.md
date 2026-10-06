@@ -27,12 +27,12 @@ Biernik нужен:
   o drogę. Dziękuję za prezent. Idę przez park. Idę po chleb. В других
   значениях na, o, w, po требуют других падежей (na stole, w domu) — их
   не бери.
-- после pod, nad, przed, za, когда речь о направлении (куда?): Kładę
-  książkę pod łóżko. Jedziemy nad morze.
+- после pod, nad, przed, za, когда речь о направлении (куда?): Kot
+  wchodzi pod łóżko. Jedziemy nad morze.
 
 Ключевые пары:
 - Jestem dobrym bratem (kim?) — Mam dobrego brata (kogo?).
-- Książka leży pod łóżkiem (где?) — Kładę książkę pod łóżko (куда?).
+- Kot śpi pod łóżkiem (где?) — Kot wchodzi pod łóżko (куда?).
 - Rozmawiam z nową sąsiadką — Znam nową sąsiadkę.
 - Interesuję się polskim kinem — Lubię polskie kino.
 
@@ -73,21 +73,25 @@ nowego kota. Ученик сам выбирает падеж; не подска�
   люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
   opiekować się / zostać. Прилагательное после z не должно начинаться
-  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, świeży):
+  с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, świeży; но z szybkim):
   там предлог меняется на ze.
 - biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
   znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
   zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
-  pod/nad/przed/za, только когда однозначно куда? — с глаголами
-  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
-  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
-  dom» и «idę za domem» оба верны. Не бери глаголы, требующие других
+  pod/nad/przed/za — только с глаголами, у которых однозначно куда?:
+  wchodzić pod (Kot wchodzi pod łóżko, pod szafę, pod kanapę), jechać
+  или iść nad (morze, jezioro, rzekę), wychodzić przed (dom, budynek,
+  kino), wyjeżdżać za (miasto, granicę). Не бери глаголы размещения
+  kładę, stawiam, wieszam, chowam: «wieszam obraz nad łóżkiem»
+  и «stawiam lampę przed szafą» тоже верны, а «kładę klucze na szafie» —
+  другой падеж. Не бери idę/jadę za, przed, pod: «idę za domem» тоже
+  верно. Не бери глаголы, требующие других
   падежей: szukać, potrzebować, słuchać, używać, uczyć się, bać się,
   pomagać.
 
-Примерно в трети заданий бери pod, nad, przed, za — stoi/leży/wisi (где?)
-для narzędnika и kładę/stawiam/wieszam (куда?) для biernika: здесь падеж
-решает только глагол. Остальные задания делай на противопоставление
+Примерно в трети заданий бери pod, nad, przed, za — stoi/leży/wisi/śpi
+(где?) для narzędnika и wchodzić pod, jechać nad, wychodzić przed,
+wyjeżdżać za (куда?) для biernika: здесь падеж решает только глагол. Остальные задания делай на противопоставление
 глаголов и предлогов: być, z, interesować się, zostać против mieć, znać,
 lubić, na, o.
 
@@ -154,8 +158,8 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 mam nową koleżanką вместо idę z nową koleżanką, mam nową koleżankę.
 Ставят biernik после być и narzędnik после mieć: jestem dobrego lekarza,
 mam dobrym bratem вместо jestem dobrym lekarzem, mam dobrego brata.
-Не различают где? и куда? после pod/nad/przed/za: książka leży pod łóżko
-вместо pod łóżkiem; kładę książkę pod łóżkiem вместо pod łóżko.
+Не различают где? и куда? после pod/nad/przed/za: kot śpi pod łóżko
+вместо pod łóżkiem; kot wchodzi pod łóżkiem вместо pod łóżko.
 Мужские на -a: nowym kolegę, nowego kolegą вместо nowym kolegą, nowego
 kolegę.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
@@ -169,10 +173,10 @@ Mój brat jest ___ (dobry / lekarz). → dobrym lekarzem
 Mam ___ (młodszy / brat). → młodszego brata
 Rozmawiam z ___ (nowy / sąsiadka). → nową sąsiadką
 Znam ___ (nowy / sąsiadka). → nową sąsiadkę
-Lampa stoi przed ___ (duży / szafa). → dużą szafą
-Stawiam lampę przed ___ (duży / szafa). → dużą szafę
 Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
-Wieszam obraz nad ___ (duży / łóżko). → duże łóżko
+Kot wchodzi pod ___ (duży / łóżko). → duże łóżko
+Mieszkamy nad ___ (piękny / jezioro). → pięknym jeziorem
+W lipcu jedziemy nad ___ (piękny / jezioro). → piękne jezioro
 Interesuję się ___ (polski / filmy). → polskimi filmami
 Lubię ___ (polski / filmy). → polskie filmy
 
@@ -186,7 +190,7 @@ Jestem dobrym bratem. Rozmawiam z nową sąsiadką. Jadę metrem.
 Mam dobrego brata. Znam nową sąsiadkę. Czekam na autobus.
 
 **Pod, nad, przed, za**: где? — narzędnik, куда? — biernik.
-Książka leży pod łóżkiem. — Kładę książkę pod łóżko.
+Kot śpi pod łóżkiem. — Kot wchodzi pod łóżko.
 
 Окончания (narzędnik → biernik):
 **męski живой**: nowym kotem → nowego kota

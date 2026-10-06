@@ -85,7 +85,7 @@ człowiek.
   движения (stoi, leży, jest, śpi, wisi, czeka), орудие или транспорт,
   interesować się / zajmować się / opiekować się / zostać. Прилагательное
   после z не должно начинаться с s, z, ś, ź, ż, sz, rz + согласная (stary,
-  zdolny, szybki, świeży): там предлог меняется на ze.
+  zdolny, świeży; но z szybkim): там предлог меняется на ze.
 
 Ось «форма» решает род и число:
 - męski lp — nauczyciel, lekarz, student, Polak, sąsiad, dom, komputer,

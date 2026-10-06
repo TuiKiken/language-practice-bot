@@ -20,15 +20,17 @@ Biernik нужен:
   предложении: lubić, mieć, kochać, widzieć, znać, słyszeć, spotkać,
   kupować, czytać, oglądać, pić, jeść, odwiedzać, zamawiać. Mam nowego
   kota. Piję zieloną herbatę.
-- после na, o, przez, za, w, po: Czekam na autobus. Pytam o drogę.
-  Dziękuję za prezent. Idę przez park.
-- после pod, nad, przed, za, między, когда есть движение (куда?): Kładę
-  książkę pod łóżko.
+- в конструкциях czekać na, mieć ochotę na, iść na (куда?), pytać o,
+  dziękować za, iść przez, grać w, iść po: Czekam na autobus. Pytam
+  o drogę. Dziękuję za prezent. Idę przez park. В других значениях na,
+  o, w, po требуют других падежей (na stole, w domu) — их не бери.
+- после pod, nad, przed, za, między, когда речь о направлении (куда?):
+  Kładę książkę pod łóżko.
 
 Narzędnik нужен:
 - после być, когда за ним стоит существительное: Jestem nauczycielem.
 - после z (с кем? с чем?): Idę do kina z nowym kolegą.
-- после pod, nad, przed, za, między без движения (где?): Książka leży pod
+- после pod, nad, przed, za, między, когда речь о месте (где?): Książka leży pod
   łóżkiem.
 - для орудия и транспорта, без предлога: Piszę długopisem. Jadę metrem.
 - после interesować się, zajmować się, opiekować się, zostać: Interesuję
@@ -88,18 +90,21 @@ nowego kota. Ученик сам выбирает падеж; не подска�
 - biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
   znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
   zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
-  pod/nad/przed/za с глаголом движения (kładę, stawiam, wieszam, jadę).
+  pod/nad/przed/za, только когда однозначно куда? — с глаголами
+  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
+  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
+  dom» и «idę za domem» оба верны.
   Не бери глаголы, требующие других падежей: szukać, potrzebować, słuchać,
   używać, uczyć się, pomagać.
 - narzędnik — być + существительное (подлежащее никогда не to; только
-  люди), z, pod/nad/przed/za без движения (stoi, leży, jest, śpi, wisi,
+  люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
   opiekować się / zostać. Прилагательное после z не должно начинаться
   с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, świeży):
   там предлог меняется на ze.
 
 Чаще давай пары, где падеж решает конструкция, а не слово: одно и то же
-существительное после mieć и после być, pod с движением и без, на + biernik
+существительное после mieć и после być, pod куда? и pod где?, на + biernik
 рядом с z + narzędnik.
 
 Ось «форма» решает род и число:
@@ -133,7 +138,8 @@ wysoki, zimny, miejski. Среди заданий примерно треть �
 Главное — падеж. Ошибку объясняй через конструкцию: какой вопрос задаём
 (kto? co? / kogo? co? / kim? czym?) и что в предложении его требует —
 подлежащее, to jest, jako для mianownika; глагол или предлог na, o, przez,
-za, w, po, а у pod/nad/przed/za — движение куда? для biernika; być +
+za, w, po в изученных конструкциях, а у pod/nad/przed/za — куда? для
+biernika; być +
 существительное, z, место где?, орудие, глагол для narzędnika.
 
 Если падеж выбран верно, но ошибка в окончании, объясняй через род,
@@ -148,6 +154,10 @@ za, w, po, а у pod/nad/przed/za — движение куда? для biernika
 Правило k/g называй отдельно. Особо отмечай путаницу biernika
 и narzędnika у женского рода: -ą + -ę (biernik) против -ą + -ą
 (narzędnik).
+
+У исключений на -a эталон — форма на -a, но форму без -a (jem banan,
+gram w tenis, kupuję fiat) тоже засчитывай как верную: язык допускает
+обе; в note отметь, что в речи обычно говорят на -a.
 
 Проверяй оба слова сочетания; если верно только одно, скажи, какое.
 Грамматически допустимую перестановку слов с верными окончаниями не
@@ -189,7 +199,7 @@ Znasz ___ (nowy / kolega)? → nowego kolegę
 To jest mój brat. Pracuję jako lekarz.
 
 **Biernik** (kogo? co?) — после **mieć, lubić, widzieć, znać, kupować…**,
-после **na, o, przez, za, w, po** и pod/nad/przed — куда?:
+в **czekać na, pytać o, dziękować za, grać w, iść po** и pod/nad/przed — куда?:
 Mam brata. Czekam na autobus. Kładę książkę pod łóżko.
 
 **Narzędnik** (kim? czym?) — после **być** + существительное, **z**,

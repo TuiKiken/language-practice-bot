@@ -39,11 +39,13 @@ móc — mogę, możesz, może, możemy, możecie, mogą;
 chcieć — chcę, chcesz, chce, chcemy, chcecie, chcą;
 iść — idę, idziesz, idzie, idziemy, idziecie, idą;
 nieść — niosę, niesiesz, niesie, niesiemy, niesiecie, niosą;
-на -yć/-ić/-uć добавляется j: myć — myję, myjesz, myje, myjemy, myjecie,
+у глаголов myć, kryć, tyć, pić, żyć, czuć в основе появляется j
+(это не правило для всех -yć/-ić: robić — robię): myć — myję, myjesz, myje, myjemy, myjecie,
 myją; так же kryć (kryję), tyć (tyję), pić (piję), żyć (żyję), czuć (czuję).
 
-4. На -nąć и -c: -ną- / -c меняется на -n- (в ja и oni) и -ni- (в
-остальных лицах):
+4. Глаголы на -nąć и biec: -ną- / -c меняется на -n- (в ja и oni) и -ni-
+(в остальных лицах). Это не правило для всех глаголов на -c: móc — mogę,
+możesz.
 płynąć — płynę, płyniesz, płynie, płyniemy, płyniecie, płyną;
 ciągnąć — ciągnę, ciągniesz; moknąć — moknę, mokniesz;
 kwitnąć — kwitnie, kwitną;
@@ -139,8 +141,9 @@ brać — biorę, bierzesz, bierze, bierzemy, bierzecie, biorą
 móc — mogę, możesz, może, możemy, możecie, mogą
 chcieć — chcę, chcesz; iść — idę, idziesz
 nieść — niosę, niesiesz, niosą
-pić — piję, pijesz (так же myć, kryć, czuć, tyć, żyć)
+pić — piję, pijesz; так же myć, kryć, czuć, tyć, żyć
+(но robić — robię: это не правило для всех -ić)
 
-**-nąć/-c**: в **ja** и **oni** -n-, в остальных -ni-
+**-nąć** и **biec**: в **ja** и **oni** -n-, в остальных -ni-
 płynąć — płynę, płyniesz, płynie, płyniemy, płyniecie, płyną
 biec — biegnę, biegniesz, biegną

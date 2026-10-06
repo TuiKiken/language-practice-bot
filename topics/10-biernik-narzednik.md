@@ -13,15 +13,18 @@ Biernik нужен:
   предложении: lubić, mieć, kochać, widzieć, znać, słyszeć, spotkać,
   kupować, czytać, oglądać, pić, jeść, odwiedzać, zamawiać. Mam nowego
   kota. Piję zieloną herbatę.
-- после na, o, przez, za, w, po: Czekam na autobus. Pytam o drogę.
-  Dziękuję za prezent. Idę przez park. Idę po chleb.
-- после pod, nad, przed, za, когда есть движение (куда?): Kładę książkę pod
-  łóżko. Jedziemy nad morze.
+- в конструкциях czekać na, mieć ochotę na, iść na (куда?), pytać o,
+  dziękować za, iść przez, grać w, iść po: Czekam na autobus. Pytam
+  o drogę. Dziękuję za prezent. Idę przez park. Idę po chleb. В других
+  значениях na, o, w, po требуют других падежей (na stole, w domu) — их
+  не бери.
+- после pod, nad, przed, za, когда речь о направлении (куда?): Kładę
+  książkę pod łóżko. Jedziemy nad morze.
 
 Narzędnik нужен:
 - после być, когда за ним стоит существительное: Jestem nauczycielem.
 - после z (с кем? с чем?): Idę do kina z nowym kolegą.
-- после pod, nad, przed, za без движения (где?): Książka leży pod łóżkiem.
+- после pod, nad, przed, za, когда речь о месте (где?): Książka leży pod łóżkiem.
 - для орудия и транспорта, без предлога: Piszę długopisem. Jadę metrem.
 - после interesować się, zajmować się, opiekować się, zostać: Interesuję
   się polskim kinem. Opiekuję się małym kotem.
@@ -68,18 +71,21 @@ nowego kota. Ученик сам выбирает падеж; не подска�
 - biernik — переходный глагол + дополнение (lubić, mieć, kochać, widzieć,
   znać, spotkać, kupować, czytać, oglądać, pić, jeść, odwiedzać,
   zamawiać), na, o, przez, za (dziękować za, płacić za), po (iść po),
-  pod/nad/przed/za с глаголом движения (kładę, stawiam, wieszam, idę,
-  jadę). Не бери глаголы, требующие других падежей: szukać, potrzebować,
+  pod/nad/przed/za, только когда однозначно куда? — с глаголами
+  размещения kładę, stawiam, wieszam, chowam; из глаголов движения только
+  jechać nad morze / nad jezioro. Не бери idę/jadę za, przed, pod: «idę za
+  dom» и «idę za domem» оба верны. Не бери глаголы, требующие других падежей: szukać, potrzebować,
   słuchać, używać, uczyć się, bać się, pomagać.
 - narzędnik — być + существительное (подлежащее никогда не to; только
-  люди), z, pod/nad/przed/za без движения (stoi, leży, jest, śpi, wisi,
+  люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
   opiekować się / zostać. Прилагательное после z не должно начинаться
   с s, z, ś, ź, ż, sz, rz + согласная (stary, zdolny, szybki, świeży):
   там предлог меняется на ze.
 
-Примерно в трети заданий бери pod, nad, przed, za — с движением для
-biernika и без движения для narzędnika: здесь падеж решает только глагол.
+Примерно в трети заданий бери pod, nad, przed, za — kładę/stawiam/wieszam
+(куда?) для biernika и stoi/leży/wisi (где?) для narzędnika: здесь падеж
+решает только глагол.
 Остальные задания делай на противопоставление глаголов и предлогов: mieć,
 znać, lubić, na, o против być, z, interesować się, zostać.
 
@@ -111,9 +117,10 @@ mleko, łóżko).
 ## Проверка
 Главное — падеж. Ошибку объясняй через конструкцию: какой вопрос задаём
 (kogo? co? или kim? czym?) и что в предложении его требует — глагол или
-предлог na, o, przez, za, w, po для biernika; być + существительное, z,
+конструкция czekać na, pytać o, dziękować za, iść przez, grać w, iść po
+для biernika; być + существительное, z,
 орудие, глагол для narzędnika. У pod, nad, przed, za называй глагол
-и вопрос: движение куда? — biernik, место где? — narzędnik.
+и вопрос: направление куда? — biernik, место где? — narzędnik.
 
 Если падеж выбран верно, но ошибка в окончании, объясняй через род,
 одушевлённость и число:
@@ -125,6 +132,10 @@ mleko, łóżko).
 Правило k/g называй отдельно. У женского рода прямо показывай разницу:
 -ą + -ę в biernik, -ą + -ą в narzędnik — прилагательное одинаковое,
 различается только существительное.
+
+У исключений на -a эталон — форма на -a, но форму без -a (jem banan,
+gram w tenis, kupuję fiat) тоже засчитывай как верную: язык допускает
+обе; в note отметь, что в речи обычно говорят на -a.
 
 Проверяй оба слова сочетания; если верно только одно, скажи, какое.
 Грамматически допустимую перестановку слов с верными окончаниями не
@@ -165,7 +176,7 @@ Lubię ___ (polski / filmy). → polskie filmy
 
 ## Правило
 **Biernik** (kogo? co?) — после **mieć, lubić, znać, widzieć, kupować…**,
-после **na, o, przez, za, w, po**:
+в **czekać na, pytać o, dziękować za, grać w, iść po**:
 Mam dobrego brata. Znam nową sąsiadkę. Czekam na autobus.
 
 **Narzędnik** (kim? czym?) — после **być** + существительное, после **z**,

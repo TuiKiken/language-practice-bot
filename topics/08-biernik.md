@@ -17,8 +17,10 @@ Biernik нужен:
   ponad, poza, w. Idę na spotkanie. Mam ochotę na pizzę. Pytam o drogę.
   Dziękuję za prezent. Idę przez park. Gram w tenisa. Idę po chleb.
   Jedziemy nad morze. Pod, nad, przed, za, między требуют biernika, когда
-  есть движение куда? (Kładę książkę pod łóżko.), а без движения, где? —
-  narzędnika (Książka leży pod łóżkiem).
+  речь о направлении, куда? (Kładę książkę pod łóżko.), а когда о месте,
+  где? — narzędnika (Książka leży pod łóżkiem). Na, o, w, po в других
+  значениях требуют других падежей (na stole, w domu, o domu, po
+  spacerze) — здесь только перечисленные конструкции.
 
 Единственное число:
 - męski nieżywotny (предметы) — biernik = mianownik: прилагательное -y
@@ -41,7 +43,8 @@ Biernik нужен:
 как одушевлённые, и прилагательное -ego:
 - фрукты и овощи: banana, pomidora, ogórka, ananasa;
 - виды спорта и игры: grać w tenisa, w golfa, w brydża;
-- танцы: tańczyć walca, poloneza, mazurka, tanga;
+- танцы: tańczyć walca, poloneza, mazurka (но tango — средний род:
+  tańczyć tango);
 - марки машин: mieć fiata, opla, mercedesa;
 - валюты: mieć funta, dolara;
 - «вредные» продукты: palić papierosa, pić szampana, jeść hamburgera.
@@ -79,9 +82,13 @@ interesować się, zajmować się (narzędnik), pomagać, dziękować без za
   Czekam na ___ (miejski / autobus).), o (Pytam o ___ (nowy / adres).), za
   (Dziękuję za ___ (piękny / prezent).), przez (Idę przez ___ (duży /
   park).), w — только с играми из исключений, po (Idę po ___ (świeży /
-  chleb).). Pod, nad, przed, za, między — только с глаголом движения:
-  kładę, stawiam, wieszam, idę, jadę («Kładę klucze pod ___ (czerwony /
-  wycieraczka).», «Jedziemy nad ___ (polski / morze).»).
+  chleb).). Pod, nad, przed, za, między — только когда однозначно куда?:
+  с глаголами размещения kładę, stawiam, wieszam, chowam («Kładę klucze
+  pod ___ (czerwony / wycieraczka).»), из глаголов движения — только
+  jechać nad morze / nad jezioro («Jedziemy nad ___ (polski / morze).»).
+  Не бери idę/jadę za, przed, pod: «idę za dom» и «idę za domem» оба
+  верны. На, o, w, po — только в перечисленных конструкциях: na stole,
+  w domu, o domu — другой падеж.
 
 Ось «форма» решает род и число:
 - męski nieżywotny — предметы: telefon, komputer, samochód, podręcznik,
@@ -133,6 +140,10 @@ wysoki, długi, świeży, gorący, zimny. Среди заданий пример
 объясни, что у неодушевлённых мужского рода и у среднего рода biernik
 совпадает с mianownikiem.
 
+У исключений на -a эталон — форма на -a, но форму без -a (jem banan,
+gram w tenis, kupuję fiat) тоже засчитывай как верную: язык допускает
+обе; в note отметь, что в речи обычно говорят на -a.
+
 Если ученик верно поставил только одно слово, прямо скажи, какое верно,
 а какое нет. Грамматически допустимую перестановку слов с верными
 окончаниями не считай ошибкой, при неестественном порядке отметь это
@@ -168,8 +179,9 @@ Odwiedzam ___ (wysoki / dziadek). → wysokiego dziadka
 
 ## Правило
 **Biernik** — kogo? co? Нужен после глаголов lubić, mieć, kochać,
-widzieć, znać, słyszeć, kupować… и после предлогов **na, o, przez, za,
-w, po** (и pod, nad, przed — когда куда?):
+widzieć, znać, słyszeć, kupować…, в **czekać na, mieć ochotę na,
+iść na** (куда?), **pytać o, dziękować za, iść przez, grać w, iść po**
+и после pod, nad, przed, za — когда куда?:
 Kocham mamę. Widzę samochód. Idę na spotkanie. Mam ochotę na pizzę.
 
 Единственное число:

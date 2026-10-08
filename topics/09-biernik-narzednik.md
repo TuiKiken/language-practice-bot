@@ -44,19 +44,16 @@ Biernik нужен:
 - żeński: nową koleżanką (-ą + -ą) → nową koleżankę (-ą + -ę);
 - nijaki: nowym autem, małym dzieckiem → nowe auto (= mianownik).
 
-Множественное число: narzędnik — все роды -ymi/-imi + -ami (nowymi
-domami, ambitnymi studentami); biernik только niemęskoosobowy,
-= mianownik (nowe domy, polskie książki).
+Множественное число biernika ещё не проходили — в этой теме только
+единственное число, в обоих падежах.
 
 Исключения biernika: неодушевлённые мужского рода с -a — фрукты и овощи
 (banana, pomidora), спорт и игры (w tenisa), танцы (walca), марки машин
 (fiata), валюты (dolara), papierosa, szampana, hamburgera.
 
-Не используются: imię, centrum, muzeum, człowiek, pani, dziecko во
-множественном, особое множественное в narzędniku (ludźmi, przyjaciółmi,
-braćmi, gośćmi), беглая гласная (pies, ojciec, dziadek, sportowiec),
-чередование ó → o (stół, samochód, nóż, pokój), женские на согласный,
-męskoosobowe во множественном в biernik.
+Не используются: множественное число, imię, centrum, muzeum, człowiek,
+pani, беглая гласная (pies, ojciec, dziadek, sportowiec),
+чередование ó → o (stół, samochód, nóż, pokój), женские на согласный.
 
 ## Генерация
 Дай простое польское предложение с одним пропуском; в скобках после
@@ -108,9 +105,7 @@ lubić, na, o.
   wino, mleko, łóżko, okno, kino, miasto, metro, krzesło; изредка (одно
   из пяти заданий в biernik) — исключение на -a: banan, pomidor, tenis,
   walc, fiat, dolar, hamburger.
-- mnoga — существительное в скобках обязательно во множественном числе
-  (koty, telefony, książki, okna, koleżanki), никогда в единственном.
-  Только niemęskoosobowe: женщины, предметы, животные, средний род.
+Существительное в скобках всегда в единственном числе.
 
 Прилагательные: nowy, stary, dobry, piękny, sympatyczny, miły, mądry,
 ciekawy, młody, ambitny, zielony, czerwony, duży, mały, drogi, polski,
@@ -131,10 +126,9 @@ czekać na, pytać o, dziękować za, iść przez, grać w, iść po для bier
 Если падеж выбран верно, но ошибка в окончании, объясняй через род,
 одушевлённость и число:
 - narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a -ym/-im + -ą,
-  żeński -ą + -ą, множественное -ymi/-imi + -ami;
+  żeński -ą + -ą;
 - biernik: męski nieżywotny и nijaki = mianownik (кроме исключений на -a),
-  męski żywotny -ego/-iego + -a, мужские на -a -ego + -ę, żeński -ą + -ę,
-  множественное = mianownik (-e/-ie).
+  męski żywotny -ego/-iego + -a, мужские на -a -ego + -ę, żeński -ą + -ę.
 Правило k/g называй отдельно. У женского рода прямо показывай разницу:
 -ą + -ą в narzędnik, -ą + -ę в biernik — прилагательное одинаковое,
 различается только существительное.
@@ -151,7 +145,7 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 
 ## Вариативность
 падеж: narzędnik, biernik
-форма: męski żywotny lp, męski на -a lp, żeński lp, nieżywotny lp, mnoga
+форма: męski żywotny lp, męski на -a lp, żeński lp, nieżywotny lp
 
 ## Типичные ошибки
 Путают окончание существительного женского рода: idę z nową koleżankę,
@@ -164,9 +158,6 @@ mam dobrym bratem вместо jestem dobrym lekarzem, mam dobrego brata.
 kolegę.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
 nowy telefon.
-Во множественном путают -ymi/-ami и -e: interesuję się polskie filmy,
-lubię polskimi filmami вместо interesuję się polskimi filmami, lubię
-polskie filmy.
 
 ## Примеры
 Mój brat jest ___ (dobry / lekarz). → dobrym lekarzem
@@ -177,8 +168,8 @@ Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
 Kot wchodzi pod ___ (duży / łóżko). → duże łóżko
 Mieszkamy nad ___ (piękny / jezioro). → pięknym jeziorem
 W lipcu jedziemy nad ___ (piękny / jezioro). → piękne jezioro
-Interesuję się ___ (polski / filmy). → polskimi filmami
-Lubię ___ (polski / filmy). → polskie filmy
+Interesuję się ___ (polski / kino). → polskim kinem
+Lubię ___ (polski / kino). → polskie kino
 
 ## Правило
 **Narzędnik** (kim? czym?):
@@ -202,5 +193,4 @@ Lubię ___ (polski / filmy). → polskie filmy
 **żeński**: nową kawą → nową kawę
 **męski неживой**: nowym telefonem → nowy telefon
 **nijaki**: nowym autem → nowe auto
-**mnoga**: nowymi domami → nowe domy
-После k, g: wysokim, wysokiego, polskimi, polskie.
+После k, g: wysokim, wysokiego; polskim kinem, polskie kino.

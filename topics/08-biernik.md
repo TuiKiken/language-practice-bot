@@ -6,7 +6,8 @@ lesson: 9
 
 ## Описание
 Винительный падеж (biernik, kogo? co?) прилагательного и существительного
-в единственном числе и во множественном числе niemęskoosobowym.
+в единственном числе. Множественное число ещё не проходили, его в этой
+теме нет.
 
 Biernik нужен:
 - после переходных глаголов, для прямого дополнения: lubić, mieć, kochać,
@@ -49,14 +50,8 @@ Biernik нужен:
 - валюты: mieć funta, dolara;
 - «вредные» продукты: palić papierosa, pić szampana, jeść hamburgera.
 
-Множественное число, только niemęskoosobowe (женщины, предметы, животные,
-средний род) — biernik = mianownik: прилагательное -e (после k и g -ie),
-существительное как в mianowniku: Widzę piękne koty. Piję zielone herbaty.
-Chcę szare telefony. Lubię polskie miasta. Męskoosobowe множественное
-(Widzę nowych studentów) в этой теме не тренируется.
-
 Не используются: pani (biernik panią), женские на согласный (noc, mysz),
-человек (człowiek) и męskoosobowe во множественном.
+человек (człowiek), любое множественное число.
 
 ## Генерация
 Дай простое польское предложение с одним пропуском на месте сочетания
@@ -112,10 +107,6 @@ interesować się, zajmować się (narzędnik), pomagać, dziękować без za
   torba, sukienka.
 - nijaki — dziecko, wino, auto, mieszkanie, okno, piwo, ciasto, jabłko,
   zdjęcie, morze, imię, centrum, muzeum.
-- mnoga niemęskoosobowa — существительное в скобках обязательно во
-  множественном числе (koty, telefony, książki, okna, koleżanki): «Lubię
-  ___ (stary / filmy).» → stare filmy. Никогда не давай мужчин или
-  смешанные группы во множественном.
 
 Прилагательные: nowy, stary, dobry, piękny, przystojny, sympatyczny, miły,
 mądry, ciekawy, zielony, szary, biały, czerwony, duży, mały, drogi, polski,
@@ -133,9 +124,8 @@ wysoki, długi, świeży, gorący, zimny. Среди заданий пример
 - мужские на -a — по смыслу мужской род, поэтому прилагательное -ego, но
   существительное склоняется как женское: -ę (nowego kolegę).
 - żeński — -ą + -ę (piękną kobietę).
-- nijaki и множественное niemęskoosobowe — biernik = mianownik (dobre wino,
-  piękne koty).
-Правило k/g называй отдельно: wysokiego, polskiego, polskie.
+- nijaki — biernik = mianownik (dobre wino, małe dziecko).
+Правило k/g называй отдельно: wysokiego, polskiego, polskie (dziecko).
 
 Если ученик оставил mianownik там, где форма меняется, назови, что
 требует biernik (глагол или предлог) и какой вопрос задаём: kogo? co?
@@ -154,7 +144,7 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 сочетанию и отметь в note, что его вписывать не нужно.
 
 ## Вариативность
-форма: męski nieżywotny, męski nieżywotny на -a, męski żywotny, męski на -a, żeński, nijaki, mnoga niemęskoosobowa
+форма: męski nieżywotny, męski nieżywotny на -a, męski żywotny, męski на -a, żeński, nijaki
 
 ## Типичные ошибки
 Неживым мужского рода дают окончание живых: nowego telefona, ciekawego
@@ -177,7 +167,7 @@ Znasz ___ (nowy / kolega)? → nowego kolegę
 Codziennie piję ___ (zielony / herbata). → zieloną herbatę
 Lubię ___ (dobry / wino). → dobre wino
 Jem ___ (duży / hamburger). → dużego hamburgera
-Dziękuję za ___ (piękny / kwiaty). → piękne kwiaty
+Dziękuję za ___ (piękny / prezent). → piękny prezent
 Odwiedzam ___ (wysoki / dziadek). → wysokiego dziadka
 
 ## Правило
@@ -202,6 +192,3 @@ taniec: tańczę walca, poloneza;
 samochody: mam fiata, opla;
 waluty: funta, dolara;
 papierosa, szampana, hamburgera.
-
-Множественное **niemęskoosobowe** = mianownik, -e (после k, g -ie):
-Widzę piękne koty. Chcę szare telefony. Lubię polskie miasta.

@@ -11,7 +11,7 @@ lesson: 9
 
 Mianownik — словарная форма. Нужен:
 - для подлежащего: Nowy samochód stoi przed domem.
-- после to jest / to są: To jest mój nowy kolega.
+- после to jest: To jest mój nowy kolega.
 - после być, когда за ним только прилагательное: Anna jest wysoka.
 - после jako: Pracuję jako nauczyciel.
 
@@ -57,22 +57,16 @@ Biernik нужен:
 - nijaki: mianownik -e/-ie + -o/-e (nowe auto); narzędnik -ym/-im +
   -em/-iem (nowym autem, małym dzieckiem); biernik = mianownik.
 
-Окончания, множественное число:
-- mianownik: męskoosobowy -i/-y с чередованием (nowi koledzy, wysocy
-  studenci), остальное -e/-ie (nowe domy, polskie książki);
-- narzędnik — все роды -ymi/-imi + -ami (nowymi domami, ambitnymi
-  studentami);
-- biernik — только niemęskoosobowy, = mianownik (Lubię nowe domy).
+Множественное число mianownika и biernika ещё не проходили — в этой теме
+только единственное число, во всех трёх падежах.
 
 Исключения biernika: неодушевлённые мужского рода с -a — фрукты и овощи
 (banana, pomidora), спорт и игры (w tenisa), танцы (walca), марки машин
 (fiata), валюты (dolara), papierosa, szampana, hamburgera.
 
-Не используются: imię, centrum, muzeum, człowiek, pani, dziecko во
-множественном, особое множественное в narzędniku (ludźmi, przyjaciółmi,
-braćmi, gośćmi), беглая гласная (pies, ojciec, dziadek, sportowiec) и
-чередование ó → o (stół, samochód, nóż, pokój), женские на согласный,
-męskoosobowe во множественном в biernik.
+Не используются: множественное число, imię, centrum, muzeum, człowiek,
+pani, беглая гласная (pies, ojciec, dziadek, sportowiec) и
+чередование ó → o (stół, samochód, nóż, pokój), женские на согласный.
 
 ## Генерация
 Дай простое польское предложение с одним пропуском; в скобках после
@@ -86,7 +80,7 @@ nowego kota. Ученик сам выбирает падеж; не подска�
 
 Ось «падеж» решает, какой падеж нужен. Конструкцию выбирай сам и чередуй:
 - mianownik — подлежащее (пропуск в начале предложения: «___ (nowy /
-  sąsiadka) mieszka obok.»), to jest / to są, jako (только с людьми).
+  sąsiadka) mieszka obok.»), to jest, jako (только с людьми).
 - narzędnik — być + существительное (подлежащее никогда не to; только
   люди), z, pod/nad/przed/za о месте (stoi, leży, jest, śpi, wisi,
   czeka), орудие или транспорт, interesować się / zajmować się /
@@ -123,11 +117,8 @@ z + narzędnik рядом с na + biernik.
   herbata, kawa, książka, gazeta, łyżka, szafa, lampa, muzyka, literatura.
 - nijaki — dziecko, auto, wino, mleko, łóżko, okno, kino, miasto, metro,
   mieszkanie, krzesło.
-- mnoga — существительное в скобках обязательно во множественном числе
-  (koty, telefony, książki, okna, koleżanki, studenci), никогда
-  в единственном. Для biernika бери только niemęskoosobowe (женщины,
-  предметы, животные, средний род); mężczyźni, studenci, koledzy — только
-  в mianowniku и narzędniku.
+Существительное в скобках всегда в единственном числе; подлежащее при
+być — тоже (Mój brat jest…, Anna jest…, Jestem…).
 
 Прилагательные: nowy, stary, dobry, piękny, sympatyczny, miły, mądry,
 ciekawy, młody, ambitny, zielony, czerwony, duży, mały, drogi, polski,
@@ -147,13 +138,11 @@ biernika.
 
 Если падеж выбран верно, но ошибка в окончании, объясняй через род,
 одушевлённость и число:
-- mianownik: męski -y/-i, żeński -a, nijaki -e/-ie; во множественном
-  męskoosobowy -i/-y с чередованием (dobrzy, wysocy, polscy), иначе -e/-ie;
+- mianownik: męski -y/-i, żeński -a, nijaki -e/-ie;
 - narzędnik: męski и nijaki -ym/-im + -em/-iem, мужские на -a -ym/-im + -ą,
-  żeński -ą + -ą, множественное -ymi/-imi + -ami;
+  żeński -ą + -ą;
 - biernik: męski nieżywotny и nijaki = mianownik (кроме исключений на -a),
-  męski żywotny -ego/-iego + -a, мужские на -a -ego + -ę, żeński -ą + -ę,
-  множественное niemęskoosobowe = mianownik.
+  męski żywotny -ego/-iego + -a, мужские на -a -ego + -ę, żeński -ą + -ę.
 Правило k/g называй отдельно. Особо отмечай путаницу narzędnika
 и biernika у женского рода: -ą + -ą (narzędnik) против -ą + -ę
 (biernik).
@@ -170,7 +159,7 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 
 ## Вариативность
 падеж: mianownik, narzędnik, biernik
-форма: męski nieżywotny lp, męski żywotny lp, męski на -a lp, żeński lp, nijaki lp, mnoga
+форма: męski nieżywotny lp, męski żywotny lp, męski на -a lp, żeński lp, nijaki lp
 
 ## Типичные ошибки
 Ставят narzędnik или biernik после to jest и jako: to jest mojego brata,
@@ -195,12 +184,12 @@ Codziennie piję ___ (zielony / herbata). → zieloną herbatę
 Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
 Pies wchodzi pod ___ (duży / szafa). → dużą szafę
 Znasz ___ (nowy / kolega)? → nowego kolegę
-Lubię ___ (polski / filmy). → polskie filmy
+Lubię ___ (polski / kino). → polskie kino
 
 ## Правило
 **Mianownik** (kto? co?):
 • подлежащее — Mój brat mieszka w Krakowie.
-• после **to jest / to są** — To jest mój brat.
+• после **to jest** — To jest mój brat.
 • после **jako** — Pracuję jako lekarz.
 • **być** + только прилагательное — Brat jest wysoki.
 
@@ -223,5 +212,4 @@ Lubię ___ (polski / filmy). → polskie filmy
 мужские на -a: nowy kolega → nowym kolegą → nowego kolegę
 **żeński**: nowa kawa → nową kawą → nową kawę
 **nijaki**: nowe auto → nowym autem → nowe auto
-**mnoga**: nowe domy → nowymi domami → nowe domy
-После k, g: wysokim, wysokiego, polskimi, polskie.
+После k, g: wysoki → wysokim → wysokiego.

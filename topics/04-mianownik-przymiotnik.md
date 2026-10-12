@@ -4,7 +4,7 @@ title: Mianownik: kto? co?
 lesson: 4
 ---
 
-## Описание
+## Description
 Именительный падеж (mianownik, kto? co?): окончание прилагательного по
 роду и числу существительного. Mianownik — словарная форма; он нужен там,
 где слово отвечает на вопрос kto? co?:
@@ -50,7 +50,7 @@ Kasia są wysokie.
 Указательные местоимения ten/ta/to/te и существительные только во
 множественном числе тренируются в отдельной теме, здесь их нет.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском на месте
 прилагательного; в скобках после пропуска — словарная форма прилагательного
 (мужской род, единственное число). Существительное или подлежащее, с
@@ -99,7 +99,7 @@ dobry, stary, młody, miły, ambitny, zdolny, bogaty, sympatyczny, wysoki,
 niski, polski. Меняй лексику и конструкции, не повторяй существительные
 подряд.
 
-## Проверка
+## Checking
 Главное — окончание прилагательного. В единственном числе объясняй через
 род существительного: по какому окончанию он определяется (для мужских на
 -a — по значению: мужчина, профессия) и какое окончание из этого следует
@@ -118,11 +118,11 @@ domy), объясни, что мужской род не делает групп
 Эталон — одна форма заданного прилагательного; другое прилагательное в
 верном роде и числе не засчитывай.
 
-## Вариативность
+## Axes
 форма: męski lp, męski на -a lp, żeński lp, nijaki lp, mnoga męskoosobowa, mnoga niemęskoosobowa
 прилагательное: обычное, на -ki/-gi
 
-## Типичные ошибки
+## Common mistakes
 Существительные на -a автоматически считают женскими: dobra kierowca,
 wysoka mężczyzna вместо dobry kierowca, wysoki mężczyzna.
 После k и g пишут -y и -e: wysoky, drogy, wysoke вместо wysoki, drogi,
@@ -136,7 +136,7 @@ mężczyźni вместо dobrzy studenci, wysocy mężczyźni.
 Забывают чередование: dobri, wysoki, polski studenci вместо dobrzy,
 wysocy, polscy studenci.
 
-## Примеры
+## Examples
 To jest ___ (stary) fotografia. → stara
 ___ (dobry) kierowca czeka na klienta. → dobry
 Moje ___ (drogi) radio nie działa. → drogie
@@ -145,7 +145,7 @@ Nasi koledzy są ___ (wysoki). → wysocy
 ___ (nowy) domy są bardzo drogie. → nowe
 Anna i Kasia są ___ (zdolny). → zdolne
 
-## Правило
+## Rule
 **Mianownik** (kto? co?) — словарная форма. Нужен для подлежащего, после
 **to jest / to są** и после **być** с одним прилагательным:
 Wysoki mężczyzna czeka. To jest nowy dom. Kasia jest wysoka.

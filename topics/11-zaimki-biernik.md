@@ -4,7 +4,7 @@ title: Zaimki osobowe: biernik
 lesson: 9
 ---
 
-## Описание
+## Description
 Личные местоимения в винительном падеже (biernik, kogo? co?) и выбор
 между краткой и полной формой.
 
@@ -29,7 +29,7 @@ ty (cię / ciebie), on (go / niego / jego), ona (ją / nią), ono и one
 biernika: na (czekać na, patrzeć na, liczyć na), o (pytać o, martwić się
 o, dbać o), za (dziękować za, płacić za), przez, w (wierzyć w).
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском на месте личного
 местоимения; в скобках после пропуска — местоимение в именительном
 падеже: «Kocham ___ (ty).» → cię. Ответ — одно слово. Предложение всегда
@@ -67,7 +67,7 @@ brat. Lubię ___ (on).»
 
 Меняй глаголы, предлоги и темы, не повторяй конструкцию подряд.
 
-## Проверка
+## Checking
 Главное — краткая или полная форма. Ошибку объясняй через позицию: после
 глагола — краткая (cię, go, ją, je, ich); после предлога — полная форма,
 у третьего лица с n- (niego, nią, nie, nich; ciebie, mnie, nas, was); в начале предложения или при выделении —
@@ -83,11 +83,11 @@ mianownika (kocham ty, czekam na on), напомни, что после глаг
 а полная форма — для выделения.
 Регистр первой буквы в начале предложения не важен.
 
-## Вариативность
+## Axes
 позиция: после глагола, после предлога, akcent
 лицо: ja, ty, on, ona, ono, my, wy, oni, one
 
-## Типичные ошибки
+## Common mistakes
 Ставят полную форму после глагола без выделения: kocham ciebie, znam jego
 — так говорят, только когда выделяют слово; нейтрально kocham cię, znam go.
 Ставят форму без n- после предлога: czekam na jego, na ją, na ich вместо
@@ -98,7 +98,7 @@ na niego, na nią, na nich.
 Оставляют mianownik: kocham ty, czekam na on вместо kocham cię, czekam na
 niego.
 
-## Примеры
+## Examples
 Kocham ___ (ty). → cię
 To jest mój brat. Bardzo ___ (on) lubię. → go
 Czekam na ___ (ona) przed kinem. → nią
@@ -109,7 +109,7 @@ Moje koleżanki mieszkają obok, często ___ (one) zapraszam. → je
 To jest małe dziecko sąsiadów, bardzo ___ (ono) lubimy. → je
 Wierzę w ___ (ty). → ciebie
 
-## Правило
+## Rule
 **Zaimki osobowe — biernik** (kogo? co?):
 ja — **mnie**; ty — **cię, ciebie**; on — **go, niego, jego**;
 ona — **ją, nią**; ono — **je, nie**;

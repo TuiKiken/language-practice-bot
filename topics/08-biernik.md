@@ -4,7 +4,7 @@ title: Biernik: kogo? co?
 lesson: 9
 ---
 
-## Описание
+## Description
 Винительный падеж (biernik, kogo? co?) прилагательного и существительного
 в единственном числе. Множественное число ещё не проходили, его в этой
 теме нет.
@@ -53,7 +53,7 @@ Biernik нужен:
 Не используются: pani (biernik panią), женские на согласный (noc, mysz),
 человек (człowiek), любое множественное число.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском на месте сочетания
 «прилагательное + существительное»; в скобках после пропуска —
 прилагательное в словарной форме (мужской род, единственное число) и через
@@ -115,7 +115,7 @@ wysoki, długi, świeży, gorący, zimny. Среди заданий пример
 
 Меняй лексику и контекст, не повторяй существительные и конструкции подряд.
 
-## Проверка
+## Checking
 Проверяй оба слова. Ошибку объясняй через род и одушевлённость:
 - męski: живой или нет. Неживой — biernik = mianownik (nowy telefon), кроме
   исключений на -a (фрукты, спорт, танцы, марки машин, валюты, сигареты,
@@ -143,10 +143,10 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 только в note. Если ученик вписал вместе с ответом предлог, засчитывай по
 сочетанию и отметь в note, что его вписывать не нужно.
 
-## Вариативность
+## Axes
 форма: męski nieżywotny, męski nieżywotny на -a, męski żywotny, męski на -a, żeński, nijaki
 
-## Типичные ошибки
+## Common mistakes
 Неживым мужского рода дают окончание живых: nowego telefona, ciekawego
 podręcznika вместо nowy telefon, ciekawy podręcznik.
 И наоборот, исключения на -a ставят как обычные неживые: jem duży
@@ -160,7 +160,7 @@ piękna kobietę вместо piękną kobietę.
 Сохраняют беглую гласную: ojcieca, dziadeka, piesa вместо ojca, dziadka,
 psa.
 
-## Примеры
+## Examples
 Kupuję ___ (ciekawy / podręcznik). → ciekawy podręcznik
 Mam ___ (piękny / kot). → pięknego kota
 Znasz ___ (nowy / kolega)? → nowego kolegę
@@ -170,7 +170,7 @@ Jem ___ (duży / hamburger). → dużego hamburgera
 Dziękuję za ___ (piękny / prezent). → piękny prezent
 Odwiedzam ___ (wysoki / dziadek). → wysokiego dziadka
 
-## Правило
+## Rule
 **Biernik** (kogo? co?):
 • после **mieć, lubić, kochać, znać, widzieć, kupować…** — Kocham mamę. Widzę samochód.
 • **czekać na, mieć ochotę na, iść na** (куда?) — Idę na spotkanie.

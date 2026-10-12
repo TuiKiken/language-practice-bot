@@ -4,7 +4,7 @@ title: Narzędnik: kim? czym?
 lesson: 6
 ---
 
-## Описание
+## Description
 Творительный падеж (narzędnik, kim? czym?) прилагательного и
 существительного в единственном и множественном числе. Тренируются
 окончания; контекст, в котором нужен narzędnik, меняется от задания
@@ -40,7 +40,7 @@ studentkami, polskimi i europejskimi miastami.
 беглая гласная: sportowiec → sportowcem, pies → psem; чередование ó → o:
 stół → stołem, samochód → samochodem, nóż → nożem, pokój → pokojem.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском на месте сочетания
 «прилагательное + существительное»; в скобках после пропуска —
 прилагательное в словарной форме (мужской род, единственное число) и через
@@ -101,7 +101,7 @@ czerwony, czarny, zimny, gorący, miejski, drogi. Среди заданий пр
 
 Меняй лексику и контекст, не повторяй существительные и конструкции подряд.
 
-## Проверка
+## Checking
 Проверяй оба слова. Ошибку объясняй через род и число: какой род у
 существительного (для мужских на -a — мужской, но окончание -ą, как у
 женских) и какие окончания из этого следуют — единственное: męski и nijaki
@@ -117,10 +117,10 @@ mianownik, назови, что в этом предложении требуе�
 Если ученик вписал вместе с ответом предлог или się, засчитывай по
 сочетанию и отметь в note, что их вписывать не нужно.
 
-## Вариативность
+## Axes
 форма: męski lp, męski на -a lp, żeński lp, nijaki lp, liczba mnoga
 
-## Типичные ошибки
+## Common mistakes
 Мужские на -a ставят на -em: mężczyznem, kolegiem вместо mężczyzną, kolegą;
 или прилагательное женское: dobrą kierowcą вместо dobrym kierowcą.
 После k и g забывают i: wysokym, Polakem, mlekem вместо wysokim, Polakiem,
@@ -130,7 +130,7 @@ mlekiem.
 nauczycielką вместо dobrym nauczycielem, dobrą nauczycielką.
 После z и przed/pod ставят mianownik: z nowy kolega вместо z nowym kolegą.
 
-## Примеры
+## Examples
 Mój ojciec jest ___ (dobry / lekarz). → dobrym lekarzem
 Idę do kina z ___ (nowy / kolega). → nowym kolegą
 Kot śpi pod ___ (duży / łóżko). → dużym łóżkiem
@@ -139,7 +139,7 @@ Piję kawę z ___ (zimny / mleko). → zimnym mlekiem
 Oni są ___ (ambitny / studenci). → ambitnymi studentami
 Interesuję się ___ (polski / filmy). → polskimi filmami
 
-## Правило
+## Rule
 **Narzędnik** — kim? czym? Нужен, например:
 после **być** + существительное — On jest dobrym nauczycielem;
 после **z** (с кем, с чем) — Idę do kina z nowym kolegą;

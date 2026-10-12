@@ -4,21 +4,21 @@ export interface Topic {
   id: string;
   /** Topic name, 1–64 characters; the button caption is this, prefixed with the lesson number when set. */
   title: string;
-  /** `## Описание` — sent to both model calls. */
+  /** `## Description` — sent to both model calls. */
   description: string;
-  /** `## Генерация` — generation instructions. */
+  /** `## Generation` — generation instructions. */
   generation: string;
-  /** `## Проверка` — checking instructions. */
+  /** `## Checking` — checking instructions. */
   checking: string;
-  /** `## Вариативность` — axis name → allowed values. Empty object when absent. */
+  /** `## Axes` — axis name → allowed values. Empty object when absent. */
   axes: Record<string, string[]>;
-  /** `## Типичные ошибки` — sent to both calls; null when absent. */
+  /** `## Common mistakes` — sent to both calls; null when absent. */
   commonMistakes: string | null;
-  /** `## Примеры` — sets difficulty; null when absent. */
+  /** `## Examples` — sets difficulty; null when absent. */
   examples: string | null;
   /** Frontmatter `lesson` — lesson number, drives menu order and the button prefix; null when absent. */
   lesson: number | null;
-  /** `## Правило` — learner-facing rule, shown on topic selection and by /rule; sent to the checking and explaining calls, not to generation. */
+  /** `## Rule` — learner-facing rule, shown on topic selection and by /rule; sent to the checking and explaining calls, not to generation. */
   rule: string | null;
 }
 

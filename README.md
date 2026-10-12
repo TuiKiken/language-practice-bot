@@ -81,28 +81,28 @@ as repository secrets.
 
 Adding a topic is adding a file and pushing. No code changes.
 
-1. Copy the structure of the existing topic in `topics/` (currently `01-koniugacja-m-sz.md`, Polish -m/-sz
-   conjugation). Frontmatter has two required fields, `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
+1. Copy `topics/_template.md` (files starting with `_` are not bundled) and look at the existing topics for
+   finished examples. Frontmatter has two required fields, `id` (`^[a-z0-9-]{1,32}$`, unique) and `title` (button
    name, up to 64 characters), and one optional field, `lesson` (integer from 1 to 9999). The menu lists topics
    with a lesson number first, highest number on top; the button caption is the number plus the title
    (`12. Title`). Topics without a number follow in reverse file-name order, so the highest `NN-` prefix
    comes first.
-2. Required sections: `## Описание`, `## Генерация`, `## Проверка`. Optional: `## Вариативность`,
-   `## Типичные ошибки`, `## Примеры`, `## Правило`. The section headings are fixed (the parser looks for
-   them); their content is prose for the model, written in the explanation language. `## Правило` is the
+2. Required sections: `## Description`, `## Generation`, `## Checking`. Optional: `## Axes`,
+   `## Common mistakes`, `## Examples`, `## Rule`. The section headings are fixed (the parser looks for
+   them); their content is prose for the model, written in the explanation language. `## Rule` is the
    exception: it is the learner-facing rule, shown verbatim when the topic is chosen and on `/rule`, and it
    reaches the model only in the checking and explaining calls, never in generation. Up to 1500 characters;
    `**bold**` and `*italic*` are rendered, the model gets it with the markers stripped.
 3. The usual workflow is to hand your lesson notes to an assistant and ask for a topic file in this format,
-   then read it through, drop it into `topics/` and push. Two rules for `## Вариативность` axes:
+   then read it through, drop it into `topics/` and push. Two rules for `## Axes`:
    - One axis is the trained contrast, listed by the **target language's own** grammatical categories,
      exhaustively — not by the categories of the learner's native language, which often do not line up
      (for Polish: masculine-personal vs non-masculine-personal plural, not "gender × number"). Other axes
      are flavour: five to ten values, not hundreds.
    - The task must express the target cell on its own: the sentence itself must make the required form
      unambiguous.
-4. Fill `## Типичные ошибки` right after the lesson — what the group actually got wrong is the most valuable
-   line in the file and the first thing forgotten. Two or three pairs in `## Примеры` set the difficulty;
+4. Fill `## Common mistakes` right after the lesson — what the group actually got wrong is the most valuable
+   line in the file and the first thing forgotten. Two or three pairs in `## Examples` set the difficulty;
    there is no level field on purpose.
 5. Run `npm run topics` locally; a broken file fails the build with a one-line reason, and CI does the same.
 

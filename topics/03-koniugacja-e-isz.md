@@ -4,7 +4,7 @@ title: Спряжение -ę/-isz
 lesson: 5
 ---
 
-## Описание
+## Description
 Настоящее время глаголов второй группы (-ę/-isz): инфинитивы на -ić, -yć и
 часть глаголов на -eć (не все: umieć, rozumieć, wiedzieć спрягаются по
 третьей группе -m/-sz). Окончания: ja -ę, ty -isz/-ysz, on/ona/ono -i/-y,
@@ -41,7 +41,7 @@ widzieć — widzę, widzisz, widzi, widzimy, widzicie, widzą;
 prosić — proszę, prosisz, prosi, prosimy, prosicie, proszą;
 musieć — muszę, musisz, musi, musimy, musicie, muszą.
 
-## Генерация
+## Generation
 Дай польское предложение в настоящем времени с одним пропуском на месте
 глагола; в скобках после пропуска — инфинитив. Лицо и число должны читаться
 из самого предложения: для ja, ty, my, wy обязательно ставь местоимение,
@@ -70,7 +70,7 @@ musieć — muszę, musisz, musi, musimy, musicie, muszą.
 Меняй тему предложения: дом, работа, учёба, еда, город, друзья, транспорт,
 свободное время. Не повторяй глагол в соседних заданиях.
 
-## Проверка
+## Checking
 Главное — форма глагола. Ошибку объясняй через два шага из описания: какое
 лицо и число у подлежащего; какая у глагола форма on (mówi, płaci, tańczy)
 и что из неё следует. Для ty/on/my/wy напоминай, что i или y берётся из
@@ -83,11 +83,11 @@ sz и ż (proszę, muszę, wożę). У неправильных сравнива
 Если ученик прислал форму вместе с się, засчитывай по глаголу и отметь
 в note, что się вписывать не нужно.
 
-## Вариативность
+## Axes
 лицо: ja, ty, on/ona/ono, my, wy, oni/one
 тип: -isz, -ysz, s/z → sz/ż, неправильные
 
-## Типичные ошибки
+## Common mistakes
 Меняют i и y местами: mówysz, robysz вместо mówisz, robisz; tańczisz,
 słyszisz вместо tańczysz, słyszysz.
 Лишняя или пропущенная i в ja/oni: płacię, chodzię, widzię вместо płacę,
@@ -98,7 +98,7 @@ muszę, muszą.
 bam się, stam вместо śpię, boję się, stoję.
 Путают с третьей группой -m/-sz: mówiam, robiam вместо mówię, robię.
 
-## Примеры
+## Examples
 Ja codziennie ___ (mówić) po polsku z sąsiadką. → mówię
 Czy ty ___ (słyszeć) ten hałas? → słyszysz
 Marek ___ (płacić) za obiad kartą. → płaci
@@ -107,7 +107,7 @@ Oni ___ (prosić) o pomoc. → proszą
 Dzieci ___ (spać) już w swoich pokojach. → śpią
 Wy ___ (uczyć się) się polskiego od roku. → uczycie
 
-## Правило
+## Rule
 Вторая группа (-ę/-isz): глаголы на -ić, -yć и часть глаголов на -eć
 (umieć, rozumieć, wiedzieć — не сюда, это группа -m/-sz).
 

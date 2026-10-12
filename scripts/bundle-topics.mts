@@ -11,8 +11,9 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const topicsDir = join(root, 'topics');
 const outFile = join(root, 'src', 'topics.generated.json');
 
+// Files starting with _ (the template) are not topics.
 const files = readdirSync(topicsDir)
-  .filter((f) => f.endsWith('.md'))
+  .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
   .sort();
 
 const entries: { file: string; topic: Topic }[] = [];

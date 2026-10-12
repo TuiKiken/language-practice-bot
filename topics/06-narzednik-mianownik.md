@@ -4,7 +4,7 @@ title: Mianownik или narzędnik
 lesson: 6
 ---
 
-## Описание
+## Description
 Выбор между mianownikiem (kto? co?) и narzędnikiem (kim? czym?) и
 окончания прилагательного и существительного в обоих падежах, во всех
 родах, в единственном и множественном числе.
@@ -47,7 +47,7 @@ nowymi koleżankami, polskimi miastami).
 przyjaciółmi, braćmi, gośćmi; беглая гласная: sportowiec, pies;
 чередование ó → o в narzędniku: stół, samochód, nóż, pokój.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском; в скобках после
 пропуска — подсказка в словарной форме. Ученик сам выбирает падеж и
 согласует слова. Не подсказывай падеж в задании. Предлог, глагол и się
@@ -110,7 +110,7 @@ ambitny, zdolny, polski, wysoki, niski, drogi, zimny, czarny, miejski.
 być о людях (о национальности говорят Tomek jest Polakiem). Меняй
 лексику и конструкции, не повторяй существительные подряд.
 
-## Проверка
+## Checking
 Главное — падеж. Ошибку объясняй через конструкцию: что в этом
 предложении требует narzędnik (być + существительное, z, przed, za, nad,
 pod, орудие, глагол) или почему остаётся mianownik (подлежащее, to jest,
@@ -132,11 +132,11 @@ męski -y/-i, żeński -a, nijaki -e/-ie; во множественном — m�
 Если ученик вписал вместе с ответом предлог или się, засчитывай по
 сочетанию и отметь в note, что их вписывать не нужно.
 
-## Вариативность
+## Axes
 падеж: mianownik, narzędnik
 форма: męski lp, męski на -a lp, żeński lp, nijaki lp, mnoga
 
-## Типичные ошибки
+## Common mistakes
 Ставят narzędnik после jako и to jest: pracuję jako nauczycielem, to jest
 moim kolegą вместо pracuję jako nauczyciel, to jest mój kolega.
 Ставят narzędnik у одиночного прилагательного: Anna jest wysoką, okno
@@ -151,7 +151,7 @@ okno.
 Мужские на -a ставят на -em: kierowcem вместо kierowcą.
 Путают -ym и -ymi: z nowym koleżankami вместо z nowymi koleżankami.
 
-## Примеры
+## Examples
 Jestem ___ (nauczyciel). → nauczycielem
 Pracuję jako ___ (nauczyciel). → nauczyciel
 To jest ___ (polski / imię). → polskie imię
@@ -162,7 +162,7 @@ Oni są ___ (ambitny / studenci). → ambitnymi studentami
 To są ___ (nowy / domy). → nowe domy
 Moja mama jest ___ (dobry / lekarka). → dobrą lekarką
 
-## Правило
+## Rule
 **Mianownik** (kto? co?):
 • подлежащее — Mój brat mieszka w Krakowie.
 • после **to jest / to są** — To jest mój brat.

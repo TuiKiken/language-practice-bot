@@ -4,7 +4,7 @@ title: Narzędnik или biernik
 lesson: 9
 ---
 
-## Описание
+## Description
 Выбор между narzędnikiem (kim? czym?) и biernikiem (kogo? co?) и окончания
 прилагательного и существительного в обоих падежах.
 
@@ -55,7 +55,7 @@ Biernik нужен:
 pani, беглая гласная (pies, ojciec, dziadek, sportowiec),
 чередование ó → o (stół, samochód, nóż, pokój), женские на согласный.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском; в скобках после
 пропуска — прилагательное в словарной форме (мужской род, единственное
 число) и через « / » существительное в именительном падеже в том числе,
@@ -115,7 +115,7 @@ mleko, łóżko).
 
 Меняй лексику и конструкции, не повторяй существительные подряд.
 
-## Проверка
+## Checking
 Главное — падеж. Ошибку объясняй через конструкцию: какой вопрос задаём
 (kim? czym? или kogo? co?) и что в предложении его требует — być +
 существительное, z, орудие, глагол для narzędnika; глагол или конструкция
@@ -143,11 +143,11 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 Если ученик вписал вместе с ответом предлог или się, засчитывай по
 сочетанию и отметь в note, что их вписывать не нужно.
 
-## Вариативность
+## Axes
 падеж: narzędnik, biernik
 форма: męski żywotny lp, męski на -a lp, żeński lp, nieżywotny lp
 
-## Типичные ошибки
+## Common mistakes
 Путают окончание существительного женского рода: idę z nową koleżankę,
 mam nową koleżanką вместо idę z nową koleżanką, mam nową koleżankę.
 Ставят biernik после być и narzędnik после mieć: jestem dobrego lekarza,
@@ -159,7 +159,7 @@ kolegę.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
 nowy telefon.
 
-## Примеры
+## Examples
 Mój brat jest ___ (dobry / lekarz). → dobrym lekarzem
 Mam ___ (młodszy / brat). → młodszego brata
 Rozmawiam z ___ (nowy / sąsiadka). → nową sąsiadką
@@ -171,7 +171,7 @@ W lipcu jedziemy nad ___ (piękny / jezioro). → piękne jezioro
 Interesuję się ___ (polski / kino). → polskim kinem
 Lubię ___ (polski / kino). → polskie kino
 
-## Правило
+## Rule
 **Narzędnik** (kim? czym?):
 • **być** + существительное — Jestem lekarzem.
 • после **z** (с кем? с чем?) — Idę do kina z kolegą.

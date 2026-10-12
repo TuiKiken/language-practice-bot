@@ -4,7 +4,7 @@ title: Ten, ta, to, te
 lesson: 4
 ---
 
-## Описание
+## Description
 Именительный падеж: указательные местоимения по роду существительного —
 ten (męski), ta (żeński), to (nijaki) и te для существительных, у которых
 есть только множественное число: spodnie, okulary, drzwi, nożyczki.
@@ -19,7 +19,7 @@ ten (męski), ta (żeński), to (nijaki) и te для существительн
 мужского рода: mężczyzna, kolega, poeta, dentysta, kierowca, artysta. При них
 ten: ten dobry dentysta.
 
-## Генерация
+## Generation
 Дай простое утвердительное польское предложение с одним пропуском на месте
 указательного местоимения прямо перед существительным; в скобках после
 пропуска подсказка (ten/ta/to/te), чтобы ученик видел, что вписать:
@@ -44,7 +44,7 @@ miły.». Только эти два шаблона: «To jest …» и «… je
 
 Меняй лексику и шаблоны, не повторяй существительные подряд.
 
-## Проверка
+## Checking
 Засчитывай только точное слово ten, ta, to или te. Ошибку объясняй через
 род существительного: по какому признаку он определяется (окончание; для
 мужских на -a — значение: мужчина, профессия; для spodnie, okulary, drzwi —
@@ -52,24 +52,24 @@ miły.». Только эти два шаблона: «To jest …» и «… je
 согласный на конце говори «как правило męski», а не как про закон без
 исключений.
 
-## Вариативность
+## Axes
 род: męski, męski на -a, żeński, nijaki, tylko mnoga
 
-## Типичные ошибки
+## Common mistakes
 Существительные на -a автоматически считают женскими: ta mężczyzna, ta
 dentysta вместо ten mężczyzna, ten dentysta.
 Путают род у слов на -ę, -um и -i: ta imię, ten centrum, to pani вместо to
 imię, to centrum, ta pani.
 Забывают te у spodnie, okulary, drzwi: ставят to или ta.
 
-## Примеры
+## Examples
 To jest ___ (ten/ta/to/te) samochód. → ten
 ___ (ten/ta/to/te) kierowca jest miły. → ten
 To jest ___ (ten/ta/to/te) imię. → to
 To są ___ (ten/ta/to/te) okulary. → te
 ___ (ten/ta/to/te) dziecko jest małe. → to
 
-## Правило
+## Rule
 Указательное местоимение повторяет род существительного:
 **ten** — męski, согласный на конце: ten dom, ten komputer, ten nauczyciel;
 **ta** — żeński, -a и -i: ta kobieta, ta książka, ta pani;

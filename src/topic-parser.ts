@@ -14,8 +14,8 @@ export const TITLE_MAX = 64;
 /** Keeps the rule message well inside Telegram's 4096-character limit together with its header. */
 export const RULE_MAX = 1500;
 
-export const REQUIRED_SECTIONS = ['Описание', 'Генерация', 'Проверка'] as const;
-export const KNOWN_SECTIONS = [...REQUIRED_SECTIONS, 'Вариативность', 'Типичные ошибки', 'Примеры', 'Правило'] as const;
+export const REQUIRED_SECTIONS = ['Description', 'Generation', 'Checking'] as const;
+export const KNOWN_SECTIONS = [...REQUIRED_SECTIONS, 'Axes', 'Common mistakes', 'Examples', 'Rule'] as const;
 const KNOWN_FRONTMATTER = ['id', 'title', 'lesson'] as const;
 const LESSON_PATTERN = /^[1-9][0-9]{0,3}$/;
 
@@ -110,21 +110,21 @@ export function parseTopic(source: string, fileName: string): Topic {
     if (body === undefined || body === '') throw new TopicParseError(fileName, `missing required section: ${s}`);
   }
 
-  const rule = sections.get('Правило') || null;
+  const rule = sections.get('Rule') || null;
   if (rule !== null && rule.length > RULE_MAX) {
-    throw new TopicParseError(fileName, `Правило must be at most ${RULE_MAX} characters, got ${rule.length}`);
+    throw new TopicParseError(fileName, `Rule must be at most ${RULE_MAX} characters, got ${rule.length}`);
   }
 
-  const axesText = sections.get('Вариативность');
+  const axesText = sections.get('Axes');
   return {
     id,
     title,
-    description: sections.get('Описание') as string,
-    generation: sections.get('Генерация') as string,
-    checking: sections.get('Проверка') as string,
+    description: sections.get('Description') as string,
+    generation: sections.get('Generation') as string,
+    checking: sections.get('Checking') as string,
     axes: axesText === undefined || axesText === '' ? {} : parseAxes(axesText, fileName),
-    commonMistakes: sections.get('Типичные ошибки') || null,
-    examples: sections.get('Примеры') || null,
+    commonMistakes: sections.get('Common mistakes') || null,
+    examples: sections.get('Examples') || null,
     lesson: lessonText === undefined ? null : Number(lessonText),
     rule,
   };

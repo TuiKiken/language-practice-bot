@@ -4,7 +4,7 @@ title: Спряжение -ę/-esz
 lesson: 7
 ---
 
-## Описание
+## Description
 Настоящее время глаголов первой группы (-ę/-esz). Окончания: ja -ę,
 ty -esz, on/ona/ono -e, my -emy, wy -ecie, oni/one -ą. Основа берётся из
 формы ja, а в ty, on, my, wy часто меняется. В группе четыре вида глаголов.
@@ -53,7 +53,7 @@ biec и biegnąć — biegnę, biegniesz, biegnie, biegniemy, biegniecie, biegn�
 kichnąć (kichnę) и uciec (ucieknę, uciekniesz) — совершенного вида, их формы
 значат будущее время.
 
-## Генерация
+## Generation
 Дай польское предложение в настоящем времени с одним пропуском на месте
 глагола; в скобках после пропуска — инфинитив. Лицо и число должны читаться
 из самого предложения: для ja, ty, my, wy обязательно ставь местоимение,
@@ -81,7 +81,7 @@ się wieczorem.» Ответ — одно слово без się.
 Меняй тему предложения: дом, работа, учёба, еда, город, друзья, транспорт,
 свободное время. Не повторяй глагол в соседних заданиях.
 
-## Проверка
+## Checking
 Главное — форма глагола. Ошибку объясняй через вид глагола из описания:
 какое лицо и число у подлежащего, к какому виду относится глагол и как
 строится его основа. Для -ować напоминай, что -owa- меняется на -uj-
@@ -96,11 +96,11 @@ jedziesz, biorę — bierzesz, mogę — możesz, niosę — niesiesz). Для -
 Если ученик прислал форму вместе с się, засчитывай по глаголу и отметь
 в note, что się вписывать не нужно.
 
-## Вариативность
+## Axes
 лицо: ja, ty, on/ona/ono, my, wy, oni/one
 тип: -ować, -awać, чередование, короткие, -nąć
 
-## Типичные ошибки
+## Common mistakes
 Спрягают -ować по группе -m/-sz: kupowam, studiowasz вместо kupuję,
 studiujesz.
 Оставляют -wa- у -awać: dawam, wstawasz вместо daję, wstajesz.
@@ -111,7 +111,7 @@ jedziesz, bierzesz, możesz; и наоборот: jedzę, bierzę, możę вме
 biorę, mogę.
 Пропускают ni у -nąć: płynesz, biegne вместо płyniesz, biegnie.
 
-## Примеры
+## Examples
 Ja często ___ (fotografować) stare budynki. → fotografuję
 Czy ty ___ (wstawać) wcześnie rano? → wstajesz
 Anna ___ (pisać) list do babci. → pisze
@@ -120,7 +120,7 @@ Wy ___ (brać) parasol na spacer? → bierzecie
 Oni nie ___ (móc) przyjść na kolację. → mogą
 Dzieci ___ (płynąć) do brzegu. → płyną
 
-## Правило
+## Rule
 Первая группа (-ę/-esz): **ja** -ę, **ty** -esz, **on** -e, **my** -emy,
 **wy** -ecie, **oni** -ą.
 

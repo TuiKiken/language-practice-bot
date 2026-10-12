@@ -4,7 +4,7 @@ title: Mianownik, narzędnik, biernik
 lesson: 9
 ---
 
-## Описание
+## Description
 Выбор между тремя пройденными падежами — mianownik (kto? co?), narzędnik
 (kim? czym?) и biernik (kogo? co?) — и окончания прилагательного и
 существительного в каждом из них.
@@ -68,7 +68,7 @@ Biernik нужен:
 pani, беглая гласная (pies, ojciec, dziadek, sportowiec) и
 чередование ó → o (stół, samochód, nóż, pokój), женские на согласный.
 
-## Генерация
+## Generation
 Дай простое польское предложение с одним пропуском; в скобках после
 пропуска — прилагательное в словарной форме (мужской род, единственное
 число) и через « / » существительное в именительном падеже в том числе,
@@ -128,7 +128,7 @@ wysoki, zimny, miejski. Среди заданий примерно треть �
 
 Меняй лексику и конструкции, не повторяй существительные подряд.
 
-## Проверка
+## Checking
 Главное — падеж. Ошибку объясняй через конструкцию: какой вопрос задаём
 (kto? co? / kim? czym? / kogo? co?) и что в предложении его требует —
 подлежащее, to jest, jako для mianownika; być + существительное, z, место
@@ -157,11 +157,11 @@ gram w tenis, kupuję fiat) тоже засчитывай как верную: �
 Если ученик вписал вместе с ответом предлог или się, засчитывай по
 сочетанию и отметь в note, что их вписывать не нужно.
 
-## Вариативность
+## Axes
 падеж: mianownik, narzędnik, biernik
 форма: męski nieżywotny lp, męski żywotny lp, męski на -a lp, żeński lp, nijaki lp
 
-## Типичные ошибки
+## Common mistakes
 Ставят narzędnik или biernik после to jest и jako: to jest mojego brata,
 pracuję jako lekarzem вместо to jest mój brat, pracuję jako lekarz.
 Путают narzędnik и biernik у женского рода: idę z nową koleżankę, mam nową
@@ -175,7 +175,7 @@ nowego kota.
 Неживым мужского рода в biernik дают -a: kupuję nowego telefona вместо
 nowy telefon.
 
-## Примеры
+## Examples
 To jest ___ (nowy / koleżanka). → nowa koleżanka
 Mój ojciec jest ___ (dobry / lekarz). → dobrym lekarzem
 Mam ___ (młodszy / brat). → młodszego brata
@@ -186,7 +186,7 @@ Pies wchodzi pod ___ (duży / szafa). → dużą szafę
 Znasz ___ (nowy / kolega)? → nowego kolegę
 Lubię ___ (polski / kino). → polskie kino
 
-## Правило
+## Rule
 **Mianownik** (kto? co?):
 • подлежащее — Mój brat mieszka w Krakowie.
 • после **to jest** — To jest mój brat.

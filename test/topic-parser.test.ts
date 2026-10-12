@@ -6,23 +6,23 @@ id: czas-przeszly
 title: Прошедшее время
 ---
 
-## Описание
+## Description
 Прошедшее время: выбор окончания по роду, числу и лицу.
 
-## Генерация
+## Generation
 Дай польское предложение в прошедшем времени с одним пропуском.
 
-## Проверка
+## Checking
 Главное — окончание глагола.
 
-## Вариативность
+## Axes
 форма: on, ona, ono, oni (мужское лицо), one (немужское лицо)
 лексика: дом, работа, магазин
 
-## Типичные ошибки
+## Common mistakes
 Ставят -li там, где нужно -ły.
 
-## Примеры
+## Examples
 Wczoraj Anna ___ (iść) do sklepu. → poszła
 `;
 
@@ -43,7 +43,7 @@ describe('parseTopic', () => {
   });
 
   it('accepts a topic without variability and without examples', () => {
-    const src = FULL.replace(/## Вариативность[\s\S]*?(?=## Типичные)/, '').replace(/## Примеры[\s\S]*$/, '');
+    const src = FULL.replace(/## Axes[\s\S]*?(?=## Common)/, '').replace(/## Examples[\s\S]*$/, '');
     const t = parseTopic(src, 'x.md');
     expect(t.axes).toEqual({});
     expect(t.examples).toBeNull();
@@ -51,9 +51,9 @@ describe('parseTopic', () => {
   });
 
   it('rejects a missing required section', () => {
-    const src = FULL.replace(/## Проверка[\s\S]*?(?=## Вариативность)/, '');
+    const src = FULL.replace(/## Checking[\s\S]*?(?=## Axes)/, '');
     expect(() => parseTopic(src, 'x.md')).toThrow(TopicParseError);
-    expect(() => parseTopic(src, 'x.md')).toThrow(/Проверка/);
+    expect(() => parseTopic(src, 'x.md')).toThrow(/Checking/);
   });
 
   it('rejects an id outside the pattern', () => {
@@ -76,14 +76,14 @@ describe('parseTopic', () => {
 
   it('parses an optional rule section and defaults it to null', () => {
     expect(parseTopic(FULL, 'x.md').rule).toBeNull();
-    const src = FULL + '\n## Правило\nОкончание -li только для групп с мужчинами.\n';
+    const src = FULL + '\n## Rule\nОкончание -li только для групп с мужчинами.\n';
     expect(parseTopic(src, 'x.md').rule).toBe('Окончание -li только для групп с мужчинами.');
   });
 
   it('rejects a rule longer than the limit', () => {
-    const src = FULL + '\n## Правило\n' + 'а'.repeat(RULE_MAX + 1) + '\n';
-    expect(() => parseTopic(src, 'x.md')).toThrow(/Правило/);
-    const ok = FULL + '\n## Правило\n' + 'а'.repeat(RULE_MAX) + '\n';
+    const src = FULL + '\n## Rule\n' + 'а'.repeat(RULE_MAX + 1) + '\n';
+    expect(() => parseTopic(src, 'x.md')).toThrow(/Rule/);
+    const ok = FULL + '\n## Rule\n' + 'а'.repeat(RULE_MAX) + '\n';
     expect(parseTopic(ok, 'x.md').rule?.length).toBe(RULE_MAX);
   });
 
